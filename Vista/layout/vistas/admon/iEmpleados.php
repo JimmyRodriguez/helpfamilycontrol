@@ -1,8 +1,9 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Modelo/BASE_DE_DATOS.ph');
+/*require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Modelo/BASE_DE_DATOS.ph');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/ESTADO.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/SEXO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/EMPLEADO.php');*/
+require_once ("../../../../Modelo/BASE_DE_DATOS.php");
 
 ?>
 <!DOCTYPE html>
