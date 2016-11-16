@@ -1,8 +1,9 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/helpfamilycontrol/Modelo/BASE_DE_DATOS.ph');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/helpfamilycontrol/Controlador/ESTADO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/helpfamilycontrol/Controlador/SEXO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/helpfamilycontrol/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Modelo/BASE_DE_DATOS.ph');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/ESTADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/SEXO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/EMPLEADO.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
