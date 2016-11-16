@@ -1,5 +1,5 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/public_html/Modelo/BASE_DE_DATOS.ph');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/public_html/helpfamilycontrol/Modelo/BASE_DE_DATOS.ph');
 /*require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/ESTADO.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/SEXO.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/EMPLEADO.php');*/
