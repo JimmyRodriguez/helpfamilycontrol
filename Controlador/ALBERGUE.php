@@ -1,6 +1,6 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/public_html/Modelo/BASE_DE_DATOS.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/public_html/Modelo/TABLAS.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/BASE_DE_DATOS.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/TABLAS.php');
 
 /**
  * Created by PhpStorm.
@@ -32,7 +32,7 @@ class ALBERGUE
         $this->bind = null;
         $this->dataAlbergue = null;
 
-        //$this->idAlbergue = null;
+        $this->idAlbergue = null;
         $this->idTipoAlbergue = null;
         $this->idEstado = null;
         $this->nombreAlbergue = null;
@@ -40,7 +40,13 @@ class ALBERGUE
         $this->telefonoAlbergue = null;
     }
 
-    public function nuevoAlbergue($idTipo,$idEstado,$nombreAlbergue,$direccAlbergue,$telAlbergue){
+    public function nuevoAlbergue($idTip,$idEst,$nombreAlb,$direccAlb,$telAlb){
+
+        $this->idTipoAlbergue = $idTip;
+        $this->idEstado = $idEst;
+        $this->nombreAlbergue = $nombreAlb;
+        $this->direccionAlbergue = $direccAlb;
+        $this->telefonoAlbergue = $telAlb;
 
         try{
             $this->stmQuery = "INSERT INTO Albergue(idTipoAlbergue,idEstado,nombreAlbergue,
@@ -50,18 +56,21 @@ class ALBERGUE
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idTipo",$idTipo);
-            $this->bind->bindParam(":idEstado",$idEstado);
-            $this->bind->bindParam(":nombreAlb",$nombreAlbergue);
-            $this->bind->bindParam(":direccionAlb",$direccAlbergue);
-            $this->bind->bindParam(":telAlb",$telAlbergue);
+            $this->bind->bindParam(":idTipo",$this->idTipoAlbergue);
+            $this->bind->bindParam(":idEstado",$this->idEstado);
+            $this->bind->bindParam(":nombreAlb",$this->nombreAlbergue);
+            $this->bind->bindParam(":direccionAlb",$this->direccionAlbergue);
+            $this->bind->bindParam(":telAlb",$this->telefonoAlbergue);
 
 
             $this->dataAlbergue =  $this->bind->execute();
 
             if($this->dataAlbergue == true){
+
                 return true;
+
             }else{
+
                 return false;
             }
 
@@ -76,7 +85,14 @@ class ALBERGUE
 
     }//end nuevoEmpleado
 
-    public function actualizarAlbergue($idAlbergue,$idTipo,$idEstado,$nombreAlbergue,$direccAlbergue,$telAlbergue){
+    public function actualizarAlbergue($idAlb,$idTip,$idEst,$nombreAlb,$direccAlb,$telAlb){
+
+        $this->idAlbergue = $idAlb;
+        $this->idTipoAlbergue = $idTip;
+        $this->idEstado = $idEst;
+        $this->nombreAlbergue = $nombreAlb;
+        $this->direccionAlbergue = $direccAlb;
+        $this->telefonoAlbergue = $telAlb;
 
         try{
             $this->stmQuery = "UPDATE Albergue SET  idTipoAlbergue = :idTipoAlb,
@@ -89,12 +105,12 @@ class ALBERGUE
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idTipoAlb",$idTipo);
-            $this->bind->bindParam(":idEstado",$idEstado);
-            $this->bind->bindParam(":nombreAlb",$nombreAlbergue);
-            $this->bind->bindParam(":direccAlb",$direccAlbergue);
-            $this->bind->bindParam(":telAlb",$telAlbergue);
-            $this->bind->bindParam(":idAlb",$idAlbergue);
+            $this->bind->bindParam(":idTipoAlb",$this->idTipoAlbergue);
+            $this->bind->bindParam(":idEstado",$this->idEstado);
+            $this->bind->bindParam(":nombreAlb",$this->nombreAlbergue);
+            $this->bind->bindParam(":direccAlb",$this->direccAlbergue);
+            $this->bind->bindParam(":telAlb",$this->telAlbergue);
+            $this->bind->bindParam(":idAlb",$this->idAlbergue);
 
             $this->dataAlbergue =  $this->bind->execute();
 
@@ -115,7 +131,9 @@ class ALBERGUE
 
     }//end actualizarEmpleado
 
-    public function eliminarAlbergue($idAlbergue){
+    public function eliminarAlbergue($idAlb){
+
+        $this->idAlbergue = $idAlb;
 
         try{
             $this->stmQuery = "DELETE FROM Albergue WHERE idEmpleado = :idAlbergue";
@@ -124,7 +142,7 @@ class ALBERGUE
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idAlbergue",$idAlbergue);
+            $this->bind->bindParam(":idAlbergue",$this->idAlbergue);
 
             $this->dataAlbergue =  $this->bind->execute();
 
@@ -143,10 +161,11 @@ class ALBERGUE
             $this->pdoConexion = null;
         }
 
-    }//end eliimarEmpleado
+    }//end eliimarAlbergue
 
     public function consultarTodosAlbergue()
     {
+
         try{
 
             $this->stmQuery = "SELECT idAlbergue,nombreTipoAlbergue,nombreEstado,
@@ -172,9 +191,12 @@ class ALBERGUE
 
             $this->pdoConexion = null;
         }
-    }//end consultarTodosLosEmpleados
+    }//end consultarTodosLosAlbergue
 
-    public function buscarAlbergue($nombre){
+    public function buscarAlbergue($nombreAlb){
+
+        $this->nombreAlbergue = $nombreAlb;
+
 
         try{
             $this->stmQuery = "SELECT idAlbergue,nombreTipoAlbergue,nombreEstado,
@@ -187,7 +209,7 @@ class ALBERGUE
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
-            $this->bind->bindParam(":nombre",$nombre);
+            $this->bind->bindParam(":nombre",$this->nombreAlbergue);
             $this->bind->execute();
 
             $this->dataAlbergue = $this->bind->fetchAll();

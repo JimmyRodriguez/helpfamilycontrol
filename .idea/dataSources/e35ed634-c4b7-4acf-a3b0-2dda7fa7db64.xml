@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - dbDesastreNatural@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="dbDesastreNatural">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="alliedha_appHappy"/>
+    <schema id="3" name="appgette_dashb"/>
+    <schema id="4" name="Biblioteca"/>
+    <schema id="5" name="dbTellMe"/>
+    <schema id="6" name="desastrePruebas"/>
+    <schema id="7" name="information_schema"/>
+    <schema id="8" name="mysql"/>
+    <schema id="9" name="performance_schema"/>
+    <schema id="10" name="phpmyadmin"/>
+    <schema id="11" name="puntoVenta"/>
+    <schema id="12" name="test"/>
+    <table id="13" parent="1" name="Albergue"/>
+    <table id="14" parent="1" name="Areas"/>
+    <table id="15" parent="1" name="Bodega"/>
+    <table id="16" parent="1" name="Compras"/>
+    <table id="17" parent="1" name="Cuenta"/>
+    <table id="18" parent="1" name="Deposito"/>
+    <table id="19" parent="1" name="DesastreNatural"/>
+    <table id="20" parent="1" name="Empleado"/>
+    <table id="21" parent="1" name="EntradasYSalidas"/>
+    <table id="22" parent="1" name="Estado"/>
+    <table id="23" parent="1" name="Familia"/>
+    <table id="24" parent="1" name="HistorialSocioeconomico"/>
+    <table id="25" parent="1" name="Insumos"/>
+    <table id="26" parent="1" name="Integrante"/>
+    <table id="27" parent="1" name="Pagos"/>
+    <table id="28" parent="1" name="Patrocinador"/>
+    <table id="29" parent="1" name="Proveedor"/>
+    <table id="30" parent="1" name="STOCK"/>
+    <table id="31" parent="1" name="Sexo"/>
+    <table id="32" parent="1" name="TipoAlbergue"/>
+    <table id="33" parent="1" name="TipoCuenta"/>
+    <table id="34" parent="1" name="TipoDesastre"/>
+    <table id="35" parent="1" name="TipoEntradaSalida"/>
+    <table id="36" parent="1" name="TipoInsumo"/>
+    <table id="37" parent="1" name="TipoIntegrante"/>
+    <table id="38" parent="1" name="TipoPatrocinador"/>
+    <table id="39" parent="1" name="blocked_ip_domains"/>
+    <table id="40" parent="1" name="failed_login"/>
+    <table id="41" parent="1" name="ipn_logs"/>
+    <table id="42" parent="1" name="notes"/>
+    <table id="43" parent="1" name="payments"/>
+    <table id="44" parent="1" name="security_blocks"/>
+    <table id="45" parent="1" name="stats_browser"/>
+    <table id="46" parent="1" name="stats_country_ip"/>
+    <table id="47" parent="1" name="stats_country_iso_codes"/>
+    <table id="48" parent="1" name="stats_lang"/>
+    <table id="49" parent="1" name="stats_os"/>
+    <table id="50" parent="1" name="user_groups"/>
+    <table id="51" parent="1" name="user_table"/>
+    <table id="52" parent="1" name="visit_stats"/>
+    <column id="53" parent="13" name="idAlbergue">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="54" parent="13" name="idTipoAlbergue">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="55" parent="13" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="56" parent="13" name="nombreAlbergue">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="57" parent="13" name="direccionAlbergue">
+      <data-type>varchar(120)|0</data-type>
+    </column>
+    <column id="58" parent="13" name="telefonoAlbergue">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <index id="59" parent="13" name="FK_estableceLosEstadosParaLasClases">
+      <columns>idEstado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="60" parent="13" name="FK_establecerSerAlbergueOresidencia">
+      <columns>idTipoAlbergue</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="61" parent="13" name="PRIMARY">
+      <columns>idAlbergue</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="62" parent="13" name="FK_establecerSerAlbergueOresidencia">
+      <columns>idTipoAlbergue</columns>
+      <ref-key>~.TipoAlbergue.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="63" parent="13" name="FK_estableceLosEstadosParaLasClases">
+      <columns>idEstado</columns>
+      <ref-key>~.Estado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="64" parent="14" name="idArea">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="65" parent="14" name="idBodega">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="66" parent="14" name="nombreArea">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="67" parent="14" name="descripcionArea">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <index id="68" parent="14" name="FK_bodegaTieneVariasAreas">
+      <columns>idBodega</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="69" parent="14" name="PRIMARY">
+      <columns>idArea</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="70" parent="14" name="FK_bodegaTieneVariasAreas">
+      <columns>idBodega</columns>
+      <ref-key>~.Bodega.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="71" parent="15" name="idBodega">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="72" parent="15" name="nombreBodega">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="73" parent="15" name="telefonoBodega">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <key id="74" parent="15" name="PRIMARY">
+      <columns>idBodega</columns>
+      <primary>1</primary>
+    </key>
+    <column id="75" parent="16" name="idCompra">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="76" parent="16" name="idProveedor">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="77" parent="16" name="idInsumo">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="78" parent="16" name="idEmpleado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="79" parent="16" name="descripcionCompra">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="80" parent="16" name="fechaCompra">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="81" parent="16" name="FK_entregaInsumosAlRealizarLaCompra">
+      <columns>idProveedor</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="82" parent="16" name="FK_registrarCompras">
+      <columns>idEmpleado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="83" parent="16" name="FK_unaCompraRegistraVariosInsumos">
+      <columns>idInsumo</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="84" parent="16" name="PRIMARY">
+      <columns>idCompra</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="85" parent="16" name="FK_entregaInsumosAlRealizarLaCompra">
+      <columns>idProveedor</columns>
+      <ref-key>~.Proveedor.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="86" parent="16" name="FK_unaCompraRegistraVariosInsumos">
+      <columns>idInsumo</columns>
+      <ref-key>~.Insumos.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="87" parent="16" name="FK_registrarCompras">
+      <columns>idEmpleado</columns>
+      <ref-key>~.Empleado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="88" parent="17" name="idCuenta">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="89" parent="17" name="idTipoCuenta">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="90" parent="17" name="descripionCuenta">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="91" parent="17" name="fechaAperturaCuenta">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="92" parent="17" name="FK_monetarioOAhorro">
+      <columns>idTipoCuenta</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="93" parent="17" name="PRIMARY">
+      <columns>idCuenta</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="94" parent="17" name="FK_monetarioOAhorro">
+      <columns>idTipoCuenta</columns>
+      <ref-key>~.TipoCuenta.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="95" parent="18" name="idDeposito">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="96" parent="18" name="idPatrocinador">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="97" parent="18" name="idCuenta">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="98" parent="18" name="idEmpleado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="99" parent="18" name="noDeposito">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="100" parent="18" name="montoDeposito">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="101" parent="18" name="fechaDeposito">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="102" parent="18" name="descripcionDeposito">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <index id="103" parent="18" name="FK_realizaDepositos">
+      <columns>idEmpleado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="104" parent="18" name="FK_unaCuentaTieneVariosDepositos">
+      <columns>idCuenta</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="105" parent="18" name="FK_unPatrocinadorDonaEfectivo">
+      <columns>idPatrocinador</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="106" parent="18" name="PRIMARY">
+      <columns>idDeposito</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="107" parent="18" name="FK_unPatrocinadorDonaEfectivo">
+      <columns>idPatrocinador</columns>
+      <ref-key>~.Patrocinador.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="108" parent="18" name="FK_unaCuentaTieneVariosDepositos">
+      <columns>idCuenta</columns>
+      <ref-key>~.Cuenta.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="109" parent="18" name="FK_realizaDepositos">
+      <columns>idEmpleado</columns>
+      <ref-key>~.Empleado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="110" parent="19" name="idDesastre">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="111" parent="19" name="idTipoDesastre">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="112" parent="19" name="nombreDesastre">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="113" parent="19" name="fechaDesastre">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="114" parent="19" name="ubicacionDesastre">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="115" parent="19" name="descripionDesastre">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <index id="116" parent="19" name="FK_tipoDesastreNatural">
+      <columns>idTipoDesastre</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="117" parent="19" name="PRIMARY">
+      <columns>idDesastre</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="118" parent="19" name="FK_tipoDesastreNatural">
+      <columns>idTipoDesastre</columns>
+      <ref-key>~.TipoDesastre.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="119" parent="20" name="idEmpleado">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="120" parent="20" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="121" parent="20" name="idSexo">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="122" parent="20" name="nombreEmpleado">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="123" parent="20" name="dpiEmpleado">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="124" parent="20" name="telefonoEmpleado">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <column id="125" parent="20" name="emailEmpleado">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="126" parent="20" name="fechaNacEmpleado">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="127" parent="20" name="direccionEmpleado">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <index id="128" parent="20" name="FK_asignarElSexoAlEmpleado">
+      <columns>idSexo</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="129" parent="20" name="FK_empleadoTieneUnEstado">
+      <columns>idEstado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="130" parent="20" name="PRIMARY">
+      <columns>idEmpleado</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="131" parent="20" name="FK_empleadoTieneUnEstado">
+      <columns>idEstado</columns>
+      <ref-key>~.Estado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="132" parent="20" name="FK_asignarElSexoAlEmpleado">
+      <columns>idSexo</columns>
+      <ref-key>~.Sexo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="133" parent="21" name="idEntradaSalida">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="134" parent="21" name="idTipoEntradaSalida">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="135" parent="21" name="idFamilia">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="136" parent="21" name="idInsumo">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="137" parent="21" name="descripcionEntradaSalida">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="138" parent="21" name="fechaEntradaSalida">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="139" parent="21" name="cantidadEntradaSalida">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="140" parent="21" name="FK_beneficiarioRecibeAyudaMensual">
+      <columns>idFamilia</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="141" parent="21" name="FK_registrarEntradaOSalida">
+      <columns>idTipoEntradaSalida</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="142" parent="21" name="FK_registrarSalidaDeInsumos">
+      <columns>idInsumo</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="143" parent="21" name="PRIMARY">
+      <columns>idEntradaSalida</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="144" parent="21" name="FK_registrarEntradaOSalida">
+      <columns>idTipoEntradaSalida</columns>
+      <ref-key>~.TipoEntradaSalida.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="145" parent="21" name="FK_beneficiarioRecibeAyudaMensual">
+      <columns>idFamilia</columns>
+      <ref-key>~.Familia.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="146" parent="21" name="FK_registrarSalidaDeInsumos">
+      <columns>idInsumo</columns>
+      <ref-key>~.Insumos.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="147" parent="22" name="idEstado">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="148" parent="22" name="nombreEstado">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <key id="149" parent="22" name="PRIMARY">
+      <columns>idEstado</columns>
+      <primary>1</primary>
+    </key>
+    <column id="150" parent="23" name="idFamilia">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="151" parent="23" name="idAlbergue">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="152" parent="23" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="153" parent="23" name="idPatrocinador">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="154" parent="23" name="idDesastre">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="155" parent="23" name="nombreFamilia">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="156" parent="23" name="direccionFamilia">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <index id="157" parent="23" name="FK_albergueBeneficiario">
+      <columns>idAlbergue</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="158" parent="23" name="FK_establecerEstado">
+      <columns>idEstado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="159" parent="23" name="FK_patrocinadorPuedeApadrinarAUnaOMasPersonas">
+      <columns>idPatrocinador</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="160" parent="23" name="FK_unDesastreAfectaABeneficiarios">
+      <columns>idDesastre</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="161" parent="23" name="PRIMARY">
+      <columns>idFamilia</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="162" parent="23" name="FK_albergueBeneficiario">
+      <columns>idAlbergue</columns>
+      <ref-key>~.Albergue.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="163" parent="23" name="FK_establecerEstado">
+      <columns>idEstado</columns>
+      <ref-key>~.Estado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="164" parent="23" name="FK_patrocinadorPuedeApadrinarAUnaOMasPersonas">
+      <columns>idPatrocinador</columns>
+      <ref-key>~.Patrocinador.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="165" parent="23" name="FK_unDesastreAfectaABeneficiarios">
+      <columns>idDesastre</columns>
+      <ref-key>~.DesastreNatural.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="166" parent="24" name="idHistorial">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="167" parent="24" name="idFamilia">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="168" parent="24" name="descripionHistorial">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="169" parent="24" name="fechaHistorial">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="170" parent="24" name="casaHistorial">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="171" parent="24" name="materialCasaHistorial">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="172" parent="24" name="trabajaHistorial">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="173" parent="24" name="salarioHistorial">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="174" parent="24" name="empresaHistorial">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="175" parent="24" name="vehiculoHistorial">
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <index id="176" parent="24" name="FK_presentaHistorialEconomico">
+      <columns>idFamilia</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="177" parent="24" name="PRIMARY">
+      <columns>idHistorial</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="178" parent="24" name="FK_presentaHistorialEconomico">
+      <columns>idFamilia</columns>
+      <ref-key>~.Familia.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="179" parent="25" name="idInsumo">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="180" parent="25" name="idTipoInsumo">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="181" parent="25" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="182" parent="25" name="idBodega">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="183" parent="25" name="idArea">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="184" parent="25" name="nombreInsumo">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="185" parent="25" name="cantidadProductos">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="186" parent="25" name="costoInsumo">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="187" parent="25" name="descripcionInsumo">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="188" parent="25" name="fechaVencimientoInsumo">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="189" parent="25" name="idStock">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="190" parent="25" name="FK_activosOInactivos">
+      <columns>idEstado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="191" parent="25" name="FK_almacenaLaUbicacionDeLosInsumos">
+      <columns>idArea</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="192" parent="25" name="FK_almacenaLosInsumosCompras">
+      <columns>idBodega</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="193" parent="25" name="FK_determinarSiEsConsumible">
+      <columns>idTipoInsumo</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="194" parent="25" name="idStock">
+      <columns>idStock</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="195" parent="25" name="PRIMARY">
+      <columns>idInsumo</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="196" parent="25" name="FK_determinarSiEsConsumible">
+      <columns>idTipoInsumo</columns>
+      <ref-key>~.TipoInsumo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="197" parent="25" name="FK_activosOInactivos">
+      <columns>idEstado</columns>
+      <ref-key>~.Estado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="198" parent="25" name="FK_almacenaLosInsumosCompras">
+      <columns>idBodega</columns>
+      <ref-key>~.Bodega.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="199" parent="25" name="FK_almacenaLaUbicacionDeLosInsumos">
+      <columns>idArea</columns>
+      <ref-key>~.Areas.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="200" parent="25" name="insumos_ibfk_1">
+      <columns>idStock</columns>
+      <ref-key>~.STOCK.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="201" parent="26" name="idIntegrante">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="202" parent="26" name="idSexo">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="203" parent="26" name="idFamilia">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="204" parent="26" name="idTipoIntegrante">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="205" parent="26" name="nombreIntegrante">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="206" parent="26" name="apellidoIntegrante">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="207" parent="26" name="fechaNacIntegrante">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="208" parent="26" name="telefonoIntegrante">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <column id="209" parent="26" name="emailIntegrante">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <index id="210" parent="26" name="FK_asignarElSexo">
+      <columns>idSexo</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="211" parent="26" name="FK_integrantesDeLaFamilia">
+      <columns>idFamilia</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="212" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
+      <columns>idTipoIntegrante</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="213" parent="26" name="PRIMARY">
+      <columns>idIntegrante</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="214" parent="26" name="FK_asignarElSexo">
+      <columns>idSexo</columns>
+      <ref-key>~.Sexo.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="215" parent="26" name="FK_integrantesDeLaFamilia">
+      <columns>idFamilia</columns>
+      <ref-key>~.Familia.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="216" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
+      <columns>idTipoIntegrante</columns>
+      <ref-key>~.TipoIntegrante.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="217" parent="27" name="idPago">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="218" parent="27" name="idProveedor">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="219" parent="27" name="idEmpleado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="220" parent="27" name="idCompra">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="221" parent="27" name="idCuenta">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="222" parent="27" name="noChequePago">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="223" parent="27" name="montoPago">
+      <data-type>float|0</data-type>
+    </column>
+    <column id="224" parent="27" name="fechaPago">
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="225" parent="27" name="descripcionPago">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <index id="226" parent="27" name="FK_almacenanPagos">
+      <columns>idProveedor</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="227" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
+      <columns>idCuenta</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="228" parent="27" name="FK_compraVaATenerVariosPagos">
+      <columns>idCompra</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="229" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
+      <columns>idEmpleado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="230" parent="27" name="PRIMARY">
+      <columns>idPago</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="231" parent="27" name="FK_almacenanPagos">
+      <columns>idProveedor</columns>
+      <ref-key>~.Proveedor.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="232" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
+      <columns>idEmpleado</columns>
+      <ref-key>~.Empleado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="233" parent="27" name="FK_compraVaATenerVariosPagos">
+      <columns>idCompra</columns>
+      <ref-key>~.Compras.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="234" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
+      <columns>idCuenta</columns>
+      <ref-key>~.Cuenta.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="235" parent="28" name="idPatrocinador">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="236" parent="28" name="idTipoPatrocinador">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="237" parent="28" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="238" parent="28" name="nombrePatrocinador">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="239" parent="28" name="direccionPatrocinador">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="240" parent="28" name="emailPatrocinador">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="241" parent="28" name="telefonoPatrocinador">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <column id="242" parent="28" name="fechaInscripcionPatrocinador">
+      <data-type>date|0</data-type>
+    </column>
+    <index id="243" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
+      <columns>idTipoPatrocinador</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="244" parent="28" name="FK_tineneUnEstado">
+      <columns>idEstado</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="245" parent="28" name="PRIMARY">
+      <columns>idPatrocinador</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="246" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
+      <columns>idTipoPatrocinador</columns>
+      <ref-key>~.TipoPatrocinador.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="247" parent="28" name="FK_tineneUnEstado">
+      <columns>idEstado</columns>
+      <ref-key>~.Estado.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="248" parent="29" name="idProveedor">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="249" parent="29" name="idEstado">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="250" parent="29" name="nitProveedor">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="251" parent="29" name="nombreProveedor">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="252" parent="29" name="direccionProveedor">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="253" parent="29" name="emailProveedor">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="254" parent="29" name="telefonoProveedor">
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <column id="255" parent="29" name="descripcionProveedor">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <key id="256" parent="29" name="PRIMARY">
+      <columns>idProveedor</columns>
+      <primary>1</primary>
+    </key>
+    <column id="257" parent="30" name="idStock">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="258" parent="30" name="idArea">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="259" parent="30" name="numeroStock">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="260" parent="30" name="descripcionStock">
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <index id="261" parent="30" name="FK_tiene_varias_areas">
+      <columns>idArea</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="262" parent="30" name="PRIMARY">
+      <columns>idStock</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="263" parent="30" name="FK_tiene_varias_areas">
+      <columns>idArea</columns>
+      <ref-key>~.Areas.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="264" parent="31" name="idSexo">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="265" parent="31" name="nombreSexo">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <key id="266" parent="31" name="PRIMARY">
+      <columns>idSexo</columns>
+      <primary>1</primary>
+    </key>
+    <column id="267" parent="32" name="idTipoAlbergue">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="268" parent="32" name="nombreTipoAlbergue">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="269" parent="32" name="PRIMARY">
+      <columns>idTipoAlbergue</columns>
+      <primary>1</primary>
+    </key>
+    <column id="270" parent="33" name="idTipoCuenta">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="271" parent="33" name="nombreTipoCuenta">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="272" parent="33" name="PRIMARY">
+      <columns>idTipoCuenta</columns>
+      <primary>1</primary>
+    </key>
+    <column id="273" parent="34" name="idTipoDesastre">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="274" parent="34" name="nombreTipoDesastre">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="275" parent="34" name="PRIMARY">
+      <columns>idTipoDesastre</columns>
+      <primary>1</primary>
+    </key>
+    <column id="276" parent="35" name="idTipoEntradaSalida">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="277" parent="35" name="nombreTipoEntradaSalida">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="278" parent="35" name="PRIMARY">
+      <columns>idTipoEntradaSalida</columns>
+      <primary>1</primary>
+    </key>
+    <column id="279" parent="36" name="idTipoInsumo">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="280" parent="36" name="nombreTipoInsumo">
+      <data-type>varchar(25)|0</data-type>
+    </column>
+    <key id="281" parent="36" name="PRIMARY">
+      <columns>idTipoInsumo</columns>
+      <primary>1</primary>
+    </key>
+    <column id="282" parent="37" name="idTipoIntegrante">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="283" parent="37" name="nombreTipoIntegrante">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <key id="284" parent="37" name="PRIMARY">
+      <columns>idTipoIntegrante</columns>
+      <primary>1</primary>
+    </key>
+    <column id="285" parent="38" name="idTipoPatrocinador">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="286" parent="38" name="nombreTipoPatrocinador">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="287" parent="38" name="PRIMARY">
+      <columns>idTipoPatrocinador</columns>
+      <primary>1</primary>
+    </key>
+    <column id="288" parent="39" name="bid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="289" parent="39" name="ip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="290" parent="39" name="domain">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="291" parent="39" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="292" parent="39" name="refer">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="293" parent="39" name="referaldomain">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="294" parent="39" name="desci">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2000)|0</data-type>
+    </column>
+    <column id="295" parent="39" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(3)|0</data-type>
+    </column>
+    <column id="296" parent="39" name="type">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+    </column>
+    <key id="297" parent="39" name="PRIMARY">
+      <columns>bid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="298" parent="40" name="failedid">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="299" parent="40" name="loc">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="300" parent="40" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="301" parent="40" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="302" parent="40" name="sms">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="303" parent="40" name="smstok">
+      <data-type>varchar(30)|0</data-type>
+      <default-expression>&apos;empty&apos;</default-expression>
+    </column>
+    <column id="304" parent="40" name="msg">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="305" parent="40" name="inital_attempt">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="306" parent="40" name="current_attempt">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="307" parent="40" name="country">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="308" parent="40" name="setid">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+    </column>
+    <column id="309" parent="40" name="ipad">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="310" parent="40" name="refurl">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <key id="311" parent="40" name="PRIMARY">
+      <columns>failedid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="312" parent="41" name="ipn_internal_id">
+      <mandatory>1</mandatory>
+      <data-type>int(20)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="313" parent="41" name="business">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="314" parent="41" name="item_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="315" parent="41" name="item_number">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="316" parent="41" name="payment_status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="317" parent="41" name="mc_gross">
+      <mandatory>1</mandatory>
+      <data-type>float|0</data-type>
+    </column>
+    <column id="318" parent="41" name="mc_currency">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="319" parent="41" name="txn_id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="320" parent="41" name="receiver_email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="321" parent="41" name="payer_email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="322" parent="41" name="payment_date">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="323" parent="41" name="invoice">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="324" parent="41" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>float|0</data-type>
+    </column>
+    <column id="325" parent="41" name="quantity">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="326" parent="41" name="pending_reason">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="327" parent="41" name="payment_method">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="328" parent="41" name="payment_type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="329" parent="41" name="first_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="330" parent="41" name="last_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="331" parent="41" name="address_street">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="332" parent="41" name="address_city">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="333" parent="41" name="address_state">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="334" parent="41" name="address_zip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="335" parent="41" name="address_country">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="336" parent="41" name="residence_country">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="337" parent="41" name="address_status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="338" parent="41" name="payer_status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="339" parent="41" name="notify_version">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="340" parent="41" name="verify_sign">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="341" parent="41" name="custom">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="342" parent="41" name="txn_type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="343" parent="41" name="notification">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="344" parent="41" name="insert_date">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="345" parent="41" name="PRIMARY">
+      <columns>ipn_internal_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="346" parent="42" name="noteid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="347" parent="42" name="note">
+      <mandatory>1</mandatory>
+      <data-type>varchar(4000)|0</data-type>
+    </column>
+    <column id="348" parent="42" name="elementid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="349" parent="42" name="element_type">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+    </column>
+    <column id="350" parent="42" name="userid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="351" parent="42" name="dateposted">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="352" parent="42" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+    </column>
+    <key id="353" parent="42" name="PRIMARY">
+      <columns>noteid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="354" parent="43" name="pid">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="355" parent="43" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>decimal(20,2)|0</data-type>
+    </column>
+    <column id="356" parent="43" name="site">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="357" parent="43" name="comment">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="358" parent="43" name="action">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="359" parent="43" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+    </column>
+    <column id="360" parent="43" name="date_time">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="361" parent="43" name="ipad">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="362" parent="43" name="txn_id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="363" parent="43" name="or_invoice">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+    </column>
+    <column id="364" parent="43" name="group">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+    </column>
+    <column id="365" parent="43" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="366" parent="43" name="userid">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+    </column>
+    <column id="367" parent="43" name="adminid">
+      <mandatory>1</mandatory>
+      <data-type>int(50)|0</data-type>
+    </column>
+    <key id="368" parent="43" name="PRIMARY">
+      <columns>pid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="369" parent="44" name="blockid">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="370" parent="44" name="blockvalue">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="371" parent="44" name="type">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="372" parent="44" name="description">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="373" parent="44" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="374" parent="44" name="blockarea">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <key id="375" parent="44" name="PRIMARY">
+      <columns>blockid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="376" parent="45" name="browser_code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="377" parent="45" name="browser_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="378" parent="45" name="PRIMARY">
+      <columns>browser_code</columns>
+      <primary>1</primary>
+    </key>
+    <column id="379" parent="46" name="ipstart">
+      <mandatory>1</mandatory>
+      <data-type>bigint(100)|0</data-type>
+    </column>
+    <column id="380" parent="46" name="ipend">
+      <mandatory>1</mandatory>
+      <data-type>bigint(100)|0</data-type>
+    </column>
+    <column id="381" parent="46" name="2letter">
+      <mandatory>1</mandatory>
+      <data-type>varchar(2)|0</data-type>
+    </column>
+    <column id="382" parent="46" name="3letter">
+      <mandatory>1</mandatory>
+      <data-type>varchar(3)|0</data-type>
+    </column>
+    <column id="383" parent="46" name="full">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <index id="384" parent="46" name="ipend">
+      <columns>ipend</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="385" parent="46" name="ipstart">
+      <columns>ipstart</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <column id="386" parent="47" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="387" parent="47" name="code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(4)|0</data-type>
+    </column>
+    <key id="388" parent="47" name="PRIMARY">
+      <columns>code</columns>
+      <primary>1</primary>
+    </key>
+    <column id="389" parent="48" name="langid">
+      <mandatory>1</mandatory>
+      <data-type>mediumint(4)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="390" parent="48" name="lang_code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="391" parent="48" name="language">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="392" parent="48" name="PRIMARY">
+      <columns>langid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="393" parent="49" name="OS_code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="394" parent="49" name="OS_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <key id="395" parent="49" name="PRIMARY">
+      <columns>OS_code</columns>
+      <primary>1</primary>
+    </key>
+    <column id="396" parent="50" name="groupid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="397" parent="50" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="398" parent="50" name="descip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(4000)|0</data-type>
+    </column>
+    <column id="399" parent="50" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+    </column>
+    <column id="400" parent="50" name="group_type">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <column id="401" parent="50" name="fee">
+      <mandatory>1</mandatory>
+      <data-type>decimal(20,2)|0</data-type>
+    </column>
+    <column id="402" parent="50" name="expire_in_days">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="403" parent="50" name="PRIMARY">
+      <columns>groupid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="404" parent="51" name="userid">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="405" parent="51" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="406" parent="51" name="screenname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="407" parent="51" name="p_hash">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="408" parent="51" name="s_hash">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="409" parent="51" name="valid">
+      <mandatory>1</mandatory>
+      <data-type>int(3)|0</data-type>
+    </column>
+    <column id="410" parent="51" name="acti_code">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="411" parent="51" name="ipad">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="412" parent="51" name="date_joined">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="413" parent="51" name="lastip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="414" parent="51" name="last_visit">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="415" parent="51" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="416" parent="51" name="gravtar_email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="417" parent="51" name="usergroup">
+      <mandatory>1</mandatory>
+      <data-type>int(255)|0</data-type>
+    </column>
+    <column id="418" parent="51" name="temppass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="419" parent="51" name="tpdate">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="420" parent="51" name="tpip">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="421" parent="51" name="tp_flag">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="422" parent="51" name="browser">
+      <data-type>varchar(5)|0</data-type>
+      <default-expression>&apos;OBW&apos;</default-expression>
+    </column>
+    <column id="423" parent="51" name="os">
+      <data-type>varchar(5)|0</data-type>
+      <default-expression>&apos;OOS&apos;</default-expression>
+    </column>
+    <column id="424" parent="51" name="lang">
+      <data-type>varchar(5)|0</data-type>
+      <default-expression>&apos;ool&apos;</default-expression>
+    </column>
+    <column id="425" parent="51" name="country">
+      <data-type>varchar(5)|0</data-type>
+      <default-expression>&apos;ZZ&apos;</default-expression>
+    </column>
+    <column id="426" parent="51" name="refid">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="427" parent="51" name="refurl">
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="428" parent="51" name="refdomain">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="429" parent="51" name="contact">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="430" parent="51" name="fname">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="431" parent="51" name="sname">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="432" parent="51" name="mobilenum">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="433" parent="51" name="screenres">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="434" parent="51" name="searchengine">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="435" parent="51" name="searchterm">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="436" parent="51" name="smstok">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="437" parent="51" name="smsip">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="438" parent="51" name="smstimedate">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="439" parent="51" name="oneuse">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="440" parent="51" name="landingpage">
+      <data-type>varchar(500)|0</data-type>
+      <default-expression>&apos;none&apos;</default-expression>
+    </column>
+    <column id="441" parent="51" name="openidurl">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="442" parent="51" name="authentication_source">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+      <default-expression>&apos;userbase&apos;</default-expression>
+    </column>
+    <column id="443" parent="51" name="img_flag">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="444" parent="51" name="img_url">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="445" parent="51" name="cookie_id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(1000)|0</data-type>
+    </column>
+    <column id="446" parent="51" name="cookie_salt">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="447" parent="51" name="cookie_expire">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="448" parent="51" name="paid">
+      <mandatory>1</mandatory>
+      <data-type>int(2)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="449" parent="51" name="fee">
+      <mandatory>1</mandatory>
+      <data-type>decimal(20,2)|0</data-type>
+    </column>
+    <column id="450" parent="51" name="renew_date">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="451" parent="51" name="usergroup">
+      <columns>usergroup</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="452" parent="51" name="PRIMARY">
+      <columns>userid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="453" parent="52" name="visitid">
+      <mandatory>1</mandatory>
+      <data-type>int(15)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="454" parent="52" name="reg_flag">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="455" parent="52" name="browser">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="456" parent="52" name="os">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="457" parent="52" name="lang">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="458" parent="52" name="country">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="459" parent="52" name="date_visited">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="460" parent="52" name="refurl">
+      <mandatory>1</mandatory>
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <column id="461" parent="52" name="refdomain">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="462" parent="52" name="refid">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="463" parent="52" name="screenres">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="464" parent="52" name="userid">
+      <comment>if you really want to track users</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(20)|0</data-type>
+    </column>
+    <column id="465" parent="52" name="searchengine">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="466" parent="52" name="searchterm">
+      <mandatory>1</mandatory>
+      <data-type>varchar(300)|0</data-type>
+    </column>
+    <column id="467" parent="52" name="admin_flag">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="468" parent="52" name="landingpage">
+      <data-type>varchar(500)|0</data-type>
+      <default-expression>&apos;none&apos;</default-expression>
+    </column>
+    <column id="469" parent="52" name="lp_flag">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="470" parent="52" name="parent_id">
+      <mandatory>1</mandatory>
+      <data-type>int(15)|0</data-type>
+    </column>
+    <column id="471" parent="52" name="landing_id">
+      <mandatory>1</mandatory>
+      <data-type>int(15)|0</data-type>
+    </column>
+    <index id="472" parent="52" name="visitid">
+      <columns>visitid</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="473" parent="52" name="visitid">
+      <columns>visitid</columns>
+      <underlying-index>visitid</underlying-index>
+    </key>
+  </database-model>
+</dataSource>

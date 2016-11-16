@@ -1,9 +1,9 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'//home/u486432772/public_html/helpfamilycontrol/Modelo/BASE_DE_DATOS.ph');
-/*require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/ESTADO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/SEXO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/Controlador/EMPLEADO.php');*/
-//require_once ("../../../../Modelo/BASE_DE_DATOS.php");
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/BASE_DE_DATOS.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/ESTADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/SEXO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
+
 
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fondo Comun</title>
+    <title>EMPLEADO</title>
     <!-- PACE-->
     <link rel="stylesheet" type="text/css" href="../../../plugins/PACE/themes/blue/pace-theme-flash.css">
     <script type="text/javascript" src="../../../plugins/PACE/pace.min.js"></script>
@@ -124,32 +124,32 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/
                     <span class="sidebar-title">Administracion</span>
                 </a>
                 <ul id="collapse2" class="list-unstyled collapse">
-                    <li><a href="Cuenta.php" class="active">Cuenta</a></li>
-                    <li><a href="Pagos.php" class="active">Pagos</a></li>
-                    <li><a href="Compras.php" class="active">Compras</a></li>
-                    <li><a href="Empleados.php" class="active">Empleados</a></li>
-                    <li><a href="Patrocinador.php" class="active">Patrocinador</a></li>
-                    <li><a href="Proveedores.php" class="active">Proveedor</a></li>
+                    <li><a href="iCuenta.php" class="active">Cuenta</a></li>
+                    <li><a href="iPagos.php" class="active">Pagos</a></li>
+                    <li><a href="iCompras.php" class="active">Compras</a></li>
+                    <li><a href="iEmpleados.php" class="active">Empleados</a></li>
+                    <li><a href="iPatrocinador.php" class="active">Patrocinador</a></li>
+                    <li><a href="iProveedores.php" class="active">Proveedor</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
                 <ul id="collapse3" class="list-unstyled collapse">
-                    <li><a href="../inventario/Bodega.php">Bodega</a></li>
-                    <li><a href="../inventario/Areas.php">Areas</a></li>
-                    <li><a href="../inventario/Insumos.php">Insumos</a></li>
-                    <li><a href="../inventario/EntradasYSalidas.php">Entradas y Salidas</a></li>
+                    <li><a href="../inventario/iBodega.php">Bodega</a></li>
+                    <li><a href="../inventario/iAreas.php">Areas</a></li>
+                    <li><a href="../inventario/iInsumos.php">Insumos</a></li>
+                    <li><a href="../inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
                 <ul id="collapse4" class="list-unstyled collapse">
-                    <li><a href="../desastres/Desastres.php">Desastres</a></li>
+                    <li><a href="../desastres/iDesastres.php">Desastres</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
                 <ul id="collapse5" class="list-unstyled collapse">
-                    <li><a href="../damnificados/Beneficiario.php">Beneficiario</a></li>
-                    <li><a href="../damnificados/Albergues.php">Albergue</a></li>
-                    <li><a href="../damnificados/HistorialSocioEconomico.php">Historial SocioEconomico</a></li>
+                    <li><a href="../damnificados/iBeneficiario.php">Beneficiario</a></li>
+                    <li><a href="../damnificados/iAlbergues.php">Albergue</a></li>
+                    <li><a href="../damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
@@ -495,23 +495,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/home/u486432772/public_html/
         <script type="text/javascript" src="../../../build/js/layout/demo.js"></script>
         <script type="text/javascript" src="../../../build/js/page-content/dashboard/index.js"></script>
 
-
         <script type="text/javascript" src="../../../../Controlador/ajax/enviarDataEmpleado.js"></script>
 
-<script>
-
-    $(document).ready(function() {
-    alert('documento listo');
-
-    $(".jr").click(function(e) {
-
-    e.preventDefault();
-    var id = $(this).attr('id');
-
-    alert(id);
-
-    });
-});
-</script>
 </body>
 </html>

@@ -12,7 +12,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/TAB
 
 class COMPRAS
 {
-    //private $idCompra;
+    private $idCompra;
     private $fechaCompra;
     private $descripcionCompra;
 
@@ -30,11 +30,15 @@ class COMPRAS
         $this->bind = null;
         $this->dataCompra = null;
 
+        $this->idCompra = null;
         $this->fechaCompra = null;
         $this->descripcionCompra = null;
     }
 
-    public function nuevaCompra($fechaCompra,$descripcionCompra){
+    public function nuevaCompra($fecCompra,$descCompra){
+
+        $this->fechaCompra = $fecCompra;
+        $this->descripcionCompra = $descCompra;
 
         try{
             $this->stmQuery = "INSERT INTO Pagos(fechaCompra,descripcionCompra)
@@ -43,8 +47,8 @@ class COMPRAS
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":fechaCom",$fechaCompra);
-            $this->bind->bindParam(":descripcionCom",$descripcionCompra;
+            $this->bind->bindParam(":fechaCom",$this->fechaCompra);
+            $this->bind->bindParam(":descripcionCom",$this->descripcionCompra);
 
 
             $this->dataCompra =  $this->bind->execute();
@@ -66,7 +70,11 @@ class COMPRAS
 
     }//end nuevoEmpleado
 
-    public function actualizarCompra($idCompra,$fechaCompra,$descripcionCompra){
+    public function actualizarCompra($idComp,$fecCompra,$descCompra){
+
+        $this->idCompra = $idComp;
+        $this->fechaCompra = $fecCompra;
+        $this->descripcionCompra = $descCompra;
 
         try{
             $this->stmQuery = "UPDATE Compras SET  fechaCompra = :fechaCom,
@@ -76,9 +84,9 @@ class COMPRAS
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idCom",$idCompra);
-            $this->bind->bindParam(":fechaCom",$fechaCompra);
-            $this->bind->bindParam(":descripcionCom",$descripcionCompra);
+            $this->bind->bindParam(":idCom",$this->idCompra);
+            $this->bind->bindParam(":fechaCom",$this->fechaCompra);
+            $this->bind->bindParam(":descripcionCom",$this->descripcionCompra);
 
             $this->dataCompra =  $this->bind->execute();
 
@@ -99,7 +107,9 @@ class COMPRAS
 
     }//end actualizarEmpleado
 
-    public function eliminarCompra($idCompra){
+    public function eliminarCompra($idComp){
+
+        $this->idCompra = $idComp;
 
         try{
             $this->stmQuery = "DELETE FROM Compras WHERE idCompra = :idCom";
@@ -108,7 +118,7 @@ class COMPRAS
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idCom",$idCompra);
+            $this->bind->bindParam(":idCom",$this->idCompra);
 
             $this->dataCompra =  $this->bind->execute();
 
@@ -127,7 +137,7 @@ class COMPRAS
             $this->pdoConexion = null;
         }
 
-    }//end elimarEmpleado
+    }//end eliminar Compra
 
     public function consultarTodasCompras()
     {
@@ -152,11 +162,11 @@ class COMPRAS
 
             $this->pdoConexion = null;
         }
-    }//end consultarTodosLosEmpleados
+    }//end consultarTodosLosCompras
 
     public function buscarCompra($noChequePago){
 
 
-    }// end buscarPago
+    }// end buscaCompra
 
-}//end Class Pago
+}//end Class Compra
