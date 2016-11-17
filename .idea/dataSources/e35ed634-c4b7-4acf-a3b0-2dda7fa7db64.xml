@@ -671,1068 +671,1071 @@
     <column id="209" parent="26" name="emailIntegrante">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <index id="210" parent="26" name="FK_asignarElSexo">
+    <column id="210" parent="26" name="edadIntegrante">
+      <data-type>varchar(3)|0</data-type>
+    </column>
+    <index id="211" parent="26" name="FK_asignarElSexo">
       <columns>idSexo</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="211" parent="26" name="FK_integrantesDeLaFamilia">
+    <index id="212" parent="26" name="FK_integrantesDeLaFamilia">
       <columns>idFamilia</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="212" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
+    <index id="213" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
       <columns>idTipoIntegrante</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="213" parent="26" name="PRIMARY">
+    <key id="214" parent="26" name="PRIMARY">
       <columns>idIntegrante</columns>
       <primary>1</primary>
     </key>
-    <foreign-key id="214" parent="26" name="FK_asignarElSexo">
+    <foreign-key id="215" parent="26" name="FK_asignarElSexo">
       <columns>idSexo</columns>
       <ref-key>~.Sexo.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="215" parent="26" name="FK_integrantesDeLaFamilia">
+    <foreign-key id="216" parent="26" name="FK_integrantesDeLaFamilia">
       <columns>idFamilia</columns>
       <ref-key>~.Familia.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="216" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
+    <foreign-key id="217" parent="26" name="FK_tipoDeIntegrantesQueTieneLaFamilia">
       <columns>idTipoIntegrante</columns>
       <ref-key>~.TipoIntegrante.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="217" parent="27" name="idPago">
+    <column id="218" parent="27" name="idPago">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="218" parent="27" name="idProveedor">
+    <column id="219" parent="27" name="idProveedor">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="219" parent="27" name="idEmpleado">
+    <column id="220" parent="27" name="idEmpleado">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="220" parent="27" name="idCompra">
+    <column id="221" parent="27" name="idCompra">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="221" parent="27" name="idCuenta">
+    <column id="222" parent="27" name="idCuenta">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="222" parent="27" name="noChequePago">
+    <column id="223" parent="27" name="noChequePago">
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="223" parent="27" name="montoPago">
+    <column id="224" parent="27" name="montoPago">
       <data-type>float|0</data-type>
     </column>
-    <column id="224" parent="27" name="fechaPago">
+    <column id="225" parent="27" name="fechaPago">
       <data-type>datetime|0</data-type>
     </column>
-    <column id="225" parent="27" name="descripcionPago">
+    <column id="226" parent="27" name="descripcionPago">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <index id="226" parent="27" name="FK_almacenanPagos">
+    <index id="227" parent="27" name="FK_almacenanPagos">
       <columns>idProveedor</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="227" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
+    <index id="228" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
       <columns>idCuenta</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="228" parent="27" name="FK_compraVaATenerVariosPagos">
+    <index id="229" parent="27" name="FK_compraVaATenerVariosPagos">
       <columns>idCompra</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="229" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
+    <index id="230" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
       <columns>idEmpleado</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="230" parent="27" name="PRIMARY">
+    <key id="231" parent="27" name="PRIMARY">
       <columns>idPago</columns>
       <primary>1</primary>
     </key>
-    <foreign-key id="231" parent="27" name="FK_almacenanPagos">
+    <foreign-key id="232" parent="27" name="FK_almacenanPagos">
       <columns>idProveedor</columns>
       <ref-key>~.Proveedor.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="232" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
+    <foreign-key id="233" parent="27" name="FK_empleadosRealizanPagosAlProveedor">
       <columns>idEmpleado</columns>
       <ref-key>~.Empleado.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="233" parent="27" name="FK_compraVaATenerVariosPagos">
+    <foreign-key id="234" parent="27" name="FK_compraVaATenerVariosPagos">
       <columns>idCompra</columns>
       <ref-key>~.Compras.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="234" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
+    <foreign-key id="235" parent="27" name="FK_cantidadDeRetirosQueTieneLaCuentaParaHacerPagos">
       <columns>idCuenta</columns>
       <ref-key>~.Cuenta.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="235" parent="28" name="idPatrocinador">
+    <column id="236" parent="28" name="idPatrocinador">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="236" parent="28" name="idTipoPatrocinador">
+    <column id="237" parent="28" name="idTipoPatrocinador">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="237" parent="28" name="idEstado">
+    <column id="238" parent="28" name="idEstado">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="238" parent="28" name="nombrePatrocinador">
+    <column id="239" parent="28" name="nombrePatrocinador">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="239" parent="28" name="direccionPatrocinador">
+    <column id="240" parent="28" name="direccionPatrocinador">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <column id="240" parent="28" name="emailPatrocinador">
+    <column id="241" parent="28" name="emailPatrocinador">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <column id="241" parent="28" name="telefonoPatrocinador">
+    <column id="242" parent="28" name="telefonoPatrocinador">
       <data-type>varchar(15)|0</data-type>
     </column>
-    <column id="242" parent="28" name="fechaInscripcionPatrocinador">
+    <column id="243" parent="28" name="fechaInscripcionPatrocinador">
       <data-type>date|0</data-type>
     </column>
-    <index id="243" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
+    <index id="244" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
       <columns>idTipoPatrocinador</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="244" parent="28" name="FK_tineneUnEstado">
+    <index id="245" parent="28" name="FK_tineneUnEstado">
       <columns>idEstado</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="245" parent="28" name="PRIMARY">
+    <key id="246" parent="28" name="PRIMARY">
       <columns>idPatrocinador</columns>
       <primary>1</primary>
     </key>
-    <foreign-key id="246" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
+    <foreign-key id="247" parent="28" name="FK_patrocinadorEsDonanteOpadrino">
       <columns>idTipoPatrocinador</columns>
       <ref-key>~.TipoPatrocinador.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <foreign-key id="247" parent="28" name="FK_tineneUnEstado">
+    <foreign-key id="248" parent="28" name="FK_tineneUnEstado">
       <columns>idEstado</columns>
       <ref-key>~.Estado.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="248" parent="29" name="idProveedor">
+    <column id="249" parent="29" name="idProveedor">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="249" parent="29" name="idEstado">
+    <column id="250" parent="29" name="idEstado">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="250" parent="29" name="nitProveedor">
+    <column id="251" parent="29" name="nitProveedor">
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="251" parent="29" name="nombreProveedor">
+    <column id="252" parent="29" name="nombreProveedor">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="252" parent="29" name="direccionProveedor">
+    <column id="253" parent="29" name="direccionProveedor">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <column id="253" parent="29" name="emailProveedor">
+    <column id="254" parent="29" name="emailProveedor">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <column id="254" parent="29" name="telefonoProveedor">
+    <column id="255" parent="29" name="telefonoProveedor">
       <data-type>varchar(15)|0</data-type>
     </column>
-    <column id="255" parent="29" name="descripcionProveedor">
+    <column id="256" parent="29" name="descripcionProveedor">
       <data-type>varchar(200)|0</data-type>
     </column>
-    <key id="256" parent="29" name="PRIMARY">
+    <key id="257" parent="29" name="PRIMARY">
       <columns>idProveedor</columns>
       <primary>1</primary>
     </key>
-    <column id="257" parent="30" name="idStock">
+    <column id="258" parent="30" name="idStock">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="258" parent="30" name="idArea">
+    <column id="259" parent="30" name="idArea">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="259" parent="30" name="numeroStock">
+    <column id="260" parent="30" name="numeroStock">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="260" parent="30" name="descripcionStock">
+    <column id="261" parent="30" name="descripcionStock">
       <data-type>varchar(150)|0</data-type>
     </column>
-    <index id="261" parent="30" name="FK_tiene_varias_areas">
+    <index id="262" parent="30" name="FK_tiene_varias_areas">
       <columns>idArea</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="262" parent="30" name="PRIMARY">
+    <key id="263" parent="30" name="PRIMARY">
       <columns>idStock</columns>
       <primary>1</primary>
     </key>
-    <foreign-key id="263" parent="30" name="FK_tiene_varias_areas">
+    <foreign-key id="264" parent="30" name="FK_tiene_varias_areas">
       <columns>idArea</columns>
       <ref-key>~.Areas.PRIMARY</ref-key>
       <cascade-update-rule>restrict</cascade-update-rule>
       <cascade-delete-rule>restrict</cascade-delete-rule>
     </foreign-key>
-    <column id="264" parent="31" name="idSexo">
+    <column id="265" parent="31" name="idSexo">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="265" parent="31" name="nombreSexo">
+    <column id="266" parent="31" name="nombreSexo">
       <data-type>varchar(20)|0</data-type>
     </column>
-    <key id="266" parent="31" name="PRIMARY">
+    <key id="267" parent="31" name="PRIMARY">
       <columns>idSexo</columns>
       <primary>1</primary>
     </key>
-    <column id="267" parent="32" name="idTipoAlbergue">
+    <column id="268" parent="32" name="idTipoAlbergue">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="268" parent="32" name="nombreTipoAlbergue">
+    <column id="269" parent="32" name="nombreTipoAlbergue">
       <data-type>varchar(100)|0</data-type>
     </column>
-    <key id="269" parent="32" name="PRIMARY">
+    <key id="270" parent="32" name="PRIMARY">
       <columns>idTipoAlbergue</columns>
       <primary>1</primary>
     </key>
-    <column id="270" parent="33" name="idTipoCuenta">
+    <column id="271" parent="33" name="idTipoCuenta">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="271" parent="33" name="nombreTipoCuenta">
+    <column id="272" parent="33" name="nombreTipoCuenta">
       <data-type>varchar(100)|0</data-type>
     </column>
-    <key id="272" parent="33" name="PRIMARY">
+    <key id="273" parent="33" name="PRIMARY">
       <columns>idTipoCuenta</columns>
       <primary>1</primary>
     </key>
-    <column id="273" parent="34" name="idTipoDesastre">
+    <column id="274" parent="34" name="idTipoDesastre">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="274" parent="34" name="nombreTipoDesastre">
+    <column id="275" parent="34" name="nombreTipoDesastre">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <key id="275" parent="34" name="PRIMARY">
+    <key id="276" parent="34" name="PRIMARY">
       <columns>idTipoDesastre</columns>
       <primary>1</primary>
     </key>
-    <column id="276" parent="35" name="idTipoEntradaSalida">
+    <column id="277" parent="35" name="idTipoEntradaSalida">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="277" parent="35" name="nombreTipoEntradaSalida">
+    <column id="278" parent="35" name="nombreTipoEntradaSalida">
       <data-type>varchar(30)|0</data-type>
     </column>
-    <key id="278" parent="35" name="PRIMARY">
+    <key id="279" parent="35" name="PRIMARY">
       <columns>idTipoEntradaSalida</columns>
       <primary>1</primary>
     </key>
-    <column id="279" parent="36" name="idTipoInsumo">
+    <column id="280" parent="36" name="idTipoInsumo">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="280" parent="36" name="nombreTipoInsumo">
+    <column id="281" parent="36" name="nombreTipoInsumo">
       <data-type>varchar(25)|0</data-type>
     </column>
-    <key id="281" parent="36" name="PRIMARY">
+    <key id="282" parent="36" name="PRIMARY">
       <columns>idTipoInsumo</columns>
       <primary>1</primary>
     </key>
-    <column id="282" parent="37" name="idTipoIntegrante">
+    <column id="283" parent="37" name="idTipoIntegrante">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="283" parent="37" name="nombreTipoIntegrante">
+    <column id="284" parent="37" name="nombreTipoIntegrante">
       <data-type>varchar(20)|0</data-type>
     </column>
-    <key id="284" parent="37" name="PRIMARY">
+    <key id="285" parent="37" name="PRIMARY">
       <columns>idTipoIntegrante</columns>
       <primary>1</primary>
     </key>
-    <column id="285" parent="38" name="idTipoPatrocinador">
+    <column id="286" parent="38" name="idTipoPatrocinador">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="286" parent="38" name="nombreTipoPatrocinador">
+    <column id="287" parent="38" name="nombreTipoPatrocinador">
       <data-type>varchar(30)|0</data-type>
     </column>
-    <key id="287" parent="38" name="PRIMARY">
+    <key id="288" parent="38" name="PRIMARY">
       <columns>idTipoPatrocinador</columns>
       <primary>1</primary>
     </key>
-    <column id="288" parent="39" name="bid">
+    <column id="289" parent="39" name="bid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="289" parent="39" name="ip">
+    <column id="290" parent="39" name="ip">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="290" parent="39" name="domain">
+    <column id="291" parent="39" name="domain">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="291" parent="39" name="email">
+    <column id="292" parent="39" name="email">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="292" parent="39" name="refer">
+    <column id="293" parent="39" name="refer">
       <mandatory>1</mandatory>
       <data-type>varchar(500)|0</data-type>
     </column>
-    <column id="293" parent="39" name="referaldomain">
+    <column id="294" parent="39" name="referaldomain">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="294" parent="39" name="desci">
+    <column id="295" parent="39" name="desci">
       <mandatory>1</mandatory>
       <data-type>varchar(2000)|0</data-type>
     </column>
-    <column id="295" parent="39" name="valid">
+    <column id="296" parent="39" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
     </column>
-    <column id="296" parent="39" name="type">
+    <column id="297" parent="39" name="type">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
     </column>
-    <key id="297" parent="39" name="PRIMARY">
+    <key id="298" parent="39" name="PRIMARY">
       <columns>bid</columns>
       <primary>1</primary>
     </key>
-    <column id="298" parent="40" name="failedid">
+    <column id="299" parent="40" name="failedid">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="299" parent="40" name="loc">
+    <column id="300" parent="40" name="loc">
       <mandatory>1</mandatory>
       <data-type>varchar(10)|0</data-type>
     </column>
-    <column id="300" parent="40" name="username">
+    <column id="301" parent="40" name="username">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="301" parent="40" name="password">
+    <column id="302" parent="40" name="password">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="302" parent="40" name="sms">
+    <column id="303" parent="40" name="sms">
       <mandatory>1</mandatory>
       <data-type>varchar(10)|0</data-type>
     </column>
-    <column id="303" parent="40" name="smstok">
+    <column id="304" parent="40" name="smstok">
       <data-type>varchar(30)|0</data-type>
       <default-expression>&apos;empty&apos;</default-expression>
     </column>
-    <column id="304" parent="40" name="msg">
+    <column id="305" parent="40" name="msg">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="305" parent="40" name="inital_attempt">
+    <column id="306" parent="40" name="inital_attempt">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="306" parent="40" name="current_attempt">
+    <column id="307" parent="40" name="current_attempt">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="307" parent="40" name="country">
+    <column id="308" parent="40" name="country">
       <mandatory>1</mandatory>
       <data-type>varchar(10)|0</data-type>
     </column>
-    <column id="308" parent="40" name="setid">
+    <column id="309" parent="40" name="setid">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
     </column>
-    <column id="309" parent="40" name="ipad">
+    <column id="310" parent="40" name="ipad">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="310" parent="40" name="refurl">
+    <column id="311" parent="40" name="refurl">
       <mandatory>1</mandatory>
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <key id="311" parent="40" name="PRIMARY">
+    <key id="312" parent="40" name="PRIMARY">
       <columns>failedid</columns>
       <primary>1</primary>
     </key>
-    <column id="312" parent="41" name="ipn_internal_id">
+    <column id="313" parent="41" name="ipn_internal_id">
       <mandatory>1</mandatory>
       <data-type>int(20)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="313" parent="41" name="business">
+    <column id="314" parent="41" name="business">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="314" parent="41" name="item_name">
+    <column id="315" parent="41" name="item_name">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="315" parent="41" name="item_number">
+    <column id="316" parent="41" name="item_number">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="316" parent="41" name="payment_status">
+    <column id="317" parent="41" name="payment_status">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="317" parent="41" name="mc_gross">
+    <column id="318" parent="41" name="mc_gross">
       <mandatory>1</mandatory>
       <data-type>float|0</data-type>
     </column>
-    <column id="318" parent="41" name="mc_currency">
+    <column id="319" parent="41" name="mc_currency">
       <mandatory>1</mandatory>
       <data-type>varchar(5)|0</data-type>
     </column>
-    <column id="319" parent="41" name="txn_id">
+    <column id="320" parent="41" name="txn_id">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="320" parent="41" name="receiver_email">
+    <column id="321" parent="41" name="receiver_email">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="321" parent="41" name="payer_email">
+    <column id="322" parent="41" name="payer_email">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="322" parent="41" name="payment_date">
+    <column id="323" parent="41" name="payment_date">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="323" parent="41" name="invoice">
+    <column id="324" parent="41" name="invoice">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="324" parent="41" name="amount">
+    <column id="325" parent="41" name="amount">
       <mandatory>1</mandatory>
       <data-type>float|0</data-type>
     </column>
-    <column id="325" parent="41" name="quantity">
+    <column id="326" parent="41" name="quantity">
       <mandatory>1</mandatory>
       <data-type>int(10)|0</data-type>
     </column>
-    <column id="326" parent="41" name="pending_reason">
+    <column id="327" parent="41" name="pending_reason">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="327" parent="41" name="payment_method">
+    <column id="328" parent="41" name="payment_method">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="328" parent="41" name="payment_type">
+    <column id="329" parent="41" name="payment_type">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="329" parent="41" name="first_name">
+    <column id="330" parent="41" name="first_name">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="330" parent="41" name="last_name">
+    <column id="331" parent="41" name="last_name">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="331" parent="41" name="address_street">
+    <column id="332" parent="41" name="address_street">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="332" parent="41" name="address_city">
+    <column id="333" parent="41" name="address_city">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="333" parent="41" name="address_state">
+    <column id="334" parent="41" name="address_state">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="334" parent="41" name="address_zip">
+    <column id="335" parent="41" name="address_zip">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="335" parent="41" name="address_country">
+    <column id="336" parent="41" name="address_country">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="336" parent="41" name="residence_country">
+    <column id="337" parent="41" name="residence_country">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="337" parent="41" name="address_status">
+    <column id="338" parent="41" name="address_status">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="338" parent="41" name="payer_status">
+    <column id="339" parent="41" name="payer_status">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="339" parent="41" name="notify_version">
+    <column id="340" parent="41" name="notify_version">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="340" parent="41" name="verify_sign">
+    <column id="341" parent="41" name="verify_sign">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="341" parent="41" name="custom">
+    <column id="342" parent="41" name="custom">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="342" parent="41" name="txn_type">
+    <column id="343" parent="41" name="txn_type">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="343" parent="41" name="notification">
+    <column id="344" parent="41" name="notification">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="344" parent="41" name="insert_date">
+    <column id="345" parent="41" name="insert_date">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <key id="345" parent="41" name="PRIMARY">
+    <key id="346" parent="41" name="PRIMARY">
       <columns>ipn_internal_id</columns>
       <primary>1</primary>
     </key>
-    <column id="346" parent="42" name="noteid">
+    <column id="347" parent="42" name="noteid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="347" parent="42" name="note">
+    <column id="348" parent="42" name="note">
       <mandatory>1</mandatory>
       <data-type>varchar(4000)|0</data-type>
     </column>
-    <column id="348" parent="42" name="elementid">
+    <column id="349" parent="42" name="elementid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
     </column>
-    <column id="349" parent="42" name="element_type">
+    <column id="350" parent="42" name="element_type">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
     </column>
-    <column id="350" parent="42" name="userid">
+    <column id="351" parent="42" name="userid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
     </column>
-    <column id="351" parent="42" name="dateposted">
+    <column id="352" parent="42" name="dateposted">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="352" parent="42" name="valid">
+    <column id="353" parent="42" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
     </column>
-    <key id="353" parent="42" name="PRIMARY">
+    <key id="354" parent="42" name="PRIMARY">
       <columns>noteid</columns>
       <primary>1</primary>
     </key>
-    <column id="354" parent="43" name="pid">
+    <column id="355" parent="43" name="pid">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="355" parent="43" name="amount">
+    <column id="356" parent="43" name="amount">
       <mandatory>1</mandatory>
       <data-type>decimal(20,2)|0</data-type>
     </column>
-    <column id="356" parent="43" name="site">
+    <column id="357" parent="43" name="site">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="357" parent="43" name="comment">
+    <column id="358" parent="43" name="comment">
       <mandatory>1</mandatory>
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <column id="358" parent="43" name="action">
+    <column id="359" parent="43" name="action">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="359" parent="43" name="valid">
+    <column id="360" parent="43" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
     </column>
-    <column id="360" parent="43" name="date_time">
+    <column id="361" parent="43" name="date_time">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="361" parent="43" name="ipad">
+    <column id="362" parent="43" name="ipad">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="362" parent="43" name="txn_id">
+    <column id="363" parent="43" name="txn_id">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="363" parent="43" name="or_invoice">
+    <column id="364" parent="43" name="or_invoice">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
     </column>
-    <column id="364" parent="43" name="group">
+    <column id="365" parent="43" name="group">
       <mandatory>1</mandatory>
       <data-type>int(10)|0</data-type>
     </column>
-    <column id="365" parent="43" name="type">
+    <column id="366" parent="43" name="type">
       <mandatory>1</mandatory>
       <data-type>varchar(10)|0</data-type>
     </column>
-    <column id="366" parent="43" name="userid">
+    <column id="367" parent="43" name="userid">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
     </column>
-    <column id="367" parent="43" name="adminid">
+    <column id="368" parent="43" name="adminid">
       <mandatory>1</mandatory>
       <data-type>int(50)|0</data-type>
     </column>
-    <key id="368" parent="43" name="PRIMARY">
+    <key id="369" parent="43" name="PRIMARY">
       <columns>pid</columns>
       <primary>1</primary>
     </key>
-    <column id="369" parent="44" name="blockid">
+    <column id="370" parent="44" name="blockid">
       <mandatory>1</mandatory>
       <data-type>int(10)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="370" parent="44" name="blockvalue">
+    <column id="371" parent="44" name="blockvalue">
       <mandatory>1</mandatory>
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <column id="371" parent="44" name="type">
+    <column id="372" parent="44" name="type">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="372" parent="44" name="description">
+    <column id="373" parent="44" name="description">
       <mandatory>1</mandatory>
       <data-type>varchar(500)|0</data-type>
     </column>
-    <column id="373" parent="44" name="valid">
+    <column id="374" parent="44" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="374" parent="44" name="blockarea">
+    <column id="375" parent="44" name="blockarea">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
       <default-expression>&apos;1&apos;</default-expression>
     </column>
-    <key id="375" parent="44" name="PRIMARY">
+    <key id="376" parent="44" name="PRIMARY">
       <columns>blockid</columns>
       <primary>1</primary>
     </key>
-    <column id="376" parent="45" name="browser_code">
+    <column id="377" parent="45" name="browser_code">
       <mandatory>1</mandatory>
       <data-type>varchar(5)|0</data-type>
     </column>
-    <column id="377" parent="45" name="browser_name">
+    <column id="378" parent="45" name="browser_name">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <key id="378" parent="45" name="PRIMARY">
+    <key id="379" parent="45" name="PRIMARY">
       <columns>browser_code</columns>
       <primary>1</primary>
     </key>
-    <column id="379" parent="46" name="ipstart">
+    <column id="380" parent="46" name="ipstart">
       <mandatory>1</mandatory>
       <data-type>bigint(100)|0</data-type>
     </column>
-    <column id="380" parent="46" name="ipend">
+    <column id="381" parent="46" name="ipend">
       <mandatory>1</mandatory>
       <data-type>bigint(100)|0</data-type>
     </column>
-    <column id="381" parent="46" name="2letter">
+    <column id="382" parent="46" name="2letter">
       <mandatory>1</mandatory>
       <data-type>varchar(2)|0</data-type>
     </column>
-    <column id="382" parent="46" name="3letter">
+    <column id="383" parent="46" name="3letter">
       <mandatory>1</mandatory>
       <data-type>varchar(3)|0</data-type>
     </column>
-    <column id="383" parent="46" name="full">
+    <column id="384" parent="46" name="full">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <index id="384" parent="46" name="ipend">
+    <index id="385" parent="46" name="ipend">
       <columns>ipend</columns>
       <desc-columns></desc-columns>
     </index>
-    <index id="385" parent="46" name="ipstart">
+    <index id="386" parent="46" name="ipstart">
       <columns>ipstart</columns>
       <desc-columns></desc-columns>
     </index>
-    <column id="386" parent="47" name="name">
+    <column id="387" parent="47" name="name">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="387" parent="47" name="code">
+    <column id="388" parent="47" name="code">
       <mandatory>1</mandatory>
       <data-type>varchar(4)|0</data-type>
     </column>
-    <key id="388" parent="47" name="PRIMARY">
+    <key id="389" parent="47" name="PRIMARY">
       <columns>code</columns>
       <primary>1</primary>
     </key>
-    <column id="389" parent="48" name="langid">
+    <column id="390" parent="48" name="langid">
       <mandatory>1</mandatory>
       <data-type>mediumint(4)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="390" parent="48" name="lang_code">
+    <column id="391" parent="48" name="lang_code">
       <mandatory>1</mandatory>
       <data-type>varchar(5)|0</data-type>
     </column>
-    <column id="391" parent="48" name="language">
+    <column id="392" parent="48" name="language">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <key id="392" parent="48" name="PRIMARY">
+    <key id="393" parent="48" name="PRIMARY">
       <columns>langid</columns>
       <primary>1</primary>
     </key>
-    <column id="393" parent="49" name="OS_code">
+    <column id="394" parent="49" name="OS_code">
       <mandatory>1</mandatory>
       <data-type>varchar(5)|0</data-type>
     </column>
-    <column id="394" parent="49" name="OS_name">
+    <column id="395" parent="49" name="OS_name">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <key id="395" parent="49" name="PRIMARY">
+    <key id="396" parent="49" name="PRIMARY">
       <columns>OS_code</columns>
       <primary>1</primary>
     </key>
-    <column id="396" parent="50" name="groupid">
+    <column id="397" parent="50" name="groupid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="397" parent="50" name="name">
+    <column id="398" parent="50" name="name">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="398" parent="50" name="descip">
+    <column id="399" parent="50" name="descip">
       <mandatory>1</mandatory>
       <data-type>varchar(4000)|0</data-type>
     </column>
-    <column id="399" parent="50" name="valid">
+    <column id="400" parent="50" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
     </column>
-    <column id="400" parent="50" name="group_type">
+    <column id="401" parent="50" name="group_type">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
       <default-expression>&apos;1&apos;</default-expression>
     </column>
-    <column id="401" parent="50" name="fee">
+    <column id="402" parent="50" name="fee">
       <mandatory>1</mandatory>
       <data-type>decimal(20,2)|0</data-type>
     </column>
-    <column id="402" parent="50" name="expire_in_days">
+    <column id="403" parent="50" name="expire_in_days">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <key id="403" parent="50" name="PRIMARY">
+    <key id="404" parent="50" name="PRIMARY">
       <columns>groupid</columns>
       <primary>1</primary>
     </key>
-    <column id="404" parent="51" name="userid">
+    <column id="405" parent="51" name="userid">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="405" parent="51" name="username">
+    <column id="406" parent="51" name="username">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="406" parent="51" name="screenname">
+    <column id="407" parent="51" name="screenname">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="407" parent="51" name="p_hash">
+    <column id="408" parent="51" name="p_hash">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="408" parent="51" name="s_hash">
+    <column id="409" parent="51" name="s_hash">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="409" parent="51" name="valid">
+    <column id="410" parent="51" name="valid">
       <mandatory>1</mandatory>
       <data-type>int(3)|0</data-type>
     </column>
-    <column id="410" parent="51" name="acti_code">
+    <column id="411" parent="51" name="acti_code">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="411" parent="51" name="ipad">
+    <column id="412" parent="51" name="ipad">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="412" parent="51" name="date_joined">
+    <column id="413" parent="51" name="date_joined">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="413" parent="51" name="lastip">
+    <column id="414" parent="51" name="lastip">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="414" parent="51" name="last_visit">
+    <column id="415" parent="51" name="last_visit">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="415" parent="51" name="email">
+    <column id="416" parent="51" name="email">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="416" parent="51" name="gravtar_email">
+    <column id="417" parent="51" name="gravtar_email">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="417" parent="51" name="usergroup">
+    <column id="418" parent="51" name="usergroup">
       <mandatory>1</mandatory>
       <data-type>int(255)|0</data-type>
     </column>
-    <column id="418" parent="51" name="temppass">
+    <column id="419" parent="51" name="temppass">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="419" parent="51" name="tpdate">
+    <column id="420" parent="51" name="tpdate">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="420" parent="51" name="tpip">
+    <column id="421" parent="51" name="tpip">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="421" parent="51" name="tp_flag">
+    <column id="422" parent="51" name="tp_flag">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="422" parent="51" name="browser">
+    <column id="423" parent="51" name="browser">
       <data-type>varchar(5)|0</data-type>
       <default-expression>&apos;OBW&apos;</default-expression>
     </column>
-    <column id="423" parent="51" name="os">
+    <column id="424" parent="51" name="os">
       <data-type>varchar(5)|0</data-type>
       <default-expression>&apos;OOS&apos;</default-expression>
     </column>
-    <column id="424" parent="51" name="lang">
+    <column id="425" parent="51" name="lang">
       <data-type>varchar(5)|0</data-type>
       <default-expression>&apos;ool&apos;</default-expression>
     </column>
-    <column id="425" parent="51" name="country">
+    <column id="426" parent="51" name="country">
       <data-type>varchar(5)|0</data-type>
       <default-expression>&apos;ZZ&apos;</default-expression>
     </column>
-    <column id="426" parent="51" name="refid">
+    <column id="427" parent="51" name="refid">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="427" parent="51" name="refurl">
+    <column id="428" parent="51" name="refurl">
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <column id="428" parent="51" name="refdomain">
+    <column id="429" parent="51" name="refdomain">
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="429" parent="51" name="contact">
+    <column id="430" parent="51" name="contact">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="430" parent="51" name="fname">
+    <column id="431" parent="51" name="fname">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="431" parent="51" name="sname">
+    <column id="432" parent="51" name="sname">
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="432" parent="51" name="mobilenum">
+    <column id="433" parent="51" name="mobilenum">
       <data-type>varchar(20)|0</data-type>
     </column>
-    <column id="433" parent="51" name="screenres">
+    <column id="434" parent="51" name="screenres">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="434" parent="51" name="searchengine">
+    <column id="435" parent="51" name="searchengine">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="435" parent="51" name="searchterm">
+    <column id="436" parent="51" name="searchterm">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="436" parent="51" name="smstok">
+    <column id="437" parent="51" name="smstok">
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="437" parent="51" name="smsip">
+    <column id="438" parent="51" name="smsip">
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="438" parent="51" name="smstimedate">
+    <column id="439" parent="51" name="smstimedate">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="439" parent="51" name="oneuse">
+    <column id="440" parent="51" name="oneuse">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
       <default-expression>&apos;0&apos;</default-expression>
     </column>
-    <column id="440" parent="51" name="landingpage">
+    <column id="441" parent="51" name="landingpage">
       <data-type>varchar(500)|0</data-type>
       <default-expression>&apos;none&apos;</default-expression>
     </column>
-    <column id="441" parent="51" name="openidurl">
+    <column id="442" parent="51" name="openidurl">
       <mandatory>1</mandatory>
       <data-type>varchar(500)|0</data-type>
     </column>
-    <column id="442" parent="51" name="authentication_source">
+    <column id="443" parent="51" name="authentication_source">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
       <default-expression>&apos;userbase&apos;</default-expression>
     </column>
-    <column id="443" parent="51" name="img_flag">
+    <column id="444" parent="51" name="img_flag">
       <mandatory>1</mandatory>
       <data-type>varchar(1)|0</data-type>
       <default-expression>&apos;0&apos;</default-expression>
     </column>
-    <column id="444" parent="51" name="img_url">
+    <column id="445" parent="51" name="img_url">
       <mandatory>1</mandatory>
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <column id="445" parent="51" name="cookie_id">
+    <column id="446" parent="51" name="cookie_id">
       <mandatory>1</mandatory>
       <data-type>varchar(1000)|0</data-type>
     </column>
-    <column id="446" parent="51" name="cookie_salt">
+    <column id="447" parent="51" name="cookie_salt">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="447" parent="51" name="cookie_expire">
+    <column id="448" parent="51" name="cookie_expire">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="448" parent="51" name="paid">
+    <column id="449" parent="51" name="paid">
       <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
       <default-expression>&apos;0&apos;</default-expression>
     </column>
-    <column id="449" parent="51" name="fee">
+    <column id="450" parent="51" name="fee">
       <mandatory>1</mandatory>
       <data-type>decimal(20,2)|0</data-type>
     </column>
-    <column id="450" parent="51" name="renew_date">
+    <column id="451" parent="51" name="renew_date">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <index id="451" parent="51" name="usergroup">
+    <index id="452" parent="51" name="usergroup">
       <columns>usergroup</columns>
       <desc-columns></desc-columns>
     </index>
-    <key id="452" parent="51" name="PRIMARY">
+    <key id="453" parent="51" name="PRIMARY">
       <columns>userid</columns>
       <primary>1</primary>
     </key>
-    <column id="453" parent="52" name="visitid">
+    <column id="454" parent="52" name="visitid">
       <mandatory>1</mandatory>
       <data-type>int(15)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="454" parent="52" name="reg_flag">
+    <column id="455" parent="52" name="reg_flag">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="455" parent="52" name="browser">
+    <column id="456" parent="52" name="browser">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="456" parent="52" name="os">
+    <column id="457" parent="52" name="os">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="457" parent="52" name="lang">
+    <column id="458" parent="52" name="lang">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="458" parent="52" name="country">
+    <column id="459" parent="52" name="country">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="459" parent="52" name="date_visited">
+    <column id="460" parent="52" name="date_visited">
       <mandatory>1</mandatory>
       <data-type>datetime|0</data-type>
     </column>
-    <column id="460" parent="52" name="refurl">
+    <column id="461" parent="52" name="refurl">
       <mandatory>1</mandatory>
       <data-type>varchar(500)|0</data-type>
     </column>
-    <column id="461" parent="52" name="refdomain">
+    <column id="462" parent="52" name="refdomain">
       <mandatory>1</mandatory>
       <data-type>varchar(200)|0</data-type>
     </column>
-    <column id="462" parent="52" name="refid">
+    <column id="463" parent="52" name="refid">
       <mandatory>1</mandatory>
       <data-type>varchar(50)|0</data-type>
     </column>
-    <column id="463" parent="52" name="screenres">
+    <column id="464" parent="52" name="screenres">
       <mandatory>1</mandatory>
       <data-type>varchar(30)|0</data-type>
     </column>
-    <column id="464" parent="52" name="userid">
+    <column id="465" parent="52" name="userid">
       <comment>if you really want to track users</comment>
       <mandatory>1</mandatory>
       <data-type>int(20)|0</data-type>
     </column>
-    <column id="465" parent="52" name="searchengine">
+    <column id="466" parent="52" name="searchengine">
       <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <column id="466" parent="52" name="searchterm">
+    <column id="467" parent="52" name="searchterm">
       <mandatory>1</mandatory>
       <data-type>varchar(300)|0</data-type>
     </column>
-    <column id="467" parent="52" name="admin_flag">
+    <column id="468" parent="52" name="admin_flag">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="468" parent="52" name="landingpage">
+    <column id="469" parent="52" name="landingpage">
       <data-type>varchar(500)|0</data-type>
       <default-expression>&apos;none&apos;</default-expression>
     </column>
-    <column id="469" parent="52" name="lp_flag">
+    <column id="470" parent="52" name="lp_flag">
       <mandatory>1</mandatory>
       <data-type>int(1)|0</data-type>
     </column>
-    <column id="470" parent="52" name="parent_id">
+    <column id="471" parent="52" name="parent_id">
       <mandatory>1</mandatory>
       <data-type>int(15)|0</data-type>
     </column>
-    <column id="471" parent="52" name="landing_id">
+    <column id="472" parent="52" name="landing_id">
       <mandatory>1</mandatory>
       <data-type>int(15)|0</data-type>
     </column>
-    <index id="472" parent="52" name="visitid">
+    <index id="473" parent="52" name="visitid">
       <columns>visitid</columns>
       <desc-columns></desc-columns>
       <unique>1</unique>
     </index>
-    <key id="473" parent="52" name="visitid">
+    <key id="474" parent="52" name="visitid">
       <columns>visitid</columns>
       <underlying-index>visitid</underlying-index>
     </key>

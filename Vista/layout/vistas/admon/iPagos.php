@@ -11,7 +11,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fondo Comun</title>
+    <title>PAGOS</title>
     <!-- PACE-->
     <link rel="stylesheet" type="text/css" href="../../../plugins/PACE/themes/blue/pace-theme-flash.css">
     <script type="text/javascript" src="../../../plugins/PACE/pace.min.js"></script>
@@ -79,13 +79,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
         <li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
         <li class="dropdown"><a id="dropdownMenu1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle bubble header-icon"><i class="ti-world"></i><span class="badge bg-danger">6</span></a>
 
-
-
-
         </li>
         <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
                 <div class="media mt-0">
-                    <div class="media-left avatar"><img src="../../../build/images/users/04.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+                    <div class="media-left avatar"><img src="../../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
                     <div class="media-right media-middle pl-0">
                         <p class="fs-12 text-base mb-0">Hi, Matthew</p>
                     </div>
@@ -111,9 +108,9 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <!-- Main Sidebar start-->
     <aside class="main-sidebar">
         <div class="user">
-            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/04.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
-            <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Matthew Gonzalez</h4>
-            <p class="mb-0 text-muted">Designer</p>
+            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+            <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
+            <p class="mb-0 text-muted">Analisis y Diseño de Sistemas</p>
         </div>
         <!-- ITEMS DEL MENU-->
         <ul class="list-unstyled navigation mb-0">
@@ -130,34 +127,34 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                     <span class="sidebar-title">Administracion</span>
                 </a>
                 <ul id="collapse2" class="list-unstyled collapse">
-                    <li><a href="Cuenta.php" class="active">Fondo Comun</a></li>
-                    <li><a href="Pagos.php" class="active">Pagos</a></li>
-                    <li><a href="Compras.php" class="active">Compras</a></li>
-                    <li><a href="Empleados.php" class="active">Empleados</a></li>
-                    <li><a href="Patrocinador.php" class="active">Patrocinador</a></li>
-                    <li><a href="Proveedores.php" class="active">Proveedor</a></li>
+                    <li><a href="iCuenta.php" class="active">Cuenta</a></li>
+                    <li><a href="iPagos.php" class="active">Pagos</a></li>
+                    <li><a href="iCompras.php" class="active">Compras</a></li>
+                    <li><a href="iEmpleados.php" class="active">Empleados</a></li>
+                    <li><a href="iPatrocinador.php" class="active">Patrocinador</a></li>
+                    <li><a href="iProveedores.php" class="active">Proveedor</a></li>
 
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
                 <ul id="collapse3" class="list-unstyled collapse">
-                    <li><a href="../inventario/Bodega.php">Bodega</a></li>
-                    <li><a href="../inventario/Areas.php">Areas</a></li>
-                    <li><a href="../inventario/Insumos.php">Insumos</a></li>
-                    <li><a href="../inventario/EntradasYSalidas.php">Entradas y Salidas</a></li>
+                    <li><a href="../inventario/iBodega.php">Bodega</a></li>
+                    <li><a href="../inventario/iAreas.php">Areas</a></li>
+                    <li><a href="../inventario/iInsumos.php">Insumos</a></li>
+                    <li><a href="../inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
 
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
                 <ul id="collapse4" class="list-unstyled collapse">
-                    <li><a href="../desastres/Desastres.php">Desastres</a></li>
+                    <li><a href="../desastres/iDesastres.php">Desastres</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
                 <ul id="collapse5" class="list-unstyled collapse">
-                    <li><a href="../damnificados/Beneficiario.php">Beneficiario</a></li>
-                    <li><a href="../damnificados/Albergues.php">Albergue</a></li>
-                    <li><a href="../damnificados/HistorialSocioEconomico.php">Historial SocioEconomico</a></li>
+                    <li><a href="../damnificados/iBeneficiario.php">Beneficiario</a></li>
+                    <li><a href="../damnificados/iAlbergues.php">Albergue</a></li>
+                    <li><a href="../damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
@@ -172,7 +169,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
         <div class="page-header container-fluid">
             <div class="row">
                 <div class="col-sm-12 ">
-                    <h4 class="mt-0 mb-5" align="center">EMPLEADOS</h4>
+                    <h4 class="mt-0 mb-5" align="center">PAGOS</h4>
                 </div>
             </div>
         </div>
@@ -188,7 +185,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 <div class="col-lg-12">
                     <div class="widget">
                         <div class="widget-heading">
-                            <h3 class="widget-title">Formulario de Empleados</h3>
+                            <h3 class="widget-title">Formulario de Pagos</h3>
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
@@ -276,7 +273,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                         </div>
                     </div>
                 </div>
-                <div class="row" align="center"><h3>INFORMACION DE LOS EMPLEADOS</h3></div>
+                <div class="row" align="center"><h3>INFORMACION DE LOS PAGOS</h3></div>
                 <div class="row">
                     <table class="table table-striped col-lg-6" align="center">
                         <tr>

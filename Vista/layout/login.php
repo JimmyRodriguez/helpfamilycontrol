@@ -27,7 +27,7 @@
       <div class="page-content">
         <!--div class="logo"><img src="../build/images/logo/logo-sm-light.png" alt="" width="80"></div-->
         <!-- FORMULARIO DEL LOGIN -->
-        <form method="get" action="index.php" class="form-horizontal">
+        <form method="get" action="vistas/dashboard.php" class="form-horizontal">
           <div class="form-group">
             <div class="col-xs-12">
               <input type="text" placeholder="Usuario" class="form-control">

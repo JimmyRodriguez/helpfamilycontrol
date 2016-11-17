@@ -11,7 +11,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fondo Comun</title>
+    <title>PROVEEDORES</title>
     <!-- PACE-->
     <link rel="stylesheet" type="text/css" href="../../../plugins/PACE/themes/blue/pace-theme-flash.css">
     <script type="text/javascript" src="../../../plugins/PACE/pace.min.js"></script>
@@ -111,8 +111,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <!-- Main Sidebar start-->
     <aside class="main-sidebar">
         <div class="user">
-            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/04.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
-            <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Matthew Gonzalez</h4>
+            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+            <h4 class="fs-16 text-white mt-15 mb-5 fw-300">JimmyRodriguez</h4>
             <p class="mb-0 text-muted">Designer</p>
         </div>
         <!-- ITEMS DEL MENU-->
