@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistema de Control </title>
+    <title>Login</title>
     <!-- PACE-->
     <link rel="stylesheet" type="text/css" href="../plugins/PACE/themes/blue/pace-theme-flash.css">
     <script type="text/javascript" src="../plugins/PACE/pace.min.js"></script>
@@ -22,10 +22,10 @@
     <![endif]-->
   </head>
   <body style="background-image: url(../build/images/backgrounds/cambray.jpg)" class="body-bg-full">
-  <div class="text-center"><h2 class="info">SISTEMA DE CONTROL DE DAMNIFICADOS</h2></div>
+  <div class="text-center"><h2 class="info"></h2></div>
     <div class="container page-container">
       <div class="page-content">
-        <!--div class="logo"><img src="../build/images/logo/logo-sm-light.png" alt="" width="80"></div-->
+        <div class="logo"><img src="../build/images/logo/logo-sm-light.png" alt="" width="80"></div>
         <!-- FORMULARIO DEL LOGIN -->
         <form method="get" action="vistas/dashboard.php" class="form-horizontal">
           <div class="form-group">

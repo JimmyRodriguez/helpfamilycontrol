@@ -311,7 +311,6 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                 echo "</tr>";
                                 }//end foreach
                             ?>
-
                     </table>
 
                 </div>
@@ -435,7 +434,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 </div>
 
             </div>
-            <div class="footer" align="center"><a>2016 &copy; UNIVERSIDAD MARIANO GALVEZ</a> </div>
+         <div class="footer" align="center"><a>2016 &copy; UNIVERSIDAD MARIANO GALVEZ</a> </div>
         </div>
         <!-- jQuery-->
         <script type="text/javascript" src="../../../plugins/jquery/dist/jquery.min.js"></script>
