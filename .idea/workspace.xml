@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e35ed634-c4b7-4acf-a3b0-2dda7fa7db64.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/e35ed634-c4b7-4acf-a3b0-2dda7fa7db64.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/index.php" afterPath="$PROJECT_DIR$/Vista/layout/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/login.php" afterPath="$PROJECT_DIR$/Vista/layout/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/admon/iCompras.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/admon/iCompras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/admon/iCuenta.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/admon/iCuenta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/admon/iPagos.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/admon/iPagos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/admon/iProveedores.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/admon/iProveedores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/dashboard.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/dashboard.php" />
-    </list>
+    <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="" />
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -38,40 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="iEmpleados.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vista/layout/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="148" column="18" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="iCompras.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iCompras.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iProveedores.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iProveedores.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iProveedores.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="180">
               <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
               <folding />
             </state>
@@ -130,9 +87,38 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e35ed634-c4b7-4acf-a3b0-2dda7fa7db64/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="109">
               <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMPLEADO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controlador/EMPLEADO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+              <folding>
+                <marker date="1479298639000" expanded="true" signature="1043:1376" ph="INSERT INTO Empleado... " />
+                <marker date="1479298639000" expanded="true" signature="2543:3112" ph="UPDATE Emple... " />
+                <marker date="1479298639000" expanded="true" signature="4226:4277" ph="DELETE FROM " />
+                <marker date="1479298639000" expanded="true" signature="4963:5011" ph="SELECT * FRO... Empleado" />
+                <marker date="1479298639000" expanded="true" signature="5616:6040" ph="SELECT idEmp... Empleado" />
+                <marker date="1479298639000" expanded="true" signature="6600:7075" ph="SELECT idEmp... Empleado" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iEmpleados.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3420">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +163,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
@@ -377,15 +364,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479282670144</updated>
-      <workItem from="1479282671521" duration="22899000" />
+      <workItem from="1479282671521" duration="24050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22899000" />
+    <option name="totallyTimeSpent" value="24050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="-1" y="23" width="1280" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -431,21 +418,6 @@
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#7#93#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controlador/EMPLEADO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-          <folding>
-            <marker date="1479298639000" expanded="true" signature="1043:1376" ph="INSERT INTO Empleado... " />
-            <marker date="1479298639000" expanded="true" signature="2543:3112" ph="UPDATE Emple... " />
-            <marker date="1479298639000" expanded="true" signature="4226:4277" ph="DELETE FROM " />
-            <marker date="1479298639000" expanded="true" signature="4963:5011" ph="SELECT * FRO... Empleado" />
-            <marker date="1479298639000" expanded="true" signature="5616:6040" ph="SELECT idEmp... Empleado" />
-            <marker date="1479298639000" expanded="true" signature="6600:7075" ph="SELECT idEmp... Empleado" />
           </folding>
         </state>
       </provider>
@@ -531,51 +503,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e35ed634-c4b7-4acf-a3b0-2dda7fa7db64/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vista/layout/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/layout/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="148" column="18" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,6 +533,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/itipoPatrocinador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iProveedores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/layout/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="148" column="18" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iCompras.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-810">
@@ -608,19 +578,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/itipoPatrocinador.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e35ed634-c4b7-4acf-a3b0-2dda7fa7db64/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="109">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iProveedores.php">
+    <entry file="file://$PROJECT_DIR$/Controlador/EMPLEADO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="114" column="73" selection-start-line="114" selection-start-column="73" selection-end-line="114" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding>
+            <marker date="1479298639000" expanded="true" signature="1043:1376" ph="INSERT INTO Empleado... " />
+            <marker date="1479298639000" expanded="true" signature="2543:3112" ph="UPDATE Emple... " />
+            <marker date="1479298639000" expanded="true" signature="4226:4277" ph="DELETE FROM " />
+            <marker date="1479298639000" expanded="true" signature="4963:5011" ph="SELECT * FRO... Empleado" />
+            <marker date="1479298639000" expanded="true" signature="5616:6040" ph="SELECT idEmp... Empleado" />
+            <marker date="1479298639000" expanded="true" signature="6600:7075" ph="SELECT idEmp... Empleado" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3420">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
