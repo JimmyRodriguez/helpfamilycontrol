@@ -25,7 +25,25 @@
   <div class="text-center"><h2 class="info"></h2></div>
     <div class="container page-container">
       <div class="page-content">
-        <div class="logo"><img src="../build/images/logo/logo-sm-light.png" alt="" width="80"></div>
+        <div>
+          <table class="table table-responsive">
+            <tbody class="body body-bg-full">
+              <tr>
+                <td>
+                  <img src="../build/images/logo/umg.png" alt="" width="130">
+                </td>
+                <td>
+                  <h3 class="text-white text-nowrap">UNIVERSIDAD MARIANO GALVEZ DE GUATEMALA</h3>
+                </td>
+              </tr>
+              <tr>
+                  <h1 class="text-white" style="align-content: center">SISTEMA HELP FAMILY CONTROL</h1>
+              </tr>
+              </tbody>
+          </table>
+
+        </div>
+
         <!-- FORMULARIO DEL LOGIN -->
         <form method="get" action="dashboard.php" class="form-horizontal">
           <div class="form-group">

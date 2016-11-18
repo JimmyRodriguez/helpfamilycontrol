@@ -92,45 +92,48 @@
               <span class="sidebar-title">Administracion</span>
             </a>
             <ul id="collapse2" class="list-unstyled collapse">
-              <li><a href="admon/iCompras.php" class="active">Compras</a></li>
-              <li><a href="admon/iCuenta.php" class="active">Cuenta</a></li>
-              <li><a href="admon/iEmpleados.php" class="active">Empleados</a></li>
-              <li><a href="admon/iPagos.php" class="active">Pagos</a></li>
-              <li><a href="admon/iPatrocinador.php" class="active">Patrocinador</a></li>
-              <li><a href="admon/iProveedores.php" class="active">Proveedores</a></li>
-              <li><a href="admon/itipoCuenta.php" class="active">Tipo Patrocinador</a></li>
-              <li><a href="admon/itipoPatrocinador">Tipo Patrocinador</a></li>
+              <li><a href="vistas/admon/iCompras.php" class="active">Compras</a></li>
+              <li><a href="vistas/admon/iCuenta.php" class="active">Cuenta</a></li>
+              <li><a href="vistas/admon/iEmpleados.php" class="active">Empleados</a></li>
+              <li><a href="vistas/admon/iPagos.php" class="active">Pagos</a></li>
+              <li><a href="vistas/admon/iPatrocinador.php" class="active">Patrocinador</a></li>
+              <li><a href="vistas/admon/iProveedores.php" class="active">Proveedores</a></li>
+              <li><a href="vistas/admon/itipoCuenta.php" class="active">Tipo Patrocinador</a></li>
+              <li><a href="vistas/admon/itipoPatrocinador">Tipo Patrocinador</a></li>
             </ul>
           </li>
           <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
             <ul id="collapse3" class="list-unstyled collapse">
-              <li><a href="inventario/iBodega.php">Bodega</a></li>
-              <li><a href="inventario/iArea.php">Areas</a></li>
-              <li><a href="inventario/iStock.php">Stock</a></li>
-              <li><a href="inventario/iInsumos.php">Insumos</a></li>
-              <li><a href="inventario/iInsumos.php">Entradas y Salidas</a></li>
-              <li><a href="inventario/iInsumos.php">Tipo Entrada y Salida</a></li>
-              <li><a href="inventario/iInsumos.php">Tipo Insumo</a></li>
+              <li><a href="vistas/inventario/iBodega.php">Bodega</a></li>
+              <li><a href="vistas/inventario/iArea.php">Areas</a></li>
+              <li><a href="vistas/inventario/iStock.php">Stock</a></li>
+              <li><a href="vistas/inventario/iInsumos.php">Insumos</a></li>
+              <li><a href="vistas/inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
+              <li><a href="vistas/inventario/itipoEntradaSalida.php">Tipo Entrada y Salida</a></li>
+              <li><a href="vistas/inventario/itipoInsumo.php">Tipo Insumo</a></li>
 
             </ul>
           </li>
           <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
             <ul id="collapse4" class="list-unstyled collapse">
-              <li><a href="vistas/Bodega.html">Desastres</a></li>
+              <li><a href="vistas/desastres/iDesastres.php">Desastres</a></li>
+              <li><a href="vistas/desastres/itipoDesastre.php">Desastres</a></li>
             </ul>
           </li>
           <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
             <ul id="collapse5" class="list-unstyled collapse">
-              <li><a href="vistas/Beneficiario.html">Beneficiario</a></li>
-              <li><a href="vistas/Beneficiario.html">Albergue</a></li>
-              <li><a href="vistas/Beneficiario.html">Historial SocioEconomico</a></li>
+              <li><a href="vistas/damnificados/iFamilia.php">Familias</a></li>
+              <li><a href="vistas/damnificados/iIntegrante.php">Integrantes</a></li>
+              <li><a href="vistas/damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
+              <li><a href="vistas/damnificados/iAlbergues.php">Albergues</a></li>
+              <li><a href="vistas/damnificados/itipoAlbergue.php">Tipo Albergues</a></li>
             </ul>
           </li>
           <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
             <ul id="collapse6" class="list-unstyled collapse">
-              <li><a href="vistas/reportes/cantidad-entregada-a-las-familias-apadrinadas-por-mes-incluyendo-viveres-que-se-han-entregado.html">Viveres Entregados a cada familia por mes</a></li>
-              <li><a href="vistas/reportes">Albergue</a></li>
-              <li><a href="vistas/reportes">Historial SocioEconomico</a></li>
+              <li><a href="#"</a></li>
+              <li><a href="#">Albergue</a></li>
+              <li><a href="#">Historial SocioEconomico</a></li>
             </ul>
           </li>
         </ul>
