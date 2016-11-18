@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dashboard</title>
     <!-- PACE-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/PACE/themes/blue/pace-theme-flash.css">
-    <script type="text/javascript" src="../../plugins/PACE/pace.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../plugins/PACE/themes/blue/pace-theme-flash.css">
+    <script type="text/javascript" src="../plugins/PACE/pace.min.js"></script>
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/themify-icons/themify-icons.css">
     <!-- Malihu Scrollbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
     <!-- Animo.js-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/animo.js/animate-animo.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/animo.js/animate-animo.min.css">
     <!-- Flag Icons-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/flag-icon-css/css/flag-icon.min.css">
     <!-- Bootstrap Progressbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
     <!-- Morris Chart-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/morris.js/morris.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/morris.js/morris.css">
     <!-- Primary Style-->
-    <link rel="stylesheet" type="text/css" href="../../build/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../build/css/layout.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://--> 
     <!--[if lt IE 9]>
@@ -41,8 +41,8 @@
               <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
           </div>
         </form>
-      </div><a href="dashboard.php" class="brand pull-left"><img src="../../build/images/logo/logo-light.png" alt="" width="100" class="logo">
-      <img src="../../build/images/logo/logo-sm-light.png" alt="" width="28" class="logo-sm"></a>
+      </div><a href="dashboard.php" class="brand pull-left"><img src="../build/images/logo/logo-light.png" alt="" width="100" class="logo">
+      <img src="../build/images/logo/logo-sm-light.png" alt="" width="28" class="logo-sm"></a>
       <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
       <form class="mt-15 mb-15 pull-left hidden-xs">
         <div class="form-group has-feedback mb-0">
@@ -54,7 +54,7 @@
 
         <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
             <div class="media mt-0">
-              <div class="media-left avatar"><img src="../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+              <div class="media-left avatar"><img src="../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
               <div class="media-right media-middle pl-0">
                 <p class="fs-12 text-base mb-0">Jimmy Rodriguez</p>
               </div>
@@ -73,7 +73,7 @@
       <!-- Main Sidebar start-->
       <aside class="main-sidebar">
         <div class="user">
-          <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+          <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
           <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
           <p class="mb-0 text-muted">Analisis y Diseño de sistemas</p>
         </div>
@@ -232,23 +232,23 @@
       <!-- Right Sidebar end-->
     </div>
     <!-- jQuery-->
-    <script type="text/javascript" src="../../plugins/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../plugins/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap JavaScript-->
-    <script type="text/javascript" src="../../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Malihu Scrollbar-->
-    <script type="text/javascript" src="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- Animo.js-->
-    <script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script>
+    <script type="text/javascript" src="../plugins/animo.js/animo.min.js"></script>
     <!-- Bootstrap Progressbar-->
-    <script type="text/javascript" src="../../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script type="text/javascript" src="../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
     <!-- jQuery Easy Pie Chart-->
-    <script type="text/javascript" src="../../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
     <!-- Morris Chart-->
-    <script type="text/javascript" src="../../plugins/morris.js/morris.min.js"></script>
-    <script type="text/javascript" src="../../plugins/raphael/raphael-min.js"></script>
+    <script type="text/javascript" src="../plugins/morris.js/morris.min.js"></script>
+    <script type="text/javascript" src="../plugins/raphael/raphael-min.js"></script>
     <!-- Custom JS-->
-    <script type="text/javascript" src="../../build/js/layout/app.js"></script>
-    <script type="text/javascript" src="../../build/js/layout/demo.js"></script>
-    <script type="text/javascript" src="../../build/js/page-content/charts/morris-charts.js"></script>
+    <script type="text/javascript" src="../build/js/layout/app.js"></script>
+    <script type="text/javascript" src="../build/js/layout/demo.js"></script>
+    <script type="text/javascript" src="../build/js/page-content/charts/morris-charts.js"></script>
   </body>
 </html>
