@@ -71,16 +71,18 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
             </div>
         </form>
     </div>
-    <a href="../../index.php" class="brand pull-left">
-        <img src="../../../build/images/logo/logo-light.png" alt="" width="100" class="logo">
-        <img src="../../../build/images/logo/logo-sm-light.png" alt="" width="28" class="logo-sm">
+    <a href="../../dashboard.php" class="brand pull-left">
+        <img src="../../../build/images/logo/umg.png" alt="" width="50" class="logo">
+        <img src="../../../build/images/logo/umg.png" alt="" width="28" class="logo-sm">
     </a>
     <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
     <ul class="notification-bar list-inline pull-right">
 
-        <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
+        <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button"
+                                          aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
             <div class="media mt-0">
-                <div class="media-left avatar"><img src="../../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+                <div class="media-left avatar"><img src="../../../build/images/users/21.jpg" alt=""
+                                                    class="media-object img-circle"><span class="status bg-success"></span></div>
                 <div class="media-right media-middle pl-0">
                     <p class="fs-12 text-base mb-0">Hola, Jimmy</p>
                 </div>
@@ -105,7 +107,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <!-- Main Sidebar start-->
     <aside class="main-sidebar">
         <div class="user">
-            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../../build/images/users/21.jpg"
+                                                                                                                                                             alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
             <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
             <p class="mb-0 text-muted">Analisis y Diseño </p>
         </div>
@@ -119,7 +122,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 </a>
             </li>
             <li class="panel">
-                <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse2" aria-expanded="false" aria-controls="collapse1" class="bubble active collapsed">
+                <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse2" aria-expanded="false"
+                   aria-controls="collapse1" class="bubble active collapsed">
                     <i class="ti-home"></i>
                     <span class="sidebar-title">Administracion</span>
                 </a>
@@ -132,7 +136,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                     <li><a href="iProveedores.php" class="active">Proveedor</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false"
+                                 aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
                 <ul id="collapse3" class="list-unstyled collapse">
                     <li><a href="../inventario/iBodega.php">Bodega</a></li>
                     <li><a href="../inventario/iAreas.php">Areas</a></li>
@@ -140,19 +145,22 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                     <li><a href="../inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false"
+                                 aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
                 <ul id="collapse4" class="list-unstyled collapse">
                     <li><a href="../desastres/iDesastres.php">Desastres</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false"
+                                 aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
                 <ul id="collapse5" class="list-unstyled collapse">
                     <li><a href="../damnificados/iBeneficiario.php">Beneficiario</a></li>
                     <li><a href="../damnificados/iAlbergues.php">Albergue</a></li>
                     <li><a href="../damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false"
+                                 aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
                 <ul id="collapse6" class="list-unstyled collapse">
                     <li><a href="../../vistas/reportes">Historial SocioEconomico</a></li>
                 </ul>

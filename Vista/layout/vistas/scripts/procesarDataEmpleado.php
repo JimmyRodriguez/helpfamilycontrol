@@ -54,7 +54,7 @@
     }
 */
 
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/SistemaDesastresNaturales/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
 
     switch ($_POST['seleccionarMetodo']){
 

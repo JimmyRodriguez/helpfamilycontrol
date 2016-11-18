@@ -6,7 +6,7 @@
  * Time: 5:36 AM
  */
 
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/SistemaDesastresNaturales/Controlador/PATROCINADOR.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/PATROCINADOR.php');
 
 switch ($_POST['seleccionarMetodo']){
 

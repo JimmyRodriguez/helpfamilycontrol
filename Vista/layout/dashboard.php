@@ -41,8 +41,8 @@
               <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
           </div>
         </form>
-      </div><a href="dashboard.php" class="brand pull-left"><img src="../build/images/logo/logo-light.png" alt="" width="100" class="logo">
-      <img src="../build/images/logo/logo-sm-light.png" alt="" width="28" class="logo-sm"></a>
+      </div><a href="dashboard.php" class="brand pull-left"><img src="../build/images/logo/umg.png" alt="" width="50" class="logo">
+      <img src="../build/images/logo/umg.png" alt="" width="28" class="logo-sm"></a>
       <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
       <form class="mt-15 mb-15 pull-left hidden-xs">
         <div class="form-group has-feedback mb-0">
@@ -65,7 +65,8 @@
             <li><a href="login-v2.html"><i class="ti-power-off mr-5"></i>Salir</a></li>
           </ul>
         </li>
-        <li><a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon"><i class="ti-layout-sidebar-right"></i><span class="dot bg-danger"></span></a></li>
+        <li><a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon">
+            <i class="ti-layout-sidebar-right"></i><span class="dot bg-danger"></span></a></li>
       </ul>
     </header>
     <!-- Header end-->
@@ -73,7 +74,8 @@
       <!-- Main Sidebar start-->
       <aside class="main-sidebar">
         <div class="user">
-          <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+          <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart">
+            <img src="../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
           <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
           <p class="mb-0 text-muted">Analisis y Diseño de sistemas</p>
         </div>
@@ -87,7 +89,8 @@
             </a>
           </li>
           <li class="panel">
-            <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse2" aria-expanded="false" aria-controls="collapse1" class="bubble active collapsed">
+            <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse2" aria-expanded="false"
+               aria-controls="collapse1" class="bubble active collapsed">
               <i class="ti-home"></i>
               <span class="sidebar-title">Administracion</span>
             </a>
@@ -102,7 +105,9 @@
               <li><a href="vistas/admon/itipoPatrocinador">Tipo Patrocinador</a></li>
             </ul>
           </li>
-          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
+          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3"
+                               aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder">
+              </i><span class="sidebar-title">Inventario</span></a>
             <ul id="collapse3" class="list-unstyled collapse">
               <li><a href="vistas/inventario/iBodega.php">Bodega</a></li>
               <li><a href="vistas/inventario/iArea.php">Areas</a></li>
@@ -114,13 +119,17 @@
 
             </ul>
           </li>
-          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
+          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4"
+                               aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad">
+              </i><span class="sidebar-title">Desastres Naturales</span></a>
             <ul id="collapse4" class="list-unstyled collapse">
               <li><a href="vistas/desastres/iDesastres.php">Desastres</a></li>
               <li><a href="vistas/desastres/itipoDesastre.php">Desastres</a></li>
             </ul>
           </li>
-          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
+          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5"
+                               aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user">
+              </i><span class="sidebar-title">Damnificados</span></a>
             <ul id="collapse5" class="list-unstyled collapse">
               <li><a href="vistas/damnificados/iFamilia.php">Familias</a></li>
               <li><a href="vistas/damnificados/iIntegrante.php">Integrantes</a></li>
@@ -129,7 +138,9 @@
               <li><a href="vistas/damnificados/itipoAlbergue.php">Tipo Albergues</a></li>
             </ul>
           </li>
-          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
+          <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6"
+                               aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt">
+              </i><span class="sidebar-title">Reportes</span></a>
             <ul id="collapse6" class="list-unstyled collapse">
               <li><a href="#"</a></li>
               <li><a href="#">Albergue</a></li>

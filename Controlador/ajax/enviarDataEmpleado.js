@@ -30,7 +30,9 @@ function nuevoEmpleado() {
 
     }else if(direccionEmpleado.length == 0){
 
-        window.alert("Ingrese una direccion correcta");
+        emailEmpleado = null;
+
+        //window.alert("Ingrese una direccion correcta");
 
     }else if(fechaNacEmpleado.length == 0){
 
