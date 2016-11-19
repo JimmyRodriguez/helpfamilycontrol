@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controlador/ajax/enviarDataFamilia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vista/layout/vistas/scripts/procesarDataFamilia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controlador/FAMILIA.php" afterPath="$PROJECT_DIR$/Controlador/FAMILIA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataCompras.js" afterPath="$PROJECT_DIR$/Controlador/ajax/enviarDataCompras.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataEmpleado.js" afterPath="$PROJECT_DIR$/Controlador/ajax/enviarDataEmpleado.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/admon/iEmpleados.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/layout/vistas/scripts/procesarDataCompras.php" afterPath="$PROJECT_DIR$/Vista/layout/vistas/scripts/procesarDataCompras.php" />
-    </list>
+    <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="" />
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
