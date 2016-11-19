@@ -1,3 +1,3 @@
 <?php
-header('Location: Vista/layout/login.php');
+header('Location: index/login.php');
 ?>
