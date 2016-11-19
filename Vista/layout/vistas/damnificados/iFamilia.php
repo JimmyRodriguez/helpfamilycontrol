@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Umega App - Responsive web app kit</title>
     <!-- PACE-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/PACE/themes/blue/pace-theme-flash.css">
-    <script type="text/javascript" src="../plugins/PACE/pace.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../plugins/PACE/themes/blue/pace-theme-flash.css">
+    <script type="text/javascript" src="../../../plugins/PACE/pace.min.js"></script>
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/themify-icons/themify-icons.css">
     <!-- Malihu Scrollbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
     <!-- Animo.js-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/animo.js/animate-animo.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/animo.js/animate-animo.min.css">
     <!-- Flag Icons-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/flag-icon-css/css/flag-icon.min.css">
     <!-- Bootstrap Progressbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
     <!-- Toastr-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/toastr/toastr.min.css">
     <!-- SpinKit-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/SpinKit/css/spinners/7-three-bounce.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/SpinKit/css/spinners/7-three-bounce.css">
     <!-- Jvector Map-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/jvectormap/jquery-jvectormap-2.0.3.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/jvectormap/jquery-jvectormap-2.0.3.css">
     <!-- Morris Chart-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/morris.js/morris.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/morris.js/morris.css">
     <!-- DataTables-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-bs/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-colreorder-bs/css/colReorder.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-responsive-bs/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/datatables.net-colreorder-bs/css/colReorder.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/datatables.net-responsive-bs/css/responsive.bootstrap.min.css">
     <!-- Weather Icons-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/weather-icons/css/weather-icons-wind.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/weather-icons/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/weather-icons/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/weather-icons/css/weather-icons.min.css">
     <!-- FullCalendar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/fullcalendar/dist/fullcalendar.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/fullcalendar/dist/fullcalendar.print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/fullcalendar/dist/fullcalendar.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/fullcalendar/dist/fullcalendar.print.css" media="print">
     <!-- jQuery MiniColors-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/jquery-minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/jquery-minicolors/jquery.minicolors.css">
     <!-- Bootstrap Date Range Picker-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="../../../plugins/bootstrap-daterangepicker/daterangepicker.css">
     <!-- Primary Style-->
-    <link rel="stylesheet" type="text/css" href="../../build/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../build/css/layout.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]>
@@ -62,7 +62,8 @@
               <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
             </div>
         </form>
-    </div><a href="index.html" class="brand pull-left"><img src="../../build/images/logo/logo-light.png" alt="" width="100" class="logo"><img src="../build/images/logo/logo-sm-light.png" alt="" width="28" class="logo-sm"></a><a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
+    </div><a href="index.html" class="brand pull-left"><img src="../../../build/images/logo/umg" alt="" width="50" class="logo">
+        <img src="../../../build/images/logo/umg.png" alt="" width="28" class="logo-sm"></a><a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
     <!--form class="mt-15 mb-15 pull-left hidden-xs">
       <div class="form-group has-feedback mb-0">
         <input type="text" aria-describedby="inputSearchFor" placeholder="Search for..." style="width: 200px" class="form-control rounded"><span aria-hidden="true" class="ti-search form-control-feedback"></span><span id="inputSearchFor" class="sr-only">(default)</span>
@@ -83,58 +84,14 @@
                         <div class="media-right text-nowrap">
                             <time datetime="2015-12-10T20:27:48+07:00" class="fs-11">5 mins</time>
                         </div></a></li>
-                    <li class="media"><a href="javascript:;">
-                        <div class="media-left avatar"><img src="../build/images/users/19.jpg" alt="" class="media-object img-circle"><span class="status bg-danger"></span></div>
-                        <div class="media-body">
-                            <h6 class="media-heading">Barbara Ortega</h6>
-                            <p class="text-muted mb-0">Sent you a new email</p>
-                        </div>
-                        <div class="media-right text-nowrap">
-                            <time datetime="2015-12-10T20:42:40+07:00" class="fs-11">8 mins</time>
-                        </div></a></li>
-                    <li class="media"><a href="javascript:;">
-                        <div class="media-left avatar"><img src="../build/images/users/02.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
-                        <div class="media-body">
-                            <h6 class="media-heading">Mark Barnett</h6>
-                            <p class="text-muted mb-0">Sent you a new message</p>
-                        </div>
-                        <div class="media-right text-nowrap">
-                            <time datetime="2015-12-10T20:50:48+07:00" class="fs-11">9 mins</time>
-                        </div></a></li>
-                    <li class="media"><a href="javascript:;">
-                        <div class="media-left avatar"><img src="../build/images/users/11.jpg" alt="" class="media-object img-circle"><span class="status bg-danger"></span></div>
-                        <div class="media-body">
-                            <h6 class="media-heading">Alexander Gilbert</h6>
-                            <p class="text-muted mb-0">Sent you a new email</p>
-                        </div>
-                        <div class="media-right text-nowrap">
-                            <time datetime="2015-12-10T20:42:40+07:00" class="fs-11">15 mins</time>
-                        </div></a></li>
-                    <li class="media"><a href="javascript:;">
-                        <div class="media-left avatar"><img src="../build/images/users/12.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
-                        <div class="media-body">
-                            <h6 class="media-heading">Amanda Collins</h6>
-                            <p class="text-muted mb-0">You have 8 unread messages</p>
-                        </div>
-                        <div class="media-right text-nowrap">
-                            <time datetime="2015-12-10T20:35:35+07:00" class="fs-11">22 mins</time>
-                        </div></a></li>
-                    <li class="media"><a href="javascript:;">
-                        <div class="media-left avatar"><img src="../build/images/users/13.jpg" alt="" class="media-object img-circle"><span class="status bg-warning"></span></div>
-                        <div class="media-body">
-                            <h6 class="media-heading">Christian Lane</h6>
-                            <p class="text-muted mb-0">Commented on your post</p>
-                        </div>
-                        <div class="media-right text-nowrap">
-                            <time datetime="2015-12-10T20:27:48+07:00" class="fs-11">30 mins</time>
-                        </div></a></li>
+
                 </ul>
                 <div class="dropdown-footer text-center p-10"><a href="javascript:;" class="fw-500 text-muted">See all notifications</a></div>
             </div>
         </li>
         <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
             <div class="media mt-0">
-                <div class="media-left avatar"><img src="../build/images/users/04.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+                <div class="media-left avatar"><img src="../../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
                 <div class="media-right media-middle pl-0">
                     <p class="fs-12 text-base mb-0">Hi, Matthew</p>
                 </div>
@@ -1092,61 +1049,61 @@
     <!-- Right Sidebar end-->
 </div>
 <!-- jQuery-->
-<script type="text/javascript" src="../../plugins/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap JavaScript-->
-<script type="text/javascript" src="../../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Malihu Scrollbar-->
-<script type="text/javascript" src="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="../../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- Animo.js-->
-<script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script>
+<script type="text/javascript" src="../../../plugins/animo.js/animo.min.js"></script>
 <!-- Bootstrap Progressbar-->
-<script type="text/javascript" src="../../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<script type="text/javascript" src="../../../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 <!-- jQuery Easy Pie Chart-->
-<script type="text/javascript" src="../../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
 <!-- Toastr-->
-<script type="text/javascript" src="../../plugins/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="../../../plugins/toastr/toastr.min.js"></script>
 <!-- MomentJS-->
-<script type="text/javascript" src="../../plugins/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="../../../plugins/moment/min/moment.min.js"></script>
 <!-- jQuery BlockUI-->
-<script type="text/javascript" src="../../plugins/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../../../plugins/blockUI/jquery.blockUI.js"></script>
 <!-- jQuery Counter Up-->
-<script type="text/javascript" src="../../plugins/jquery-waypoints/waypoints.min.js"></script>
-<script type="text/javascript" src="../../plugins/Counter-Up/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jquery-waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="../../../plugins/Counter-Up/jquery.counterup.min.js"></script>
 <!-- Jvector Map-->
-<script type="text/javascript" src="../../plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
-<script type="text/javascript" src="../../plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
+<script type="text/javascript" src="../../../plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
 <!-- Flot Charts-->
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.js"></script>
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.resize.js"></script>
-<script type="text/javascript" src="../../plugins/flot.curvedlines/curvedLines.js"></script>
-<script type="text/javascript" src="../../plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+<script type="text/javascript" src="../../../plugins/flot/jquery.flot.js"></script>
+<script type="text/javascript" src="../../../plugins/flot/jquery.flot.resize.js"></script>
+<script type="text/javascript" src="../../../plugins/flot.curvedlines/curvedLines.js"></script>
+<script type="text/javascript" src="../../../plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
 <!-- Morris Chart-->
-<script type="text/javascript" src="../../plugins/raphael/raphael-min.js"></script>
-<script type="text/javascript" src="../../plugins/morris.js/morris.min.js"></script>
+<script type="text/javascript" src="../../../plugins/raphael/raphael-min.js"></script>
+<script type="text/javascript" src="../../../plugins/morris.js/morris.min.js"></script>
 <!-- DataTables-->
-<script type="text/javascript" src="../../plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/jszip/dist/jszip.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/pdfmake.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/vfs_fonts.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jszip/dist/jszip.min.js"></script>
+<script type="text/javascript" src="../../../plugins/pdfmake/build/pdfmake.min.js"></script>
+<script type="text/javascript" src="../../../plugins/pdfmake/build/vfs_fonts.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script type="text/javascript" src="../../../plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
 <!-- jQuery UI-->
-<script type="text/javascript" src="../../plugins/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- FullCalendar-->
-<script type="text/javascript" src="../../plugins/fullcalendar/dist/fullcalendar.min.js"></script>
+<script type="text/javascript" src="../../../plugins/fullcalendar/dist/fullcalendar.min.js"></script>
 <!-- jQuery MiniColors-->
-<script type="text/javascript" src="../../plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
+<script type="text/javascript" src="../../../plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
 <!-- Bootstrap Date Range Picker-->
-<script type="text/javascript" src="../../plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="../../../plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- Custom JS-->
-<script type="text/javascript" src="../../build/js/layout/app.js"></script>
-<script type="text/javascript" src="../../build/js/layout/demo.js"></script>
-<script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
+<script type="text/javascript" src="../../../build/js/layout/app.js"></script>
+<script type="text/javascript" src="../../../build/js/layout/demo.js"></script>
+<script type="text/javascript" src="../../../build/js/page-content/dashboard/index.js"></script>
 </body>
 </html>
