@@ -1,3 +1,4 @@
+
 function nuevoEmpleado() {
 
     //declar variables que se necesitan

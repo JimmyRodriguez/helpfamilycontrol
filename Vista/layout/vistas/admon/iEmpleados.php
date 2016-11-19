@@ -56,8 +56,14 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]>
+    <!------datatables--->
+    <link rel="stylesheet" type="text/css" href="../../../DataTables/media/css/jquery.dataTables.min.css">
+
+
+
     <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 </head>
 <body>
@@ -277,7 +283,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 <div class="row" align="center"><h3>INFORMACION DE LOS EMPLEADOS</h3></div>
                 <div class="row">
 
-                    <table class="table table-striped col-lg-6" align="center">
+                    <table id="tableEmpleado" class="table table-striped col-lg-6" align="center">
 
                         <tr>
                             <th>id</th>
@@ -502,7 +508,19 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
         <script type="text/javascript" src="../../../build/js/layout/demo.js"></script>
         <script type="text/javascript" src="../../../build/js/page-content/dashboard/index.js"></script>
 
+        <script type="text/javascript" src="../../../DataTables/media/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="../../../DataTables/media/js/jquery.js"></script>
+
         <script type="text/javascript" src="../../../../Controlador/ajax/enviarDataEmpleado.js"></script>
+        <script>
+
+            //para cargar la tabla
+            $(document).ready(function() {
+                $('#tableEmpleado').DataTable();
+            } );
+
+        </script>
+
 
 </body>
 </html>
