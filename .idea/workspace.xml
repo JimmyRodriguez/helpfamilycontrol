@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/bfc906e4-7090-466d-8cb4-7787d839276e.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/bfc906e4-7090-466d-8cb4-7787d839276e.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/DESASTRE_NATURAL.php" afterPath="$PROJECT_DIR$/index/Controlador/DESASTRE_NATURAL.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" afterPath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" afterPath="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" afterPath="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/tipoDesastre.php" afterPath="$PROJECT_DIR$/index/Controlador/tipoDesastre.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iCompras.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" afterPath="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" afterPath="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,10 +36,10 @@
       <file leaf-file-name="iHistorialSocioEconomico.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
-              <caret line="348" column="106" selection-start-line="348" selection-start-column="106" selection-end-line="348" selection-end-column="106" />
+            <state relative-caret-position="137">
+              <caret line="304" column="127" selection-start-line="304" selection-start-column="127" selection-end-line="304" selection-end-column="127" />
               <folding>
-                <marker date="1479582773000" expanded="true" signature="19832:20345" ph="..." />
+                <marker date="1479596649000" expanded="true" signature="19782:20295" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,13 +48,11 @@
       <file leaf-file-name="enviarDataHistorial.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="212">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
               <folding>
-                <element signature="n#!!block;n#actualizarEmpleado#0" expanded="false" />
-                <element signature="n#!!block;n#consultarEmpleado#0" expanded="false" />
-                <element signature="n#!!block;n#eliminarEmpleado#0" expanded="false" />
-                <element signature="n#!!block;n#pasarIdEmpleado#0" expanded="false" />
+                <element signature="n#!!block;n#eliminarHistorial#0" expanded="false" />
+                <element signature="n#!!block;n#pasarIdHistorial#0" expanded="false" />
                 <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
               </folding>
             </state>
@@ -83,8 +62,8 @@
       <file leaf-file-name="procesarDataHistorialSocioEconomico.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="285">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,13 +148,13 @@
         <option value="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql" />
         <option value="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
       </list>
     </option>
   </component>
@@ -223,118 +202,7 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlador" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controlador" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -423,12 +291,12 @@
       <workItem from="1479282671521" duration="39375000" />
       <workItem from="1479558212794" duration="1360000" />
       <workItem from="1479561354989" duration="758000" />
-      <workItem from="1479563173240" duration="19119000" />
+      <workItem from="1479563173240" duration="22771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60612000" />
+    <option name="totallyTimeSpent" value="64264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1280" height="724" extended-state="0" />
@@ -442,7 +310,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44189602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18659128" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,9 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
           <caret line="275" column="78" selection-start-line="275" selection-start-column="78" selection-end-line="275" selection-end-column="78" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -912,14 +778,6 @@
             <marker date="1479577860000" expanded="true" signature="5913:6563" ph="SELECT idFam... Familia" />
             <marker date="1479577860000" expanded="true" signature="7119:7594" ph="SELECT idEmp... Empleado" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iEmpleados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="504" column="44" selection-start-line="504" selection-start-column="44" selection-end-line="504" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,20 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!block;n#actualizarEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#consultarEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#eliminarEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#pasarIdEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataEmpleado.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -980,14 +824,6 @@
             <element signature="n#!!block;n#pasarIdEmpleado#0" expanded="false" />
             <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,12 +853,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iEmpleados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3806">
+          <caret line="504" column="44" selection-start-line="504" selection-start-column="44" selection-end-line="504" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#eliminarHistorial#0" expanded="false" />
+            <element signature="n#!!block;n#pasarIdHistorial#0" expanded="false" />
+            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="348" column="106" selection-start-line="348" selection-start-column="106" selection-end-line="348" selection-end-column="106" />
+        <state relative-caret-position="137">
+          <caret line="304" column="127" selection-start-line="304" selection-start-column="127" selection-end-line="304" selection-end-column="127" />
           <folding>
-            <marker date="1479582773000" expanded="true" signature="19832:20345" ph="..." />
+            <marker date="1479596649000" expanded="true" signature="19782:20295" ph="..." />
           </folding>
         </state>
       </provider>

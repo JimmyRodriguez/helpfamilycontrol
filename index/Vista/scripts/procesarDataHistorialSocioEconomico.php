@@ -13,13 +13,16 @@ switch ($_POST['seleccionarMetodo']){
     case "nuevoHistorial":
 
         $nuevoHis = new HISTORIAL_SOCIO_ECONOMICO();
-        $respuesta = $nuevoHis->nuevoHistorialSocioEconomico();
+        $respuesta = $nuevoHis->nuevoHistorialSocioEconomico($_POST["idFamilia"],$_POST["descripcionHistorial"],$_POST["fechaHistorial"],
+            $_POST["casaHistorial"],$_POST["materialCasaHistorial"],$_POST["trabajaHistorial"],$_POST["salarioHistorial"],$_POST["empresaHistorial"],
+            $_POST["vehiculoHistorial"]);
 
         echo $respuesta; //devuelve true o false
 
         break;
 
     case "eliminarHistorial":
+
         $eliminarHis = new HISTORIAL_SOCIO_ECONOMICO();
         $respuesta = $eliminarHis->eliminarHistorialSocioEconomico();
 

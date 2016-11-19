@@ -191,7 +191,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
-                            <form id="formEmpleado">
+                            <form id="formHistorialSocioEconomico">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
@@ -201,8 +201,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </div>
                                     <div class="col-md-8">
                                         <div class="form-group">
-                                            <label for="nombreFamilia">Nombre Familia</label>
-                                            <select id="nombreFamilia" class="form-control">
+                                            <label for="idFamilia">Nombre Familia</label>
+                                            <select id="idFamilia" class="form-control">
                                                 <option value="">Seleccione la Familia</option>
                                                 <?php
                                                 $familia = new FAMILIA();
@@ -237,7 +237,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="casaHistorial">¿Tiene Casa?</label>
-                                            <select id="casaHistorial" class="form-control" name="idEstado">
+                                            <select id="casaHistorial" class="form-control">
                                                 <option value="">Selecione respuesta</option>
                                                 <option value="Si">Si</option>
                                                 <option value="No">No</option>
@@ -248,7 +248,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="materialCasaHistorial">¿De que material es?</label>
-                                            <select id="materialCasaHistorial" class="form-control" name="idEstado">
+                                            <select id="materialCasaHistorial" class="form-control">
                                                 <option value="">Seleccionar Material</option>
                                                 <option value="Madera">Madera</option>
                                                 <option value="Lamina">Lamina</option>
@@ -260,7 +260,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="trabajaHistorial">¿Trabaja?</label>
-                                            <select id="trabajaHistorial" class="form-control" name="idEstado">
+                                            <select id="trabajaHistorial" class="form-control">
                                                 <option value="">Seleccione Respuesta</option>
                                                 <option value="Si">Si</option>
                                                 <option value="No">No</option>
@@ -272,7 +272,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="salarioHistorial">¿Cual es su salario?</label>
-                                            <select id="salarioHistorial" class="form-control" name="idEstado">
+                                            <select id="salarioHistorial" class="form-control">
                                                 <option value="">Seleccione salario</option>
                                                 <option value="500-1000">500-1000</option>
                                                 <option value="1001-1500">1001-1500</option>
@@ -293,7 +293,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="vehiculoHistorial">¿Tiene Vehiculo?</label>
-                                            <select id="vehiculoHistorial" class="form-control" name="idEstado">
+                                            <select id="vehiculoHistorial" class="form-control">
                                                 <option value="">Seleccione respuesta</option>
                                                 <option value="Si">Si</option>
                                                 <option value="No">No</option>
@@ -302,7 +302,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">NUEVO</button>
+                                <button type="submit" class="btn btn-outline btn-success" onclick="javascript:nuevoHistorial();">NUEVO HISTORIAL</button>
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -346,10 +346,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                             echo "<td>".$row["empresaHistorial"]."</td>";
                             echo "<td>".$row["vehiculoHistorial"]."</td>";
                             echo "<td>";
-                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarEmpleado($idHistorial);' ></button>"; //jr='edita' id='$idEmpleado'
+                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarHistorial($idHistorial);' ></button>"; //jr='edita' id='$idEmpleado'
                             echo "</td>";
                             echo "<td>";
-                            echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdEmpleado($idHistorial);'></button>";  // id='$idEmpleado'
+                            echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdHistorial($idHistorial);'></button>";  // id='$idEmpleado'
                             echo "</td>";
                             echo "</tr>";
                         }//end foreach
@@ -366,11 +366,11 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                    <h4 class="modal-title" id="myModalLabel">Actualizar Informacion de Empleado</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Actualizar Informacion del Historial SocioEconomico</h4>
                                 </div>
                                 <div class="modal-body">
                                     <form id="formEmpleado">
-                                        <input type="hidden" name="idEmpleadoAct" id="idEmpleadoAct" value=""><!-- aqui se define el valor del idEmpleado -->
+                                        <input type="hidden" name="idHistorialAct" id="idHistorialAct" value=""><!-- aqui se define el valor del idEmpleado -->
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <div class="form-group">
@@ -450,7 +450,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" onclick="javascript:actualizarEmpleado()">Guardar</button>
+                                    <button type="button" class="btn btn-primary" onclick="javascript:actualizarHistorial()">Guardar</button>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -464,10 +464,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         <div class="modal-content">
                             <div class="modal-body">
                                 ¿Quiere eliminar este registro?
-                                <input type="hidden" name="idEmpleadoDel" id="idEmpleadoDel" value=""><!-- aqui se establece el valor del idEmpleado -->
+                                <input type="hidden" name="idHistorialDel" id="idHistorialDel" value=""><!-- aqui se establece el valor del idEmpleado -->
                             </div>
                             <div class="modal-footer">
-                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarEmpleado();"> SI </button>
+                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarHistorial();"> SI </button>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
                             </div>
                         </div>
@@ -537,7 +537,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
 <script type="text/javascript" src="../../build/js/layout/demo.js"></script>
 <script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
 
-<script type="text/javascript" src="../../Controlador/ajax/enviarDataEmpleado.js"></script>
+<script type="text/javascript" src="../../Controlador/ajax/enviarDataHistorial.js"></script>
 <script>
 
     //para cargar la tabla

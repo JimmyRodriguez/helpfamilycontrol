@@ -1,42 +1,46 @@
-function nuevoEmpleado() {
+
+function nuevoHistorial() {
 
     //declar variables que se necesitan
-    var metodo = "nuevoEmpleado";
+    var metodo = "nuevoHistorial";
 
-    var idEstado = document.getElementById("idEstado").value;
-    var idSexo = document.getElementById("idSexo").value;
-    var nombreEmpleado = document.getElementById("nombreEmpleado").value;
-    var dpiEmpleado = document.getElementById("dpiEmpleado").value;
-    var telefonoEmpleado = document.getElementById("telefonoEmpleado").value;
-    var emailEmpleado = document.getElementById("emailEmpleado").value;
-    var direccionEmpleado = document.getElementById("direccionEmpleado").value;;
-    var fechaNacEmpleado = document.getElementById("fechaNacEmpleado").value;
+    var idFamilia = document.getElementById("idFamilia").value;
+    var descripcionHistorial = document.getElementById("descripcionHistorial").value;
+    var fechaHistorial = document.getElementById("fechaHistorial").value;
+    var casaHistorial = document.getElementById("casaHistorial").value;
+    var materialCasaHistorial = document.getElementById("materialCasaHistorial").value;
+    var trabajaHistorial = document.getElementById("trabajaHistorial").value;
+    var salarioHistorial = document.getElementById("salarioHistorial").value;;
+    var empresaHistorial = document.getElementById("empresaHistorial").value;
+    var vehiculoHistorial = document.getElementById("vehiculoHistorial").value;
 
-    if(nombreEmpleado.length == 0){
+    if(descripcionHistorial.length == 0){
 
-        window.alert("Ingrese un nombre de empleado");
+        window.alert("Ingrese un una breve descripcion ");
 
-    }else if(dpiEmpleado.length == 0){
+    }else if(fechaHistorial.length == 0){
 
-        window.alert("Ingrese un numero de dpi");
+        window.alert("Seleccione un fecha");
 
-    }else if(telefonoEmpleado.length == 0){
+    }else if(casaHistorial.length == 0){
 
-        window.alert("Ingrese un numero de telefono");
+        window.alert("Seleccione un valor");
 
-    }else if(emailEmpleado.length == 0){
+    }else if(materialCasaHistorial.length == 0){
 
-        window.alert("Ingrese un correo electronico");
+        window.alert("Seleccione un valor");
 
-    }else if(direccionEmpleado.length == 0){
+    }else if(trabajaHistorial.length == 0){
 
-        emailEmpleado = null;
+        window.alert("Seleccione un valor");
 
-        //window.alert("Ingrese una direccion correcta");
+    }else if(empresaHistorial.length == 0){
 
-    }else if(fechaNacEmpleado.length == 0){
+        window.alert("Ingrese un valor");
 
-        window.alert("Ingrese una fecha valida");
+    }else if(vehiculoHistorial.length == 0){
+
+        window.alert("Seleccione un valor");
     }
     else{
 
@@ -52,39 +56,38 @@ function nuevoEmpleado() {
                 if(xmlhttp.responseText == true){
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    window.alert("El registro del empleado fueron guardados satisfactoriamente");
+                    window.alert("Historial SocioEconomico Guardado correctamente");
 
                 }else{
-                    window.alert("El registro del empleado no se almaceno");
+                    window.alert("El Historial SocioEconomico no se Registro correctamente");
                 }
             }
         }
 
-        var dataForm = "seleccionarMetodo="+metodo+"&idEstado="+idEstado+"&idSexo="+idSexo+"&nombreEmpleado="+
-            nombreEmpleado+"&dpiEmpleado="+dpiEmpleado+"&telefonoEmpleado="+
-            telefonoEmpleado+"&emailEmpleado="+emailEmpleado+"&direccionEmpleado="+direccionEmpleado+"&fechaNacEmpleado="+fechaNacEmpleado;
+        var dataForm = "seleccionarMetodo="+metodo+"&idFamilia="+idFamilia+"&descripcionHistorial="+descripcionHistorial+"&fechaHistorial="+
+            fechaHistorial+"&casaHistorial="+casaHistorial+"&materialCasaHistorial="+materialCasaHistorial+"&trabajaHistorial="+
+            trabajaHistorial+"&salarioHistorial="+salarioHistorial+"&empresaHistorial="+empresaHistorial+"&vehiculoHistorial="+vehiculoHistorial;
 
-        xmlhttp.open("POST","../scripts/procesarDataEmpleado.php",true);
+        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
 
-}//end nuevoEmpleado
+}//end nuevoHistorial
 
-function actualizarEmpleado(){
-    var idEmpleado = $("#idEmpleadoAct").val();
-
+function actualizarHistorial(){
+    var idHistorial = $("#idHistorialAct").val();
 
 }
 
-function consultarEmpleado(idEmp) {
+function consultarHistorial(idHis) {
 
-    $("#idEmpleadoAct").val(idEmp); //este valor se le asigna al <input type="hidden" name="idEmpleadoDel
+    $("#idHistorialAct").val(idHis); //este valor se le asigna al <input type="hidden" name="idEmpleadoDel
     //declar variables que se necesitan
-    var metodo = "consultarEmpleado";
-    var idEmpleado = idEmp
+    var metodo = "consultarHistorial";
+    var idHistorial = idHis;
 
-    if (idEmpleado > 0){
+    if (idHistorial > 0){
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
 
@@ -112,7 +115,7 @@ function consultarEmpleado(idEmp) {
     }
 }
 
-function eliminarEmpleado() {
+function eliminarHistorial() {
     //declar variables que se necesitan
 
     var idEmpleado = $("#idEmpleadoDel").val();
@@ -159,9 +162,9 @@ function eliminarEmpleado() {
 
 }
 
-function pasarIdEmpleado(idEmpleado) {
+function pasarIdHistorial(idHistorial) {
 
-    $("#idEmpleadoDel").val(idEmpleado);
+    $("#idHistorialDel").val(idHistorial);
 
 
 }
