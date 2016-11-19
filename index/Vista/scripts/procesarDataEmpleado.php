@@ -6,55 +6,7 @@
  * Time: 4:10 PM
  */
 
-/*require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/SistemaDesastresNaturales/Controlador/EMPLEADO.php');
-
-
-    if(empty($_POST['idEstado'])){
-
-        return $mensaje = "Ingrese un Estado";
-
-    }else if(empty($_POST['idSexo'])){
-
-        return $mensaje = "Ingrese El sexo";
-
-    }else if(is_numeric($_POST['idEstado']) && is_numeric($_POST['idSexo'])){
-
-        return $mensaje = "los valores no son numericos";
-
-    }else if (empty($_POST['nombreEmpleado'])){
-
-        return $mensaje = "Ingrese el nombre";
-
-    }else if(empty($_POST['dpiEmpleado'])){
-
-        return $mensaje = "Ingrese el numero de dpi";
-
-    }else if(empty($_POST['telefonoEmpleado'])){
-
-        return $mensaje = "Ingrese el numero de telefono";
-
-    }else if(empty($_POST['emailEmpleado'])){
-
-        return $mensaje = "Ingrese el correo electronico";
-
-    }else if(empty($_POST['direccionEmpleado'])){
-
-        return $mensaje = "Ingrese la direccion";
-
-    }else if(empty($_POST['fechaNacimiento'])){
-
-        return $mensaje = "Ingrese la fecha de nacimiento";
-
-    }else{
-
-        $empleado = new EMPLEADO();
-        $empleado->nuevoEmpleado($_POST['idEstado'],$_POST['idSexo'],$_POST['nombreEmpleado'],$_POST['dpiEmpleado'],
-            $_POST['telefonoEmpleado'],$_POST['emailEmpleado'],$_POST['direccionEmpleado'],$_POST['fechaNacimiento']);
-
-    }
-*/
-
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/EMPLEADO.php');
 
     switch ($_POST['seleccionarMetodo']){
 

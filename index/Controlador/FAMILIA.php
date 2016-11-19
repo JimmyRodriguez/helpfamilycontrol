@@ -108,7 +108,7 @@ class FAMILIA
                                                   idDesastre = :d,
                                                   nombreFamilia = f,
                                                   direccionFamilia = g
-                               WHERE idFamiia = :idFamilia";
+                               WHERE idFamilia = :idFamilia";
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
@@ -203,21 +203,22 @@ class FAMILIA
     {
         try{
 
-            $this->stmQuery = "SELECT idEmpleado,nombreEstado,nombreSexo,
-                                          nombreEmpleado,dpiEmpleado,telefonoEmpleado,
-                                          emailEmpleado,direccionEmpleado,fechaNacEmpleado
-                                   FROM Empleado as E, Estado as ES, Sexo as S
-                                   WHERE E.idEstado = ES.idEstado
-                                   AND E.idSexo = S.idSexo";
-
+            $this->stmQuery = "SELECT idFamilia,nombreFamilia,nombreEstado,nombreAlbergue,nombrePatrocinador,nombreTipoDesastre,direccionFamilia
+                                FROM Familia as F, Estado as E, Albergue as A, Patrocinador as P, DesastreNatural as DN, TipoDesastre as TD
+                                WHERE F.idEstado = E.idEstado
+                                AND F.idAlbergue = A.idAlbergue
+                                AND F.idPatrocinador = P.idPatrocinador
+                                AND F.idDesastre = DN.idDesastre
+                                AND DN.idTipoDesastre = TD.idTipoDesastre
+                                ORDER BY nombreTipoDesastre";
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
             $this->bind->execute();
 
-            $this->dataEmpleado = $this->bind->fetchAll();
+            $this->dataFamilia = $this->bind->fetchAll();
 
-            return $this->dataEmpleado;
+            return $this->dataFamilia;
 
         }catch (PDOException $ex){
 
@@ -229,7 +230,7 @@ class FAMILIA
         }
     }//end consultarTodosLosEmpleados
 
-    public function buscarEmpleado($nombre){
+    public function buscarFamilia($nombre){
 
         try{
             $this->stmQuery = "SELECT idEmpleado,nombreEstado,nombreSexo,
@@ -246,9 +247,9 @@ class FAMILIA
             $this->bind->bindParam(":nombre",$nombre);
             $this->bind->execute();
 
-            $this->dataEmpleado = $this->bind->fetchAll();
+            $this->dataFamilia = $this->bind->fetchAll();
 
-            return $this->dataEmpleado;
+            return $this->dataFamilia;
 
         }catch (PDOException $ex){
 

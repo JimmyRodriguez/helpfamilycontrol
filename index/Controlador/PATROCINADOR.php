@@ -83,7 +83,7 @@ class PATROCINADOR
 
         try{
             $this->stmQuery = "SELECT idPatrocinador,nombreTipoPatrocinador,nombrePatrocinador,
-                                      telefonoPatrocinadro,emailPatrocinador,direccionPatrocinador
+                                      telefonoPatrocinador,emailPatrocinador,direccionPatrocinador
                                       FROM Patrocinador as P, TipoPatrocinador as TP, Estado as E
                                       WHERE P.idTipoPatrocinador = TP.idTipoPatrocinador
                                       AND P.idEstado = E.idEstado";
