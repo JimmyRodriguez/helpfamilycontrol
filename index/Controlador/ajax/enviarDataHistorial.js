@@ -14,6 +14,8 @@ function nuevoHistorial() {
     var empresaHistorial = document.getElementById("empresaHistorial").value;
     var vehiculoHistorial = document.getElementById("vehiculoHistorial").value;
 
+   console.log("data idFamilia : " + idFamilia );
+
     if(descripcionHistorial.length == 0){
 
         window.alert("Ingrese un una breve descripcion ");
@@ -103,9 +105,9 @@ function consultarHistorial(idHis) {
         }
 
 
-        var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
+        var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -118,11 +120,11 @@ function consultarHistorial(idHis) {
 function eliminarHistorial() {
     //declar variables que se necesitan
 
-    var idEmpleado = $("#idEmpleadoDel").val();
-    var metodo = "eliminarEmpleado";
+    var idHistorial = $("#idHistorialDel").val();
+    var metodo = "eliminarHistorial";
 
 
-    if (idEmpleado > 0){
+    if (idHistorial > 0){
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
 
@@ -135,13 +137,13 @@ function eliminarHistorial() {
                 if (xmlhttp.responseText == true) {
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    window.alert("El registro  se elimino correctamente");
+                    //window.alert("El registro  se elimino correctamente");
 
                     $(".bd-example-modal-sm").dataset.collapse;
 
                 } else {
 
-                    window.alert("El registro no fue eliminado");
+                    //window.alert("El registro no fue eliminado");
 
                 }
 
@@ -149,9 +151,9 @@ function eliminarHistorial() {
         }
 
 
-        var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
+        var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);

@@ -198,7 +198,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <div class="col-md-8">
                                         <div class="form-group">
                                             <label for="nombreFamilia">Nombres</label>
-                                            <input id="nombreFamilia" type="text" class="form-control">
+                                            <input id="nombreFamilia" type="text" class="form-control" placeholder="apellidos">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -503,7 +503,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
 <script type="text/javascript" src="../../build/js/layout/demo.js"></script>
 <script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
 
-<script type="text/javascript" src="../../../../Controlador/ajax/enviarDataEmpleado.js"></script>
+<script type="text/javascript" src="../../Controlador/ajax/enviarDataFamilia.js"></script>
 <script>
 
     //para cargar la tabla

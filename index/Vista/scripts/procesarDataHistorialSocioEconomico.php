@@ -24,7 +24,7 @@ switch ($_POST['seleccionarMetodo']){
     case "eliminarHistorial":
 
         $eliminarHis = new HISTORIAL_SOCIO_ECONOMICO();
-        $respuesta = $eliminarHis->eliminarHistorialSocioEconomico();
+        $respuesta = $eliminarHis->eliminarHistorialSocioEconomico($_POST["idHistorial"]);
 
         echo $respuesta;
         break;

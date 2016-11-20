@@ -107,8 +107,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
     <!-- Main Sidebar start-->
     <aside class="main-sidebar">
         <div class="user">
-            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../build/images/users/21.jpg"
-                                                                                                                                                             alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
             <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
             <p class="mb-0 text-muted">Analisis y Diseño </p>
         </div>
@@ -195,8 +194,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label for="idFamilia">Id Familia</label>
-                                            <input id="idFamilia" value="" disabled type="text" class="form-control">
+                                            <label for="idFamilia2">Id Familia</label>
+                                            <input id="idFamilia2" value="" disabled type="text" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-md-8">
@@ -281,6 +280,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                                 <option value="3001-4000">3001-4000</option>
                                                 <option value="4001-5000">4001-5000</option>
                                                 <option value="5001- Hacia arriba">5001- Hacia Arriba</option>
+                                                <option value="5001- Hacia arriba">Ninguno</option>
                                             </select>
                                         </div>
                                     </div>
@@ -302,7 +302,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline btn-success" onclick="javascript:nuevoHistorial();">NUEVO HISTORIAL</button>
+                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoHistorial()" >NUEVO HISTORIAL</button>
+                                <a href="iFamilia.php" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">AGREGAR FAMILIA</a>
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -346,7 +347,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                             echo "<td>".$row["empresaHistorial"]."</td>";
                             echo "<td>".$row["vehiculoHistorial"]."</td>";
                             echo "<td>";
-                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarHistorial($idHistorial);' ></button>"; //jr='edita' id='$idEmpleado'
+                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt' data-toggle='modal' data-target='#myModal' onclick='javascript:consultarHistorial($idHistorial);' ></button>"; //jr='edita' id='$idEmpleado'
                             echo "</td>";
                             echo "<td>";
                             echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdHistorial($idHistorial);'></button>";  // id='$idEmpleado'
@@ -380,18 +381,12 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="idSexo">Sexo</label>
-                                                    <select id="idSexo" class="form-control">
-                                                        <option value="">Seleccionar el sexo</option>
-                                                        <?php
-                                                        $sexo = new SEXO();
-                                                        $dataSexo = $sexo->consultarSexo();
 
-                                                        foreach($dataSexo as $row){
-                                                            echo "<option value=".$row["idSexo"].">".$row["nombreSexo"]."</option>";
-                                                        }
-                                                        ?>
-                                                    </select>
+
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -410,18 +405,11 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="idEstado">Estado</label>
-                                                    <select id="idEstado" class="form-control" name="idEstado">
-                                                        <option value="">Seleccionar el Estado</option>
-                                                        <?php
-                                                        $consultar = new ESTADO();
-                                                        $dataEmp = $consultar->consultarEstado();
 
-                                                        foreach($dataEmp as $row){
-                                                            echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
-                                                        }
-                                                        ?>
-                                                    </select>
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -450,7 +438,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" onclick="javascript:actualizarHistorial()">Guardar</button>
+                                    <button type="button" class="btn btn-primary" onclick='javascript:actualizarHistorial()'>Guardar</button>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -467,7 +455,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                 <input type="hidden" name="idHistorialDel" id="idHistorialDel" value=""><!-- aqui se establece el valor del idEmpleado -->
                             </div>
                             <div class="modal-footer">
-                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarHistorial();"> SI </button>
+                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarHistorial();" data-dismiss="modal"> SI </button>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
                             </div>
                         </div>
