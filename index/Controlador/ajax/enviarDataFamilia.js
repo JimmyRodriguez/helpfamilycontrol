@@ -1,10 +1,9 @@
 
-function nuevoFamilia() {
+function nuevaFamilia() {
 
     //declar variables que se necesitan
-    var metodo = "nuevoFamilia";
+    var metodo = "nuevaFamilia";
 
-    var idFamilia = document.getElementById("idFamilia").value;
     var idAlbergue = document.getElementById("idAlbergue").value;
     var idEstado = document.getElementById("idEstado").value;
     var idPatrocinador = document.getElementById("idPatrocinador").value;
@@ -12,15 +11,14 @@ function nuevoFamilia() {
     var nombreFamilia = document.getElementById("nombreFamilia").value;
     var direccionFamilia = document.getElementById("direccionFamilia").value;
 
-    console.log("data idFamilia : " + idFamilia );
 
-    if(idFamilia.length == 0){
+    if(nombreFamilia.length == 0){
 
-        window.alert("Ingrese un una breve descripcion ");
+        window.alert("Ingrese los apellidos de la familia ");
 
-    }else if(fechaHistorial.length == 0){
+    }else if(direccionFamilia.length == 0){
 
-        window.alert("Seleccione un fecha");
+        window.alert("ingrese la direccion ");
 
     }else{
 
@@ -36,19 +34,18 @@ function nuevoFamilia() {
                 if(xmlhttp.responseText == true){
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    window.alert("Historial SocioEconomico Guardado correctamente");
+                    window.alert("El registro de la familia se ha guardado correctamente");
 
                 }else{
-                    window.alert("El Historial SocioEconomico no se Registro correctamente");
+                    window.alert("El registro de la familia no se guardo correctamente");
                 }
             }
         }
 
-        var dataForm = "seleccionarMetodo="+metodo+"&idFamilia="+idFamilia+"&descripcionHistorial="+descripcionHistorial+"&fechaHistorial="+
-            fechaHistorial+"&casaHistorial="+casaHistorial+"&materialCasaHistorial="+materialCasaHistorial+"&trabajaHistorial="+
-            trabajaHistorial+"&salarioHistorial="+salarioHistorial+"&empresaHistorial="+empresaHistorial+"&vehiculoHistorial="+vehiculoHistorial;
+        var dataForm = "seleccionarMetodo="+metodo+"&idAlbergue="+idAlbergue+"&idEstado="+idEstado+"&idPatrocinador="+
+            idPatrocinador+"&idDesastre="+idDesastre+"&nombreFamilia="+nombreFamilia+"&direccionFamilia="+direccionFamilia;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../scripts/procesarDataFamilia.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -98,11 +95,12 @@ function consultarFamilia(idFam) {
 function eliminarFamilia() {
     //declar variables que se necesitan
 
-    var idHistorial = $("#idHistorialDel").val();
-    var metodo = "eliminarHistorial";
+    var idFamilia = $("#idFamiliaDel").val();
+    var metodo = "eliminarFamilia";
 
+    console.log("valor de la variable " + idFamilia  );
 
-    if (idHistorial > 0){
+    if (idFamilia > 0){
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
 
@@ -115,23 +113,24 @@ function eliminarFamilia() {
                 if (xmlhttp.responseText == true) {
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    //window.alert("El registro  se elimino correctamente");
+                    window.alert("El registro  se elimino correctamente");
 
-                    $(".bd-example-modal-sm").dataset.collapse;
+
 
                 } else {
 
-                    //window.alert("El registro no fue eliminado");
+                    window.alert("El registro no fue eliminado : " + xmlhttp.responseText);
 
                 }
 
             }
         }
 
+        console.log("estoy en enviarDataFamilia.js : " + idFamilia);
 
-        var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
+        var dataForm = "seleccionarMetodo=" + metodo + "&idFamilia=" +idFamilia;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../scripts/procesarDataFamilia.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -144,7 +143,7 @@ function eliminarFamilia() {
 
 function pasarIdFamilia(idFamilia) {
 
-    $("#idHistorialDel").val(idHistorial);
+    $("#idFamiliaDel").val(idFamilia);
 
 
 }

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" afterPath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" afterPath="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +65,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="Familia" />
+        <option name="myItemId" value="Integrante" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -73,63 +76,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iFamilia.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
+      <file leaf-file-name="iIntegrante.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="505" column="79" selection-start-line="505" selection-start-column="79" selection-end-line="505" selection-end-column="79" />
+            <state relative-caret-position="105">
+              <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enviarDataFamilia.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js">
+      <file leaf-file-name="procesarDataIntegrante.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="47">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="n#!!block;n#actualizarFamilia#0" expanded="false" />
-                <element signature="n#!!block;n#consultarFamilia#0" expanded="false" />
-                <element signature="n#!!block;n#eliminarFamilia#0" expanded="false" />
-                <element signature="n#!!block;n#pasarIdFamilia#0" expanded="false" />
-                <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
+                <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="procesarDataFamilia.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="217">
+              <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FAMILIA.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Controlador/FAMILIA.php">
+      <file leaf-file-name="INTEGRANTE.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="201" column="43" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
+            <state relative-caret-position="347">
+              <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
               <folding>
-                <marker date="1479577860000" expanded="true" signature="1504:1662" ph="INSERT INTO Empleado... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3003" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3068" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3137" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3206" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3276" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3348" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3402" ph="UPDATE Emple... " />
-                <marker date="1479577860000" expanded="true" signature="2971:3409" ph="UPDATE Famil... " />
-                <marker date="1479577860000" expanded="true" signature="4495:4543" ph="DELETE FROM " />
-                <marker date="1479577860000" expanded="true" signature="5252:5295" ph="SELECT * FRO... Empleado" />
-                <marker date="1479577860000" expanded="true" signature="5252:5302" ph="SELECT * FRO... Familia" />
-                <marker date="1479577860000" expanded="true" signature="5913:6563" ph="SELECT idFam... Familia" />
-                <marker date="1479577860000" expanded="true" signature="7119:7594" ph="SELECT idEmp... Empleado" />
+                <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
+                <marker date="1479668900000" expanded="true" signature="3948:4614" ph="UPDATE Famil... " />
+                <marker date="1479668900000" expanded="true" signature="3948:4624" ph="UPDATE Famil... " />
+                <marker date="1479668900000" expanded="true" signature="5940:5997" ph="DELETE FROM " />
+                <marker date="1479668900000" expanded="true" signature="6731:6787" ph="SELECT * FRO... Familia" />
+                <marker date="1479668900000" expanded="true" signature="7451:7929" ph="SELECT idInt... Integrante" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procesarDataEmpleado.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Vista/layout/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index/login.php" />
@@ -166,7 +166,6 @@
         <option value="$PROJECT_DIR$/index/Controlador/ENTRADASySALIDAS.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ESTADO.php" />
         <option value="$PROJECT_DIR$/index/Controlador/INSUMO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
         <option value="$PROJECT_DIR$/index/Controlador/PAGOS.php" />
         <option value="$PROJECT_DIR$/index/Controlador/PROVEEDOR.php" />
         <option value="$PROJECT_DIR$/index/Controlador/SEXO.php" />
@@ -183,23 +182,25 @@
         <option value="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
         <option value="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
         <option value="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" />
         <option value="$PROJECT_DIR$/index/Controlador/DESASTRE_NATURAL.php" />
         <option value="$PROJECT_DIR$/index/Controlador/tipoDesastre.php" />
         <option value="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
         <option value="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
-        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
         <option value="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
         <option value="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" />
+        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql" />
+        <option value="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
+        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
       </list>
     </option>
   </component>
@@ -336,12 +337,12 @@
       <workItem from="1479282671521" duration="39375000" />
       <workItem from="1479558212794" duration="1360000" />
       <workItem from="1479561354989" duration="758000" />
-      <workItem from="1479563173240" duration="28565000" />
+      <workItem from="1479563173240" duration="39026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70058000" />
+    <option name="totallyTimeSpent" value="80519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1280" height="724" extended-state="0" />
@@ -355,7 +356,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44189602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -382,25 +383,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ALBERGUE.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding>
-            <marker date="1479564961000" expanded="true" signature="1385:1612" ph="INSERT INTO Albergue... " />
-            <marker date="1479564961000" expanded="true" signature="2872:3296" ph="UPDATE Alber... " />
-            <marker date="1479564961000" expanded="true" signature="4359:4410" ph="DELETE FROM " />
-            <marker date="1479564961000" expanded="true" signature="5098:5455" ph="SELECT idAlb... Albergue" />
-            <marker date="1479564961000" expanded="true" signature="6063:6493" ph="SELECT idAlb... Albergue" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCuenta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -540,14 +527,6 @@
             <marker date="1479565113000" expanded="true" signature="7720:8243" ph="SELECT idIns... Insumos" />
             <marker date="1479565113000" expanded="true" signature="8797:9272" ph="SELECT idEmp... Empleado" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1410">
-          <caret line="333" column="112" selection-start-line="333" selection-start-column="112" selection-end-line="333" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -811,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="155" column="27" selection-start-line="147" selection-start-column="0" selection-end-line="155" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataEmpleado.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -836,14 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -866,47 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="305" column="132" selection-start-line="305" selection-start-column="132" selection-end-line="305" selection-end-column="132" />
-          <folding>
-            <marker date="1479600384000" expanded="true" signature="19853:20366" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/FAMILIA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="201" column="43" selection-start-line="201" selection-start-column="43" selection-end-line="201" selection-end-column="43" />
-          <folding>
-            <marker date="1479577860000" expanded="true" signature="1504:1662" ph="INSERT INTO Empleado... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3003" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3068" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3137" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3206" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3276" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3348" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3402" ph="UPDATE Emple... " />
-            <marker date="1479577860000" expanded="true" signature="2971:3409" ph="UPDATE Famil... " />
-            <marker date="1479577860000" expanded="true" signature="4495:4543" ph="DELETE FROM " />
-            <marker date="1479577860000" expanded="true" signature="5252:5295" ph="SELECT * FRO... Empleado" />
-            <marker date="1479577860000" expanded="true" signature="5252:5302" ph="SELECT * FRO... Familia" />
-            <marker date="1479577860000" expanded="true" signature="5913:6563" ph="SELECT idFam... Familia" />
-            <marker date="1479577860000" expanded="true" signature="7119:7594" ph="SELECT idEmp... Empleado" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -918,25 +832,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="457" column="157" selection-start-line="457" selection-start-column="137" selection-end-line="457" selection-end-column="157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="505" column="79" selection-start-line="505" selection-start-column="79" selection-end-line="505" selection-end-column="79" />
+        <state relative-caret-position="1470">
+          <caret line="292" column="46" selection-start-line="292" selection-start-column="46" selection-end-line="292" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="121" column="89" selection-start-line="121" selection-start-column="89" selection-end-line="121" selection-end-column="89" />
           <folding>
+            <element signature="n#!!block;n#nuevaFamilia#0" expanded="false" />
             <element signature="n#!!block;n#actualizarFamilia#0" expanded="false" />
             <element signature="n#!!block;n#consultarFamilia#0" expanded="false" />
-            <element signature="n#!!block;n#eliminarFamilia#0" expanded="false" />
-            <element signature="n#!!block;n#pasarIdFamilia#0" expanded="false" />
             <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/FAMILIA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="153" column="64" selection-start-line="153" selection-start-column="64" selection-end-line="153" selection-end-column="64" />
+          <folding>
+            <marker date="1479654385000" expanded="true" signature="1504:1658" ph="INSERT INTO Empleado... " />
+            <marker date="1479654385000" expanded="true" signature="2967:2999" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3064" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3133" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3202" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3272" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3344" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3398" ph="UPDATE Emple... " />
+            <marker date="1479654385000" expanded="true" signature="2967:3405" ph="UPDATE Famil... " />
+            <marker date="1479654385000" expanded="true" signature="4491:4539" ph="DELETE FROM " />
+            <marker date="1479654385000" expanded="true" signature="5253:5296" ph="SELECT * FRO... Empleado" />
+            <marker date="1479654385000" expanded="true" signature="5253:5303" ph="SELECT * FRO... Familia" />
+            <marker date="1479654385000" expanded="true" signature="5914:6564" ph="SELECT idFam... Familia" />
+            <marker date="1479654385000" expanded="true" signature="7120:7595" ph="SELECT idEmp... Empleado" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+          <folding>
+            <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
+            <marker date="1479668900000" expanded="true" signature="3948:4614" ph="UPDATE Famil... " />
+            <marker date="1479668900000" expanded="true" signature="3948:4624" ph="UPDATE Famil... " />
+            <marker date="1479668900000" expanded="true" signature="5940:5997" ph="DELETE FROM " />
+            <marker date="1479668900000" expanded="true" signature="6731:6787" ph="SELECT * FRO... Familia" />
+            <marker date="1479668900000" expanded="true" signature="7451:7929" ph="SELECT idInt... Integrante" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

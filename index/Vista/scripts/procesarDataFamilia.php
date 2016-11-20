@@ -10,20 +10,25 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
 
 switch ($_POST['seleccionarMetodo']){
 
-    case "nuevoFamilia":
+    case "nuevaFamilia":
 
         $nuevoFam = new FAMILIA();
-        $respuesta = $nuevoFam->nuevaFamilia();
+        $respuesta = $nuevoFam->nuevaFamilia($_POST["idAlbergue"],$_POST["idEstado"],$_POST["idPatrocinador"],
+                                             $_POST["idDesastre"],$_POST["nombreFamilia"],$_POST["direccionFamilia"]);
 
         echo $respuesta; //devuelve true o false
 
         break;
 
     case "eliminarFamilia":
-        $nuevoFam = new FAMILIA();
-        $respuesta = $nuevoFam->eliminarFamilia();
 
-        echo $respuesta;
+        //echo $_POST["seleccionarMetodo"];
+        //echo "Estoy en procesarDataFamilia.php : " .$_POST["idFamilia"];
+
+        $eliminarFam = new FAMILIA();
+        $respuesta = $eliminarFam->eliminarFamilia($_POST["idFamilia"]);
+
+        echo "Respueta de base de datos".$respuesta;
         break;
 
     case "actualizarFamilia":

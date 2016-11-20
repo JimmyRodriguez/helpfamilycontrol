@@ -109,8 +109,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
     <aside class="main-sidebar">
         <div class="user">
             <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart">
-                <img src="../../build/images/users/21.jpg"
-                                                                                                                                                             alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+                <img src="../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
             <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
             <p class="mb-0 text-muted">Analisis y Diseño </p>
         </div>
@@ -221,13 +220,13 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                 <div class="row">
                                     <div class="col-md-4">
                                         <label for="idEstado">Estado</label>
-                                        <select id="idEstado" class="form-control" name="idEstado">
+                                        <select id="idEstado" class="form-control">
                                             <option value="">Seleccionar el Estado</option>
                                             <?php
                                             $consultar = new ESTADO();
-                                            $dataEmp = $consultar->consultarEstado();
+                                            $dataEst = $consultar->consultarEstado();
 
-                                            foreach($dataEmp as $row){
+                                            foreach($dataEst as $row){
                                                 echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
                                             }
                                             ?>
@@ -235,7 +234,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </div>
                                     <div class="col-md-4">
                                         <label for="idPatrocinador">Patrocinador</label>
-                                        <select id="idPatrocinador" class="form-control" name="idEstado">
+                                        <select id="idPatrocinador" class="form-control">
                                             <option value="">Seleccionar Patrocinador</option>
                                             <?php
                                             $patrocinador = new PATROCINADOR();
@@ -249,7 +248,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </div>
                                     <div class="col-md-4">
                                         <label for="idDesastre">Desastre Natural</label>
-                                        <select id="idDesastre" class="form-control" name="idEstado">
+                                        <select id="idDesastre" class="form-control">
                                             <option value="">Seleccione el Tipo de Desastre</option>
                                             <?php
                                             $tipoDesastre = new tipoDesastre();
@@ -271,9 +270,9 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">NUEVA FAMILIA</button>
-                                <a href="iIntegrante.php" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">AGREGAR INTEGRANTES</a>
-                                <a href="iHistorialSocioEconomico.php" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">AGREGAR HISTORIAL SOCIOECONOMICO</a>
+                                <button type="submit" class="btn btn-outline btn-success" onclick="javascript:nuevaFamilia();" data-dismiss="modal">NUEVA FAMILIA</button>
+                                <a href="iIntegrante.php" class="btn btn-outline btn-success">AGREGAR INTEGRANTES</a>
+                                <a href="iHistorialSocioEconomico.php" class="btn btn-outline btn-success">AGREGAR HISTORIAL SOCIOECONOMICO</a>
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -312,10 +311,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                             echo "<td>".$row["nombreTipoDesastre"]."</td>";
                             echo "<td>".$row["direccionFamilia"]."</td>";
                             echo "<td>";
-                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarEmpleado($idFamilia);' ></button>"; //jr='edita' id='$idEmpleado'
+                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarFamilia($idFamilia);' ></button>"; //jr='edita' id='$idEmpleado'
                             echo "</td>";
                             echo "<td>";
-                            echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdEmpleado($idFamilia);'></button>";  // id='$idEmpleado'
+                            echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdFamilia($idFamilia);'></button>";  // id='$idEmpleado'
                             echo "</td>";
                             echo "</tr>";
                         }//end foreach
@@ -335,8 +334,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     <h4 class="modal-title" id="myModalLabel">Actualizar Informacion de Empleado</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <form id="formEmpleado">
-                                        <input type="hidden" name="idEmpleadoAct" id="idEmpleadoAct" value=""><!-- aqui se define el valor del idEmpleado -->
+                                    <form id="formFamilia">
+                                        <input type="hidden" name="idFamiliaAct" id="idFamiliaAct" value=""><!-- aqui se define el valor del idEmpleado -->
                                         <div class="row">
                                             <div class="col-md-8">
                                                 <div class="form-group">
@@ -346,18 +345,9 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="idSexo">Sexo</label>
-                                                    <select id="idSexo" class="form-control">
-                                                        <option value="">Seleccionar el sexo</option>
-                                                        <?php
-                                                        $sexo = new SEXO();
-                                                        $dataSexo = $sexo->consultarSexo();
 
-                                                        foreach($dataSexo as $row){
-                                                            echo "<option value=".$row["idSexo"].">".$row["nombreSexo"]."</option>";
-                                                        }
-                                                        ?>
-                                                    </select>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -376,18 +366,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="idEstado">Estado</label>
-                                                    <select id="idEstado" class="form-control" name="idEstado">
-                                                        <option value="">Seleccionar el Estado</option>
-                                                        <?php
-                                                        $consultar = new ESTADO();
-                                                        $dataEmp = $consultar->consultarEstado();
 
-                                                        foreach($dataEmp as $row){
-                                                            echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
-                                                        }
-                                                        ?>
-                                                    </select>
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -416,7 +398,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" onclick="javascript:actualizarEmpleado()">Guardar</button>
+                                    <button type="button" class="btn btn-primary" onclick="javascript:actualizarFamilia()">Guardar</button>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
@@ -430,10 +412,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         <div class="modal-content">
                             <div class="modal-body">
                                 ¿Quiere eliminar este registro?
-                                <input type="hidden" name="idEmpleadoDel" id="idEmpleadoDel" value=""><!-- aqui se establece el valor del idEmpleado -->
+                                <input type="hidden" name="idFamiliaDel" id="idFamiliaDel" value=""><!-- aqui se establece el valor del idEmpleado -->
                             </div>
                             <div class="modal-footer">
-                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarEmpleado();"> SI </button>
+                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarFamilia();" data-dismiss="modal"> SI </button>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
                             </div>
                         </div>
@@ -502,8 +484,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
 <script type="text/javascript" src="../../build/js/layout/app.js"></script>
 <script type="text/javascript" src="../../build/js/layout/demo.js"></script>
 <script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
-
 <script type="text/javascript" src="../../Controlador/ajax/enviarDataFamilia.js"></script>
+
 <script>
 
     //para cargar la tabla

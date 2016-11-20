@@ -58,7 +58,7 @@ class FAMILIA
 
         try{
             $this->stmQuery = "INSERT INTO Familia(idAlbergue,idEstado,idPatrocinador,idDesastre,nombreFamilia,direccionFamilia)
-                               VALUES(:a,:b,:c,:d,:e,:f,:g,)";
+                               VALUES(:a,:b,:d,:e,:f,:g)";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
@@ -66,8 +66,8 @@ class FAMILIA
 
             $this->bind->bindParam(":a",$this->idAlbergue);
             $this->bind->bindParam(":b",$this->idEstado);
-            $this->bind->bindParam(":c",$this->idPatrocinador);
-            $this->bind->bindParam(":d",$this->idDesastre);
+            $this->bind->bindParam(":d",$this->idPatrocinador);
+            $this->bind->bindParam(":e",$this->idDesastre);
             $this->bind->bindParam(":f",$this->nombreFamilia);
             $this->bind->bindParam(":g",$this->direccionFamilia);
 
@@ -145,13 +145,13 @@ class FAMILIA
         $this->idFamilia = $idFam;
 
         try{
-            $this->stmQuery = "DELETE FROM familia WHERE idFamilia = :idFamilia";
+            $this->stmQuery = "DELETE FROM Familia WHERE idFamilia = :idFamilia";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idFamilia",$idEmpleado);
+            $this->bind->bindParam(":idFamilia",$this->idFamilia);
 
             $this->dataFamilia =  $this->bind->execute();
 

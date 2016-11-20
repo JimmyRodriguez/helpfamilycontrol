@@ -1,8 +1,5 @@
 <?php
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Modelo/BASE_DE_DATOS.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/ESTADO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/SEXO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/EMPLEADO.php');
 
 
 ?>
@@ -191,14 +188,21 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
-                            <form id="formEmpleado">
+                            <form id="formIntegrante">
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="nombreEmpleado">Nombres</label>
-                                            <input id="nombreEmpleado" type="text" class="form-control">
+                                            <label for="nombreIntegrante">Nombres</label>
+                                            <input id="nombreIntegrante" type="text" class="form-control">
                                         </div>
                                     </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="apellidoIntegrante">Apellidos</label>
+                                            <input id="apellidoIntegrante" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="idSexo">Sexo</label>
@@ -269,6 +273,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">NUEVO</button>
+                                <a href="iFamilia.php" class="btn btn-outline btn-success">AGREGAR FAMILIA</a>
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -432,7 +437,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                 <input type="hidden" name="idEmpleadoDel" id="idEmpleadoDel" value=""><!-- aqui se establece el valor del idEmpleado -->
                             </div>
                             <div class="modal-footer">
-                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarEmpleado();"> SI </button>
+                                <button type="button" id="btnEliminar" class="btn btn-primary" onclick="javascript:eliminarEmpleado(); data"> SI </button>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
                             </div>
                         </div>
