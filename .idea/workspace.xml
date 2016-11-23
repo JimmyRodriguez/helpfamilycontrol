@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" afterPath="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" afterPath="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config_global.php" afterPath="$PROJECT_DIR$/config/config_global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" afterPath="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +71,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iIntegrante.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iIntegrante.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="15">
               <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipn/local_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_global.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/config_global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BASE_DE_DATOS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -89,7 +124,7 @@
       <file leaf-file-name="procesarDataIntegrante.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
+            <state relative-caret-position="30">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
@@ -101,7 +136,7 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="2460">
               <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
               <folding />
             </state>
@@ -111,7 +146,7 @@
       <file leaf-file-name="INTEGRANTE.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="3915">
               <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
               <folding>
                 <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
@@ -128,7 +163,7 @@
       <file leaf-file-name="procesarDataEmpleado.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="345">
               <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
               <folding />
             </state>
@@ -150,8 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Vista/layout/login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index/login.php" />
         <option value="$PROJECT_DIR$/index/Vista/dashboard.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
@@ -201,6 +234,8 @@
         <option value="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
         <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
+        <option value="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
+        <option value="$PROJECT_DIR$/config/config_global.php" />
       </list>
     </option>
   </component>
@@ -216,7 +251,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="38" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
   </component>
@@ -245,10 +280,87 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modelo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpfamilycontrol" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -266,7 +378,6 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -337,34 +448,35 @@
       <workItem from="1479282671521" duration="39375000" />
       <workItem from="1479558212794" duration="1360000" />
       <workItem from="1479561354989" duration="758000" />
-      <workItem from="1479563173240" duration="39026000" />
+      <workItem from="1479563173240" duration="39145000" />
+      <workItem from="1479912197910" duration="395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80519000" />
+    <option name="totallyTimeSpent" value="81033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="38" width="1280" height="724" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44189602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44189602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -388,40 +500,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCuenta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/AREA.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -548,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565219000" expanded="true" signature="1014:1028" ph="select * fro... ${TABLAS::$TipoPatrocinador}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,12 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565207000" expanded="true" signature="936:1033" ph="INSERT INTO TipoInsumo... " />
-            <marker date="1479565207000" expanded="true" signature="1839:1997" ph="UPDATE TipoI... " />
-            <marker date="1479565207000" expanded="true" signature="2819:2876" ph="DELETE FROM " />
-            <marker date="1479565207000" expanded="true" signature="3576:3600" ph="SELECT * FRO... TipoInsumo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,12 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565166000" expanded="true" signature="1103:1228" ph="INSERT INTO STOCK... " />
-            <marker date="1479565166000" expanded="true" signature="2211:2474" ph="UPDATE STOCK... " />
-            <marker date="1479565166000" expanded="true" signature="3381:3423" ph="DELETE FROM " />
-            <marker date="1479565166000" expanded="true" signature="4095:4114" ph="SELECT * FRO... STOCK" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,13 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding>
-            <marker date="1479565146000" expanded="true" signature="1082:1370" ph="INSERT INTO Proveedor... " />
-            <marker date="1479565146000" expanded="true" signature="2507:3037" ph="UPDATE Prove... " />
-            <marker date="1479565146000" expanded="true" signature="4135:4191" ph="DELETE FROM " />
-            <marker date="1479565146000" expanded="true" signature="4880:4938" ph="SELECT * FRO... Proveedores" />
-            <marker date="1479565146000" expanded="true" signature="5545:5862" ph="SELECT idPro... Proveedores" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1320">
           <caret line="162" column="33" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="407" column="44" selection-start-line="407" selection-start-column="44" selection-end-line="407" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="190" column="87" selection-start-line="190" selection-start-column="87" selection-end-line="190" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1933">
           <caret line="190" column="81" selection-start-line="190" selection-start-column="81" selection-end-line="190" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3660">
           <caret line="174" column="70" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="504" column="36" selection-start-line="504" selection-start-column="36" selection-end-line="504" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="60" column="7" selection-start-line="9" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,10 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
-          <folding>
-            <marker date="1479572680000" expanded="true" signature="1078:1423" ph="INSERT INTO Patrocinador... " />
-            <marker date="1479572680000" expanded="true" signature="2539:2955" ph="SELECT idPat... Patrocinador" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,16 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
-          <folding>
-            <element signature="e#821#1630#0#PHP" expanded="false" />
-            <element signature="e#1655#2625#0#PHP" expanded="false" />
-            <element signature="e#2655#3416#0#PHP" expanded="false" />
-            <marker date="1479571104000" expanded="true" signature="969:1055" ph="INSERT INTO TipoDesastre... " />
-            <marker date="1479571104000" expanded="true" signature="1863:1978" ph="UPDATE Desas... " />
-            <marker date="1479571104000" expanded="true" signature="2795:2845" ph="DELETE FROM " />
-            <marker date="1479571104000" expanded="true" signature="3580:3632" ph="SELECT * FRO... TipoDesastre" />
-            <marker date="1479571104000" expanded="true" signature="4257:4283" ph="SELECT * FRO... TipoDesastre" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="193" column="58" selection-start-line="193" selection-start-column="58" selection-end-line="193" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3806">
           <caret line="504" column="44" selection-start-line="504" selection-start-column="44" selection-end-line="504" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,12 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!block;n#actualizarEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#consultarEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#pasarIdEmpleado#0" expanded="false" />
-            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,10 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#pasarIdHistorial#0" expanded="false" />
-            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="457" column="157" selection-start-line="457" selection-start-column="137" selection-end-line="457" selection-end-column="157" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="292" column="46" selection-start-line="292" selection-start-column="46" selection-end-line="292" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,12 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="121" column="89" selection-start-line="121" selection-start-column="89" selection-end-line="121" selection-end-column="89" />
-          <folding>
-            <element signature="n#!!block;n#nuevaFamilia#0" expanded="false" />
-            <element signature="n#!!block;n#actualizarFamilia#0" expanded="false" />
-            <element signature="n#!!block;n#consultarFamilia#0" expanded="false" />
-            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,13 +872,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="345">
           <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
           <folding />
         </state>
@@ -902,7 +908,7 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="2460">
           <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
           <folding />
         </state>
@@ -910,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="3915">
           <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
           <folding>
             <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
@@ -925,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="30">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
@@ -935,8 +941,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="15">
           <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipn/local_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
