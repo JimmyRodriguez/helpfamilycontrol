@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config_global.php" afterPath="$PROJECT_DIR$/config/config_global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" afterPath="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/login.php" afterPath="$PROJECT_DIR$/index/login.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -101,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_global.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config_global.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config_global.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -185,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index/login.php" />
         <option value="$PROJECT_DIR$/index/Vista/dashboard.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ALBERGUE.php" />
@@ -236,6 +233,7 @@
         <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
         <option value="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
         <option value="$PROJECT_DIR$/config/config_global.php" />
+        <option value="$PROJECT_DIR$/index/login.php" />
       </list>
     </option>
   </component>
@@ -449,12 +447,12 @@
       <workItem from="1479558212794" duration="1360000" />
       <workItem from="1479561354989" duration="758000" />
       <workItem from="1479563173240" duration="39145000" />
-      <workItem from="1479912197910" duration="395000" />
+      <workItem from="1479912197910" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81033000" />
+    <option name="totallyTimeSpent" value="81163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -947,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ipn/local_config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,6 +965,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>

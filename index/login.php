@@ -1,6 +1,6 @@
 <?php
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/ipn/local_config.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/includes/bootstrap_frontend.php');
+//require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/ipn/local_config.php');
+//require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/includes/bootstrap_frontend.php');
 //require_once("../../ipn/local_config.php");
 //require_once(APP_INC_PATH."../../includes/bootstrap_frontend.php");
 
