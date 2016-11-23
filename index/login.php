@@ -4,7 +4,7 @@
 //require_once("../../ipn/local_config.php");
 //require_once(APP_INC_PATH."../../includes/bootstrap_frontend.php");
 
-sessionsClass::site_protection(true,true,false,false);
+//sessionsClass::site_protection(true,true,false,false);
 
 ?>
 
