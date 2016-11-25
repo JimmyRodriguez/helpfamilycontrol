@@ -225,7 +225,7 @@ class HISTORIAL_SOCIO_ECONOMICO
     {
         try{
 
-            $this->stmQuery = "SELECT idHistorial,fechaHistorial,nombreFamilia,descripionHistorial,casaHistorial,materialCasaHistorial,trabajaHistorial,salarioHistorial,empresaHistorial,vehiculoHistorial
+            $this->stmQuery = "SELECT idHistorial,fechaHistorial,nombreFamilia,descripcionHistorial,casaHistorial,materialCasaHistorial,trabajaHistorial,salarioHistorial,empresaHistorial,vehiculoHistorial
                                   FROM HistorialSocioeconomico AS HS, Familia as F
                                 WHERE HS.idFamilia = F.idFamilia";
 

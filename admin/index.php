@@ -27,8 +27,7 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
                 onLoadLogin();
                 $('.ub_corners').corner('5px');
                 $('.ub_corners3').corner('3px');
-            });
-        </script>
+            });</script>
    
 </head>
 <body id=''>
@@ -45,20 +44,14 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
             
                 <input type='text' id='username_login' class='ub_text_box_small'/>
      
-              
-                
-           
-           
+
            </div>
             <br/>
             &nbsp;password:<br/>
             <div class='ub_text_box_wraps_small ub_corners '>
             
                 <input type='password' id='p1_login' class='ub_text_box_small'/>
-     
-              
-                
-           
+
            
            </div>
                      <button class='ub_buttons ub_corners3' type='submit'>login</button>

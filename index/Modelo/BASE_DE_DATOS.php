@@ -21,9 +21,9 @@ class BASE_DE_DATOS
     public function __construct() //el constructor se inicializa de manera automatica cada vez que yo instacie la clase y cree un objeto de dicha clase
     {
 
-        $this->DB_HOSTNAME = "mysql.hostinger.mx";
-        $this->DB_DATABASE = "u486432772_umgdn";
-        $this->DB_USER = "u486432772_root";
+        $this->DB_HOSTNAME = "localhost";//"mysql.hostinger.mx";
+        $this->DB_DATABASE = "dbHelpFamilyControl";//"u486432772_umgdn";
+        $this->DB_USER = "root" ;//"u486432772_root";
         $this->DB_PASSWORD = "amberley4";
 
 

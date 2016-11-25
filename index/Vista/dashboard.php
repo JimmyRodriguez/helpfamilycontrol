@@ -1,3 +1,15 @@
+<?php
+
+//basic include files
+require_once("../../config/config_global.php");
+require_once("../../includes/bootstrap_frontend.php");
+
+//protecting the page
+sessionsClass::site_protection(true,true,true,false);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -95,13 +107,14 @@
               <span class="sidebar-title">Administracion</span>
             </a>
             <ul id="collapse2" class="list-unstyled collapse">
+              <li><a href="admon/iDeposito.php" class="active">Depositos</a></li>
               <li><a href="admon/iCompras.php" class="active">Compras</a></li>
               <li><a href="admon/iCuenta.php" class="active">Cuenta</a></li>
               <li><a href="admon/iEmpleados.php" class="active">Empleados</a></li>
               <li><a href="admon/iPagos.php" class="active">Pagos</a></li>
               <li><a href="admon/iPatrocinador.php" class="active">Patrocinador</a></li>
               <li><a href="admon/iProveedores.php" class="active">Proveedores</a></li>
-              <li><a href="admon/itipoCuenta.php" class="active">Tipo Patrocinador</a></li>
+              <li><a href="admon/itipoCuenta.php" class="active">Tipo Cuenta</a></li>
               <li><a href="admon/itipoPatrocinador">Tipo Patrocinador</a></li>
             </ul>
           </li>
@@ -131,10 +144,10 @@
                                aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user">
               </i><span class="sidebar-title">Damnificados</span></a>
             <ul id="collapse5" class="list-unstyled collapse">
+              <li><a href="damnificados/iAlbergues.php">Albergues</a></li>
               <li><a href="damnificados/iFamilia.php">Familias</a></li>
               <li><a href="damnificados/iIntegrante.php">Integrantes</a></li>
               <li><a href="damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
-              <li><a href="damnificados/iAlbergues.php">Albergues</a></li>
               <li><a href="damnificados/itipoAlbergue.php">Tipo Albergues</a></li>
             </ul>
           </li>
@@ -143,8 +156,7 @@
               </i><span class="sidebar-title">Reportes</span></a>
             <ul id="collapse6" class="list-unstyled collapse">
               <li><a href="#"</a></li>
-              <li><a href="#">Albergue</a></li>
-              <li><a href="#">Historial SocioEconomico</a></li>
+
             </ul>
           </li>
         </ul>

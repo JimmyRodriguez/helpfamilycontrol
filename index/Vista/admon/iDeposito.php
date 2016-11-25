@@ -7,11 +7,11 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CUENTAS</title>
+    <title>DEPOSITO</title>
     <!-- PACE-->
     <link rel="stylesheet" type="text/css" href="../../plugins/PACE/themes/blue/pace-theme-flash.css">
     <script type="text/javascript" src="../../plugins/PACE/pace.min.js"></script>
@@ -186,7 +186,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
         <div class="page-header container-fluid">
             <div class="row">
                 <div class="col-sm-12 ">
-                    <h4 class="mt-0 mb-5" align="center">CUENTA</h4>
+                    <h4 class="mt-0 mb-5" align="center">DEPOSITOS</h4>
                 </div>
             </div>
         </div>
@@ -202,7 +202,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                 <div class="col-lg-12">
                     <div class="widget">
                         <div class="widget-heading">
-                            <h3 class="widget-title">Formulario de Cuenta</h3>
+                            <h3 class="widget-title">Formulario de Depositos</h3>
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
@@ -290,7 +290,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         </div>
                     </div>
                 </div>
-                <div class="row" align="center"><h3>INFORMACION DE LOS CUENTA</h3></div>
+                <div class="row" align="center"><h3>INFORMACION DE LOS DEPOSITOS</h3></div>
                 <div class="row">
                     <table class="table table-striped col-lg-6" align="center">
                         <tr>

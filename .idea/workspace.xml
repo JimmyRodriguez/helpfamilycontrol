@@ -2,7 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataUsuario.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/corners.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/cp_js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/jquery-1.4.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/jquery-ui-1.8.6.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/jquery.qtip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/js/scroll_int_ub.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/bfc906e4-7090-466d-8cb4-7787d839276e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ALBERGUE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/AREA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/BODEGA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/COMPRAS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/CUENTA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/DEPOSITO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/DESASTRE_NATURAL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/DETALLE_COMPRAS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/EMPLEADO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ENTRADASySALIDAS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ESTADO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/FAMILIA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/INSUMO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/INTEGRANTE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/PAGOS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/PATROCINADOR.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/PROVEEDOR.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/SEXO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/STOCK.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataCompras.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataEmpleado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataFamilia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataHistorial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataInsumo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/ajax/enviarDataPatrocinador.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoAlbergue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoCuenta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoDesastre.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoEntradaSalida.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoInsumo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoIntegrante.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Controlador/tipoPatrocinador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modelo/BASE_DE_DATOS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modelo/TABLAS.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/iCompras.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/iCuenta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/iEmpleados.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/iPagos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/iPatrocinador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/itipoCuenta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/admon/itipoPatrocinador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/damnificados/iAlbergues.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/damnificados/iFamilia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/damnificados/iHistorialSocioEconomico.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/damnificados/iIntegrante.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/damnificados/itipoAlbergue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/inventario/iInsumos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/inventario/itipoEntradaSalida.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/inventario/itipoInsumo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataCompras.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataEmpleado.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataFamilia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataHistorialSocioEconomico.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataIntegrante.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/scripts/procesarDataPatrocinador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/desastres/iDesastres.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/desastres/itipoDesastre.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/inventario/iAreas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/inventario/iBodega.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/inventario/iEntradasYSalidas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/inventario/iStock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/Vista/reportes/ViveresEntregadosPorMes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/ajax/installer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/img/install_button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/img/installer_slicer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/img/logo_installer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/index.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/js/index.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/js/installer_js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/sql/main_sql.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/sql/site_stats_test_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installer/sql/ubase_test_data.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/cp_js.js" afterPath="$PROJECT_DIR$/admin/js/cp_js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config_global.php" afterPath="$PROJECT_DIR$/config/config_global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/ajax/ub_login_user.php" afterPath="$PROJECT_DIR$/index/ajax/ub_login_user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/login.php" afterPath="$PROJECT_DIR$/index/login.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
@@ -25,44 +120,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - dbDesastreNatural@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - dbDesastreNatural@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="TipoDesastre" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - dbDesastreNatural@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Integrante" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -70,102 +127,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iIntegrante.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding>
-                <element signature="e#6#101#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ipn/local_config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_global.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config_global.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BASE_DE_DATOS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="procesarDataIntegrante.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="INTEGRANTE.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3915">
-              <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
-              <folding>
-                <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
-                <marker date="1479668900000" expanded="true" signature="3948:4614" ph="UPDATE Famil... " />
-                <marker date="1479668900000" expanded="true" signature="3948:4624" ph="UPDATE Famil... " />
-                <marker date="1479668900000" expanded="true" signature="5940:5997" ph="DELETE FROM " />
-                <marker date="1479668900000" expanded="true" signature="6731:6787" ph="SELECT * FRO... Familia" />
-                <marker date="1479668900000" expanded="true" signature="7451:7929" ph="SELECT idInt... Integrante" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="procesarDataEmpleado.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
+            <state relative-caret-position="1455">
+              <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -177,6 +143,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -186,56 +153,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index/Vista/dashboard.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/ALBERGUE.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/AREA.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/BODEGA.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/COMPRAS.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/CUENTA.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/DEPOSITO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/DETALLE_COMPRAS.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/EMPLEADO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/ENTRADASySALIDAS.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/ESTADO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/INSUMO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/PAGOS.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/PROVEEDOR.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/SEXO.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/STOCK.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoAlbergue.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoCuenta.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoEntradaSalida.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoInsumo.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoIntegrante.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoPatrocinador.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iPagos.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/DESASTRE_NATURAL.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/tipoDesastre.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" />
-        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
-        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
         <option value="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
         <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql" />
         <option value="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
         <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
-        <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
-        <option value="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
         <option value="$PROJECT_DIR$/config/config_global.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iDeposito.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iPagos.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" />
+        <option value="$PROJECT_DIR$/index/Vista/desastres/itipoDesastre.php" />
+        <option value="$PROJECT_DIR$/index/Vista/desastres/iDesastres.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/iAreas.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/iEntradasYSalidas.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/iInsumos.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/iStock.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/itipoEntradaSalida.php" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/itipoInsumo.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iDeposito.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/DEPOSITO.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index/Vista/registrarUsuario.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a1f209e6-7586-4ad2-bd6e-267d1750dc1c/console.sql" />
+        <option value="$PROJECT_DIR$/index/Vista/inventario/iBodega.php" />
+        <option value="$PROJECT_DIR$/index/pruebaUsuario.php" />
+        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataUsuario.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/USUARIO.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataUsuario.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql" />
+        <option value="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php" />
+        <option value="$PROJECT_DIR$/index/index.php" />
+        <option value="$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/index/js/cp_js.js" />
+        <option value="$PROJECT_DIR$/index/ajax/ub_login_user.php" />
+        <option value="$PROJECT_DIR$/index/Vista/dashboard.php" />
+        <option value="$PROJECT_DIR$/admin/js/cp_js.js" />
         <option value="$PROJECT_DIR$/index/login.php" />
       </list>
     </option>
@@ -252,9 +219,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -282,7 +248,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,68 +266,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modelo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,9 +285,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/index/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/index/Vista" />
       <recent name="$PROJECT_DIR$/index" />
       <recent name="$PROJECT_DIR$/Vista/layout" />
@@ -450,37 +362,44 @@
       <workItem from="1479558212794" duration="1360000" />
       <workItem from="1479561354989" duration="758000" />
       <workItem from="1479563173240" duration="39145000" />
-      <workItem from="1479912197910" duration="610000" />
+      <workItem from="1479912197910" duration="1339000" />
+      <workItem from="1479914981862" duration="7592000" />
+      <workItem from="1479926126485" duration="700000" />
+      <workItem from="1479932354433" duration="1186000" />
+      <workItem from="1479933914330" duration="7106000" />
+      <workItem from="1480001148266" duration="13182000" />
+      <workItem from="1480043150795" duration="2241000" />
+      <workItem from="1480076857661" duration="3454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81248000" />
+    <option name="totallyTimeSpent" value="117438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26898223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44189602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -496,252 +415,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index/Controlador/AREA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565014000" expanded="true" signature="1095:1213" ph="INSERT INTO Areas... " />
-            <marker date="1479565014000" expanded="true" signature="2178:2427" ph="UPDATE Areas... " />
-            <marker date="1479565014000" expanded="true" signature="3257:3295" ph="DELETE FROM " />
-            <marker date="1479565014000" expanded="true" signature="3960:3979" ph="SELECT * FRO... Areas" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/BODEGA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565032000" expanded="true" signature="919:1029" ph="INSERT INTO Bodega... " />
-            <marker date="1479565032000" expanded="true" signature="1800:1980" ph="UPDATE Bodeg... " />
-            <marker date="1479565032000" expanded="true" signature="2780:2825" ph="DELETE FROM " />
-            <marker date="1479565032000" expanded="true" signature="3495:3515" ph="SELECT * FRO... Bodega" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/COMPRAS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565056000" expanded="true" signature="1036:1149" ph="INSERT INTO Pagos... " />
-            <marker date="1479565056000" expanded="true" signature="2053:2240" ph="UPDATE Compr... " />
-            <marker date="1479565056000" expanded="true" signature="3096:3139" ph="DELETE FROM " />
-            <marker date="1479565056000" expanded="true" signature="3814:3835" ph="SELECT * FRO... Compras" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/CUENTA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565056000" expanded="true" signature="1057:1211" ph="INSERT INTO Cuenta... " />
-            <marker date="1479565056000" expanded="true" signature="2092:2391" ph="UPDATE Cuent... " />
-            <marker date="1479565056000" expanded="true" signature="3278:3320" ph="DELETE FROM " />
-            <marker date="1479565056000" expanded="true" signature="3989:4194" ph="SELECT idCue... Cuenta" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/DEPOSITO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="96" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
-          <folding>
-            <marker date="1479565056000" expanded="true" signature="1584:1874" ph="INSERT INTO Deposito... " />
-            <marker date="1479565056000" expanded="true" signature="3360:3946" ph="UPDATE Depos... " />
-            <marker date="1479565056000" expanded="true" signature="5165:5215" ph="DELETE FROM " />
-            <marker date="1479565056000" expanded="true" signature="5906:6263" ph="SELECT idAlb... Albergue" />
-            <marker date="1479565056000" expanded="true" signature="6873:7303" ph="SELECT idAlb... Albergue" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/DETALLE_COMPRAS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ENTRADASySALIDAS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ESTADO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479564944000" expanded="true" signature="800:854" ph="insert into Estado... " />
-            <marker date="1479564944000" expanded="true" signature="1575:1589" ph="select * fro... ${TABLAS::$Estado}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/INSUMO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding>
-            <marker date="1479565113000" expanded="true" signature="1924:2324" ph="INSERT INTO Insumos... " />
-            <marker date="1479565113000" expanded="true" signature="4142:4953" ph="UPDATE Emple... " />
-            <marker date="1479565113000" expanded="true" signature="6338:6389" ph="DELETE FROM " />
-            <marker date="1479565113000" expanded="true" signature="7069:7117" ph="SELECT * FRO... Empleado" />
-            <marker date="1479565113000" expanded="true" signature="7720:8243" ph="SELECT idIns... Insumos" />
-            <marker date="1479565113000" expanded="true" signature="8797:9272" ph="SELECT idEmp... Empleado" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/PAGOS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565126000" expanded="true" signature="1339:1594" ph="INSERT INTO Pagos... " />
-            <marker date="1479565126000" expanded="true" signature="2711:3263" ph="UPDATE Alber... " />
-            <marker date="1479565126000" expanded="true" signature="4348:4387" ph="DELETE FROM " />
-            <marker date="1479565126000" expanded="true" signature="5048:5535" ph="SELECT nombr... Pagos" />
-            <marker date="1479565126000" expanded="true" signature="6090:6646" ph="SELECT nombr... Pagos" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoPatrocinador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoIntegrante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoInsumo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoEntradaSalida.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoCuenta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoAlbergue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/STOCK.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/SEXO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          <folding>
-            <marker date="1479565157000" expanded="true" signature="899:913" ph="select * fro... ${TABLAS::$Sexo}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/PROVEEDOR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCompras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320">
-          <caret line="162" column="33" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="407" column="44" selection-start-line="407" selection-start-column="44" selection-end-line="407" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="190" column="87" selection-start-line="190" selection-start-column="87" selection-end-line="190" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1933">
-          <caret line="190" column="81" selection-start-line="190" selection-start-column="81" selection-end-line="190" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3660">
-          <caret line="174" column="70" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="504" column="36" selection-start-line="504" selection-start-column="36" selection-end-line="504" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iPagos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="60" column="7" selection-start-line="9" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/EMPLEADO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1479565078000" expanded="true" signature="1055:1388" ph="INSERT INTO Empleado... " />
             <marker date="1479565078000" expanded="true" signature="2555:3124" ph="UPDATE Emple... " />
@@ -753,202 +442,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/PATROCINADOR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoDesastre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="204" column="42" selection-start-line="204" selection-start-column="42" selection-end-line="204" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/DESASTRE_NATURAL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#1080#2504#0#PHP" expanded="false" />
-            <element signature="e#2529#4264#0#PHP" expanded="false" />
-            <element signature="e#4294#5034#0#PHP" expanded="false" />
-            <marker date="1479570366000" expanded="true" signature="1453:1678" ph="INSERT INTO Empleado... " />
-            <marker date="1479570366000" expanded="true" signature="2950:3373" ph="UPDATE Emple... " />
-            <marker date="1479570366000" expanded="true" signature="2950:3376" ph="UPDATE Desas... " />
-            <marker date="1479570366000" expanded="true" signature="4418:4468" ph="DELETE FROM " />
-            <marker date="1479570366000" expanded="true" signature="4418:4471" ph="DELETE FROM " />
-            <marker date="1479570366000" expanded="true" signature="5186:5238" ph="SELECT * FRO... Empleado" />
-            <marker date="1479570366000" expanded="true" signature="5186:5241" ph="SELECT * FRO... DesastreNatural" />
-            <marker date="1479570366000" expanded="true" signature="5853:6090" ph="SELECT idDes... DesastreNatural" />
-            <marker date="1479570366000" expanded="true" signature="6649:7124" ph="SELECT idEmp... Empleado" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iProveedores.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="193" column="58" selection-start-line="193" selection-start-column="58" selection-end-line="193" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php">
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ENTRADASySALIDAS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iEmpleados.php">
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ESTADO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3806">
-          <caret line="504" column="44" selection-start-line="504" selection-start-column="44" selection-end-line="504" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataEmpleado.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataHistorialSocioEconomico.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        <state relative-caret-position="-882">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3594#6257#0#PHP" expanded="false" />
-            <element signature="e#6287#7066#0#PHP" expanded="false" />
-            <element signature="e#7093#7826#0#PHP" expanded="false" />
-            <marker date="1479580410000" expanded="true" signature="2090:2476" ph="INSERT INTO Familia... " />
-            <marker date="1479580410000" expanded="true" signature="4299:5119" ph="UPDATE Famil... " />
-            <marker date="1479580410000" expanded="true" signature="4299:5128" ph="UPDATE Histo... " />
-            <marker date="1479580410000" expanded="true" signature="6427:6495" ph="DELETE FROM " />
-            <marker date="1479580410000" expanded="true" signature="7234:7304" ph="SELECT * FRO... HistorialSocioeconomico" />
-            <marker date="1479580410000" expanded="true" signature="7939:8259" ph="SELECT idHis... HistorialSocioeconomico" />
+            <marker date="1479564944000" expanded="true" signature="800:854" ph="insert into Estado... " />
+            <marker date="1479564944000" expanded="true" signature="1575:1589" ph="select * fro... ${TABLAS::$Estado}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="457" column="157" selection-start-line="457" selection-start-column="137" selection-end-line="457" selection-end-column="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="292" column="46" selection-start-line="292" selection-start-column="46" selection-end-line="292" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="121" column="89" selection-start-line="121" selection-start-column="89" selection-end-line="121" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/FAMILIA.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="153" column="64" selection-start-line="153" selection-start-column="64" selection-end-line="153" selection-end-column="64" />
-          <folding>
-            <marker date="1479654385000" expanded="true" signature="1504:1658" ph="INSERT INTO Empleado... " />
-            <marker date="1479654385000" expanded="true" signature="2967:2999" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3064" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3133" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3202" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3272" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3344" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3398" ph="UPDATE Emple... " />
-            <marker date="1479654385000" expanded="true" signature="2967:3405" ph="UPDATE Famil... " />
-            <marker date="1479654385000" expanded="true" signature="4491:4539" ph="DELETE FROM " />
-            <marker date="1479654385000" expanded="true" signature="5253:5296" ph="SELECT * FRO... Empleado" />
-            <marker date="1479654385000" expanded="true" signature="5253:5303" ph="SELECT * FRO... Familia" />
-            <marker date="1479654385000" expanded="true" signature="5914:6564" ph="SELECT idFam... Familia" />
-            <marker date="1479654385000" expanded="true" signature="7120:7595" ph="SELECT idEmp... Empleado" />
-          </folding>
+        <state relative-caret-position="-2850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console.sql">
+    <entry file="file://$PROJECT_DIR$/index/Controlador/INSUMO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" column="27" selection-start-line="158" selection-start-column="0" selection-end-line="164" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="-1500">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/Controlador/INTEGRANTE.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3915">
-          <caret line="266" column="40" selection-start-line="266" selection-start-column="40" selection-end-line="266" selection-end-column="40" />
+        <state relative-caret-position="-1740">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/PAGOS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2712">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/PATROCINADOR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/PROVEEDOR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoCuenta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfc906e4-7090-466d-8cb4-7787d839276e/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/COMPRAS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/CUENTA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoInsumo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1647">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoEntradaSalida.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoDesastre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2577">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/tipoAlbergue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/STOCK.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2082">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/SEXO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479668900000" expanded="true" signature="1949:2231" ph="INSERT INTO Integrante... " />
-            <marker date="1479668900000" expanded="true" signature="3948:4614" ph="UPDATE Famil... " />
-            <marker date="1479668900000" expanded="true" signature="3948:4624" ph="UPDATE Famil... " />
-            <marker date="1479668900000" expanded="true" signature="5940:5997" ph="DELETE FROM " />
-            <marker date="1479668900000" expanded="true" signature="6731:6787" ph="SELECT * FRO... Familia" />
-            <marker date="1479668900000" expanded="true" signature="7451:7929" ph="SELECT idInt... Integrante" />
+            <marker date="1479565157000" expanded="true" signature="899:913" ph="select * fro... ${TABLAS::$Sexo}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1f209e6-7586-4ad2-bd6e-267d1750dc1c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php">
+    <entry file="file://$PROJECT_DIR$/index/Vista/inventario/iBodega.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="204" column="33" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+        <state relative-caret-position="-2640">
+          <caret line="3" column="94" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/pruebaUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipn/local_config.php">
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/USUARIO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#2719#4256#0#PHP" expanded="false" />
+            <element signature="e#4262#4306#0#PHP" expanded="false" />
+            <element signature="e#4312#4353#0#PHP" expanded="false" />
+            <element signature="e#5282#5408#0#PHP" expanded="false" />
+            <marker date="1480031260000" expanded="true" signature="1723:1788" ph="SELECT paswo... USUARIO" />
+            <marker date="1480031260000" expanded="true" signature="1723:1789" ph="/*SELECT pas... " />
+            <marker date="1480031260000" expanded="true" signature="3253:3512" ph="INSERT INTO Usuario... " />
+            <marker date="1480031260000" expanded="true" signature="4520:4583" ph="SELECT nombr... Usuario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataUsuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!block;n#registrarUsuario#0" expanded="false" />
+            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="227" column="87" selection-start-line="227" selection-start-column="87" selection-end-line="227" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ALBERGUE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="135" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c041dbf5-5245-4870-9211-e2f7d8d866be/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -956,29 +691,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
+    <entry file="file://$PROJECT_DIR$/index/js/ubf_js.1.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1374946628000" expanded="true" signature="34380:34391" ph="..." />
+            <marker date="1374946628000" expanded="true" signature="34416:34427" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/ajax/ub_login_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/images/loader/login_loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/unibody.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/unibody_ubase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4110">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/inventario/iAreas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="516" column="93" selection-start-line="460" selection-start-column="0" selection-end-line="516" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/cp_js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="39" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config_global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/cp_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/local_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login_logs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1480079775000" expanded="true" signature="1806:2052" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2073:15073" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2111:4593" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2149:2491" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2164:2478" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2215:2462" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2326:2445" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2539:2695" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2842:3194" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="2893:3180" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="3253:4579" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="3435:4373" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="3599:3976" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="3636:3972" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="3864:3953" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4071:4359" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4386:4567" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4471:4562" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4649:13791" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4717:9523" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4744:5190" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="4895:5026" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="5272:9508" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="5381:5597" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="5462:5581" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="5626:6771" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="5745:5937" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="6000:6755" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="6800:7691" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="6884:7070" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="7002:7021" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="7133:7675" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="7720:8245" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="7804:8001" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="7924:7943" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="8064:8229" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="8274:9053" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="8358:8544" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="8474:8493" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="8607:9037" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9082:9494" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9166:9357" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9291:9310" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9420:9478" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9589:12077" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9639:10020" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9667:10005" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9702:9988" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="9800:9969" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10071:11968" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10099:10819" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10134:10444" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10169:10425" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10214:10295" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10337:10404" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10479:10802" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10514:10783" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10559:10648" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10690:10762" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10847:11560" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10882:11196" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10917:11177" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="10962:11045" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11087:11156" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11231:11543" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11266:11524" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11311:11393" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11435:11503" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11588:11953" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11624:11936" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11659:11917" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11704:11786" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="11828:11896" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="12154:13748" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="12229:12843" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="12944:13740" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="13018:13740" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="13070:13349" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="13385:13733" ph="..." />
+            <marker date="1480079775000" expanded="true" signature="13438:13717" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="1455">
+          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

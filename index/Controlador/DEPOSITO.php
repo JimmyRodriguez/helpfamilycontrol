@@ -185,11 +185,7 @@ class DEPOSITO
 
         try{
 
-            $this->stmQuery = "SELECT idAlbergue,nombreTipoAlbergue,nombreEstado,
-                                      nombreAlbergue,direccionAlbergue,telefonoAlbergue
-                               FROM Albergue as A, TipoAlbergue as TA, Estado as ES
-                               WHERE A.idTipoAlbergue = TA.idTipoAlbergue
-                               AND  A.idEstado = ES.idEstado";
+            $this->stmQuery = "";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
@@ -216,12 +212,7 @@ class DEPOSITO
 
 
         try{
-            $this->stmQuery = "SELECT idAlbergue,nombreTipoAlbergue,nombreEstado,
-                                      nombreAlbergue,direccionAlbergue,telefonoAlbergue
-                               FROM Albergue as A, TipoAlbergue as TA, Estado as ES
-                                WHERE A.idTipoAlbergue = TA.idTipoAlbergue
-                                AND  A.idEstado = ES.idEstado
-                                AND A.nombreAlbergue  LIKE '%:nombre%'";
+            $this->stmQuery = "";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();

@@ -11,15 +11,17 @@ function onLoadLogin(){
 }
 
 function loginUser(){
-	
-	
+
 	//again use jquery for submiting but on userbase give two options
 	
 	$('#submit_login_error').html('');
+
 	var username = $('#username_login').val();
 	var password = hex_md5($('#p1_login').val());
 	var loc = 'admin';
+
 	$('#submit_login_load').fadeIn(100,function(){
+
 		$.post("ajax/ub_login_user.php",{
 
 		  username:username,
@@ -27,6 +29,7 @@ function loginUser(){
           loc:loc
 
 		},function(dataReturn){
+
 			    var obj = jQuery.parseJSON(dataReturn);
 						 
 			    if (obj.Ack=="success"){

@@ -10,9 +10,9 @@
 //this is the configuration file
 
 
-define('DB_HOST', 'mysql.hostinger.mx');
-define('DB_NAME', 'u486432772_umgdn');
-define('DB_USERNAME', 'u486432772_root');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'dbHelpFamilyControl');
+define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'amberley4');
 
 

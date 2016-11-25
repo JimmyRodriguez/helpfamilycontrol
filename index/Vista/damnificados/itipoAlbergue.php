@@ -107,16 +107,16 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
     <!-- Main Sidebar start-->
     <aside class="main-sidebar">
         <div class="user">
-            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart"><img src="../../build/images/users/21.jpg"
-                                                                                                                                                             alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+            <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart">
+                <img src="../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
             <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
-            <p class="mb-0 text-muted">Analisis y Diseño </p>
+            <p class="mb-0 text-muted">Analisis y Diseño de sistemas</p>
         </div>
         <!-- ITEMS DEL MENU-->
         <ul class="list-unstyled navigation mb-0">
             <li class="sidebar-category text-center"><h4>MENU PRINCIPAL</h4></li>
             <li class="panel">
-                <a role="button" href="../dashboard.php" class="bubble active collapse">
+                <a role="button" href=../dashboard.php" class="bubble active collapse">
                     <i class="ti-dashboard"></i>
                     <span class="sidebar-title">Dashboard</span>
                 </a>
@@ -128,41 +128,56 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                     <span class="sidebar-title">Administracion</span>
                 </a>
                 <ul id="collapse2" class="list-unstyled collapse">
-                    <li><a href="iCuenta.php" class="active">Cuenta</a></li>
-                    <li><a href="iPagos.php" class="active">Pagos</a></li>
-                    <li><a href="iCompras.php" class="active">Compras</a></li>
-                    <li><a href="iEmpleados.php" class="active">Empleados</a></li>
-                    <li><a href="iPatrocinador.php" class="active">Patrocinador</a></li>
-                    <li><a href="iProveedores.php" class="active">Proveedor</a></li>
+                    <li><a href="../admon/iDeposito.php" class="active">Depositos</a></li>
+                    <li><a href="../admon/iCompras.php" class="active">Compras</a></li>
+                    <li><a href="../admon/iCuenta.php" class="active">Cuenta</a></li>
+                    <li><a href="../admon/iEmpleados.php" class="active">Empleados</a></li>
+                    <li><a href="../admon/iPagos.php" class="active">Pagos</a></li>
+                    <li><a href="../admon/iPatrocinador.php" class="active">Patrocinador</a></li>
+                    <li><a href="../admon/iProveedores.php" class="active">Proveedores</a></li>
+                    <li><a href="../admon/itipoCuenta.php" class="active">Tipo Cuenta</a></li>
+                    <li><a href="../admon/itipoPatrocinador">Tipo Patrocinador</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3" aria-expanded="false"
-                                 aria-controls="collapse3" class="collapsed"><i class="ti-folder"></i><span class="sidebar-title">Inventario</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse3"
+                                 aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-folder">
+                    </i><span class="sidebar-title">Inventario</span></a>
                 <ul id="collapse3" class="list-unstyled collapse">
                     <li><a href="../inventario/iBodega.php">Bodega</a></li>
                     <li><a href="../inventario/iAreas.php">Areas</a></li>
+                    <li><a href="../inventario/iStock.php">Stock</a></li>
                     <li><a href="../inventario/iInsumos.php">Insumos</a></li>
                     <li><a href="../inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
+                    <li><a href="../inventario/itipoEntradaSalida.php">Tipo Entrada y Salida</a></li>
+                    <li><a href="../inventario/itipoInsumo.php">Tipo Insumo</a></li>
+
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4" aria-expanded="false"
-                                 aria-controls="collapse3" class="collapsed"><i class="ti-face-sad"></i><span class="sidebar-title">Desastres Naturales</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4"
+                                 aria-expanded="false" aria-controls="collapse3" class="collapsed"><i class="ti-face-sad">
+                    </i><span class="sidebar-title">Desastres Naturales</span></a>
                 <ul id="collapse4" class="list-unstyled collapse">
                     <li><a href="../desastres/iDesastres.php">Desastres</a></li>
+                    <li><a href="../desastres/itipoDesastre.php">Desastres</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5" aria-expanded="false"
-                                 aria-controls="collapse4" class="collapsed"><i class="ti-user"></i><span class="sidebar-title">Damnificados</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse5"
+                                 aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-user">
+                    </i><span class="sidebar-title">Damnificados</span></a>
                 <ul id="collapse5" class="list-unstyled collapse">
-                    <li><a href="../damnificados/iBeneficiario.php">Beneficiario</a></li>
-                    <li><a href="../damnificados/iAlbergues.php">Albergue</a></li>
-                    <li><a href="../damnificados/iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
+                    <li><a href="iAlbergues.php">Albergues</a></li>
+                    <li><a href="iFamilia.php">Familias</a></li>
+                    <li><a href="iIntegrante.php">Integrantes</a></li>
+                    <li><a href="iHistorialSocioEconomico.php">Historial SocioEconomico</a></li>
+                    <li><a href="itipoAlbergue.php">Tipo Albergues</a></li>
                 </ul>
             </li>
-            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6" aria-expanded="false"
-                                 aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt"></i><span class="sidebar-title">Reportes</span></a>
+            <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6"
+                                 aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt">
+                    </i><span class="sidebar-title">Reportes</span></a>
                 <ul id="collapse6" class="list-unstyled collapse">
-                    <li><a href="../../vistas/reportes">Historial SocioEconomico</a></li>
+                    <li><a href="#"</a></li>
+
                 </ul>
             </li>
         </ul>
@@ -187,7 +202,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                 <div class="col-lg-12">
                     <div class="widget">
                         <div class="widget-heading">
-                            <h3 class="widget-title">Formulario de Empleados</h3>
+                            <h3 class="widget-title">Formulario de tipos de Albergue</h3>
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
@@ -274,7 +289,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                         </div>
                     </div>
                 </div>
-                <div class="row" align="center"><h3>INFORMACION DE LOS EMPLEADOS</h3></div>
+                <div class="row" align="center"><h3>INFORMACION DE LOS TIPOS DE ALBERGUE</h3></div>
                 <div class="row">
 
                     <table id="tableEmpleado" class="table table-striped col-lg-6" align="center">

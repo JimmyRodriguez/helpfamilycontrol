@@ -18,21 +18,15 @@ sessionsClass::sessionStart();
         //var_dump($_POST);
         if (general::globalIsSet($_POST,$postList)){
 
-            
-    
-            
             //clean up data before it goes in
            
             $username = dbase::globalMagic($_POST['ge_username']);
             $password = dbase::globalMagic($_POST['ge_password']);
             $remember = dbase::globalMagic($_POST['ge_rem_real']);
             $loc        = dbase::globalMagic($_POST['ge_loc']);
-        
-            
+
             $remember = ($remember==1)?true:false;
-            
-            
-       
+
             $validationResponse = validateDataEdit($username,$password);
           
             if ($validationResponse['validAck']=='ok'){
@@ -107,11 +101,6 @@ function validateDataEdit($username,$password){
         $validArray['validAck'] = 'fail';
     }
   
-   
-    
-  
-    
-    
 
     
     return $validArray;
