@@ -70,36 +70,36 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
               <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
             </div>
         </form>
-        <a href="../dashboard.php" class="brand pull-left">
-            <img src="../../build/images/logo/umg.png" alt="" width="50" class="logo">
-            <img src="../../build/images/logo/umg.png" alt="" width="28" class="logo-sm">
-        </a>
-        <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
-        <!--form class="mt-15 mb-15 pull-left hidden-xs">
-          <div class="form-group has-feedback mb-0">
-            <input type="text" aria-describedby="inputSearchFor" placeholder="Search for..." style="width: 200px" class="form-control rounded"><span aria-hidden="true" class="ti-search form-control-feedback"></span><span id="inputSearchFor" class="sr-only">(default)</span>
-          </div>
-        </form-->
-        <ul class="notification-bar list-inline pull-right">
-            <li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
-            <li class="dropdown"><a id="dropdownMenu1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle bubble header-icon"><i class="ti-world"></i><span class="badge bg-danger">6</span></a>
-
-            </li>
-            <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
-                    <div class="media mt-0">
-                        <div class="media-left avatar"><img src="../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
-                        <div class="media-right media-middle pl-0">
-                            <p class="fs-12 text-base mb-0">Hi, Matthew</p>
-                        </div>
-                    </div></a>
-                <ul aria-labelledby="dropdownMenu2" class="dropdown-menu fs-12 animated fadeInDown">
-                    <li><a href="profile.html"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
-                    <li><a href="profile.html"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
-                    <li><a href="../../login.php"><i class="ti-power-off mr-5"></i> Salir</a></li>
-                </ul>
-            </li>
-            <li><a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon"><i class="ti-layout-sidebar-right"></i><span class="dot bg-danger"></span></a></li>
-        </ul>
+    </div>
+    <a href="../dashboard.php" class="brand pull-left">
+        <img src="../../build/images/logo/umg.png" alt="" width="50" class="logo">
+        <img src="../../build/images/logo/umg.png" alt="" width="28" class="logo-sm">
+    </a>
+    <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
+    <ul class="notification-bar list-inline pull-right">
+        <!--li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
+        <li class="dropdown"><a id="dropdownMenu1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle bubble header-icon"><i class="ti-world"></i><span class="badge bg-danger">6</span></a>
+        </li-->
+        <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
+                <div class="media mt-0">
+                    <div class="media-left avatar"><img src="../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+                    <div class="media-right media-middle pl-0">
+                        <p class="fs-12 text-base mb-0">Hola, Jimmy</p>
+                    </div>
+                </div></a>
+            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu fs-12 animated fadeInDown">
+                <li><a href="#"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
+                <li><a href="#"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
+                <li><a href="../login.php"><i class="ti-power-off mr-5"></i> Salir</a></li>
+            </ul>
+        </li>
+        <!--li>
+            <a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon">
+                <i class="ti-layout-sidebar-right"></i>
+                <span class="dot bg-danger"></span>
+            </a>
+        </li-->
+    </ul>
 </header>
 <!-- Header end-->
 <div class="main-container">

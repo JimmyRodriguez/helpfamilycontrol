@@ -1,14 +1,3 @@
-<?php
-
-//basic include files
-require_once("../../config/config_global.php");
-require_once("../../includes/bootstrap_frontend.php");
-
-//protecting the page
-sessionsClass::site_protection(true,true,true,false);
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,32 +42,35 @@ sessionsClass::site_protection(true,true,true,false);
               <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
           </div>
         </form>
-      </div><a href="dashboard.php" class="brand pull-left"><img src="../build/images/logo/umg.png" alt="" width="50" class="logo">
-      <img src="../build/images/logo/umg.png" alt="" width="28" class="logo-sm"></a>
+      </div>
+      <a href="../dashboard.php" class="brand pull-left">
+        <img src="../build/images/logo/umg.png" alt="" width="50" class="logo">
+        <img src="../build/images/logo/umg.png" alt="" width="28" class="logo-sm">
+      </a>
       <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
-      <form class="mt-15 mb-15 pull-left hidden-xs">
-        <div class="form-group has-feedback mb-0">
-          <input type="text" aria-describedby="inputSearchFor" placeholder="Search for..." style="width: 200px" class="form-control rounded"><span aria-hidden="true" class="ti-search form-control-feedback"></span><span id="inputSearchFor" class="sr-only">(default)</span>
-        </div>
-      </form>
       <ul class="notification-bar list-inline pull-right">
-        <li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
-
+        <!--li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
+        <li class="dropdown"><a id="dropdownMenu1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle bubble header-icon"><i class="ti-world"></i><span class="badge bg-danger">6</span></a>
+        </li-->
         <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
             <div class="media mt-0">
               <div class="media-left avatar"><img src="../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
               <div class="media-right media-middle pl-0">
-                <p class="fs-12 text-base mb-0">Jimmy Rodriguez</p>
+                <p class="fs-12 text-base mb-0">Hola, Jimmy</p>
               </div>
             </div></a>
           <ul aria-labelledby="dropdownMenu2" class="dropdown-menu fs-12 animated fadeInDown">
-            <li><a href="profile.html"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
-            <li><a href="profile.html"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
-            <li><a href="login-v2.html"><i class="ti-power-off mr-5"></i>Salir</a></li>
+            <li><a href="#"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
+            <li><a href="#"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
+            <li><a href="../login.php"><i class="ti-power-off mr-5"></i> Salir</a></li>
           </ul>
         </li>
-        <li><a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon">
-            <i class="ti-layout-sidebar-right"></i><span class="dot bg-danger"></span></a></li>
+        <!--li>
+            <a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon">
+                <i class="ti-layout-sidebar-right"></i>
+                <span class="dot bg-danger"></span>
+            </a>
+        </li-->
       </ul>
     </header>
     <!-- Header end-->
@@ -123,7 +115,7 @@ sessionsClass::site_protection(true,true,true,false);
               </i><span class="sidebar-title">Inventario</span></a>
             <ul id="collapse3" class="list-unstyled collapse">
               <li><a href="inventario/iBodega.php">Bodega</a></li>
-              <li><a href="inventario/iArea.php">Areas</a></li>
+              <li><a href="inventario/iAreas.php">Areas</a></li>
               <li><a href="inventario/iStock.php">Stock</a></li>
               <li><a href="inventario/iInsumos.php">Insumos</a></li>
               <li><a href="inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
@@ -165,13 +157,8 @@ sessionsClass::site_protection(true,true,true,false);
       <div class="page-container">
         <div class="page-header container-fluid">
           <div class="row">
-            <div class="col-sm-6">
-              <h4 class="mt-0 mb-5">Morris Charts</h4>
-              <ol class="breadcrumb mb-0">
-                <li><a href="#">Umega</a></li>
-                <li><a href="#">Charts</a></li>
-                <li class="active">Morris Charts</li>
-              </ol>
+            <div class="col-sm-12">
+              <h4 class="mt-0 mb-5" align="center">ESTADISTICAS DE HELP FAMILY CONTROL</h4>
             </div>
           </div>
         </div>
@@ -180,7 +167,7 @@ sessionsClass::site_protection(true,true,true,false);
             <div class="col-md-6">
               <div class="widget">
                 <div class="widget-heading">
-                  <h3 class="widget-title">Bar Chart</h3>
+                  <h3 class="widget-title">FAMILIAS DAMNIFICADAS POR AÑO</h3>
                 </div>
                 <div class="widget-body">
                   <div id="barchart"></div>
@@ -190,44 +177,10 @@ sessionsClass::site_protection(true,true,true,false);
             <div class="col-md-6">
               <div class="widget">
                 <div class="widget-heading">
-                  <h3 class="widget-title">Stacked Bar Chart</h3>
+                  <h3 class="widget-title">NIÑOS DAMNIFICADOS POR AÑO</h3>
                 </div>
                 <div class="widget-body">
                   <div id="stackbarchart"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="widget">
-                <div class="widget-heading">
-                  <h3 class="widget-title">Donut Chart</h3>
-                </div>
-                <div class="widget-body">
-                  <div id="donutchart"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="widget">
-                <div class="widget-heading">
-                  <h3 class="widget-title">Area Chart</h3>
-                </div>
-                <div class="widget-body">
-                  <div id="areachart"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="widget">
-                <div class="widget-heading">
-                  <h3 class="widget-title">Line Chart</h3>
-                </div>
-                <div class="widget-body">
-                  <div id="linechart"></div>
                 </div>
               </div>
             </div>
@@ -264,7 +217,7 @@ sessionsClass::site_protection(true,true,true,false);
     <!-- Malihu Scrollbar-->
     <script type="text/javascript" src="../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- Animo.js-->
-    <script type="text/javascript" src="../plugins/animo.js/animo.min.js"></script>
+    <!--script type="text/javascript" src="../plugins/animo.js/animo.min.js"></script-->
     <!-- Bootstrap Progressbar-->
     <script type="text/javascript" src="../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
     <!-- jQuery Easy Pie Chart-->
