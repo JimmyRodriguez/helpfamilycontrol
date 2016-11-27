@@ -1,8 +1,9 @@
 <?php
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/BASE_DE_DATOS.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/ESTADO.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/COMPRAS.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/INSUMO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/PROVEEDOR.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/DETALLE_COMPRAS.php');
 ?>
 
 <!DOCTYPE html>
@@ -211,15 +212,15 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="idEmpleado">EMPLEADO</label>
-                                            <select id="idSexo" class="form-control">
-                                                <option value="">Seleccionar Empleado</option>
+                                            <label for="idProveedor">PROVEEDOR</label>
+                                            <select id="idProveedor" class="form-control">
+                                                <option value="">Seleccionar Proveedor</option>
                                                 <?php
-                                                $empleado = new EMPLEADO();
-                                                $dataEmpleado = $empleado->consultarTodosEmpleado();
+                                                $proveedor = new PROVEEDOR();
+                                                $dataProveedor = $proveedor->consultarTodosProveedores();
 
-                                                foreach($dataEmpleado as $row){
-                                                    echo "<option value=".$row["idEmpleado"].">".$row["nombreEmpleado"]."</option>";
+                                                foreach($dataProveedor as $row){
+                                                    echo "<option value=".$row["idProveedor"].">".$row["nombreProveedor"]."</option>";
                                                 }
                                                 ?>
                                             </select>
@@ -258,8 +259,8 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                         </tr>
 
                         <?php
-                        $empleado = new Empleado();
-                        $dataEmp = $empleado->consultarTodosEmpleado();
+                        $detalle = new DETALLE_COMPRAS();
+                        $dataDetalle = $detalle;
 
                         foreach($dataEmp as $row){
                             echo "<tr>";

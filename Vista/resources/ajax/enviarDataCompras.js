@@ -8,7 +8,6 @@ function nuevaCompra() {
     var descripcionCompra = document.getElementById("descripcionCompra").value;
     var fechaCompra = document.getElementById("fechaCompra");
 
-
     if(descripcionCompra.length == 0){
 
         window.alert("Ingrese una compra");
@@ -46,7 +45,7 @@ function nuevaCompra() {
         xmlhttp.send(dataForm);
     }
 
-}//end nuevoEmpleado
+}//end nuevoCompra
 
 function actualizarCompra(){
 
@@ -77,9 +76,9 @@ function consultarCompra(idCom) {
         }
 
 
-        var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
+        var dataForm = "seleccionarMetodo=" + metodo + "&idCompras=" +idCompras;
 
-        xmlhttp.open("POST", "../../../Controlador/procesarData/procesarDataCompras.php", true);
+        xmlhttp.open("POST", "../../Controlador/procesarData/procesarDataCompras.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -125,7 +124,7 @@ function eliminarCompra() {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../../../Controlador/procesarData/procesarDataCompras.php", true);
+        xmlhttp.open("POST", "../../Controlador/procesarData/procesarDataCompras.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -136,9 +135,9 @@ function eliminarCompra() {
 
 }
 
-function pasarIdCompra(idEmpleado) {
+function pasarIdCompra(idCompra) {
 
-    $("#idEmpleadoDel").val(idEmpleado);
+    $("#idCompraDel").val(idCompra);
 
 
 }

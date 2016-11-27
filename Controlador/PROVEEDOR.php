@@ -171,7 +171,7 @@ class PROVEEDOR
 
     }
 
-    public function consultarTodosEmpleado()
+    public function consultarTodosProveedores()
     {
         try{
 
