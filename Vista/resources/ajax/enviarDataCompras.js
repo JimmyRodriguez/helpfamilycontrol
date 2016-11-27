@@ -41,7 +41,7 @@ function nuevaCompra() {
 
         var dataForm = "seleccionarMetodo="+metodo+"&idEmpleado="+idEmpleado+"&descripcionCompra="+descripcionCompra+"&fechaCompra="+fechaCompra;
 
-        xmlhttp.open("POST","../scripts/procesarDataCompras.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataCompras.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -79,7 +79,7 @@ function consultarCompra(idCom) {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../scripts/procesarDataCompras.php", true);
+        xmlhttp.open("POST", "../../../Controlador/procesarData/procesarDataCompras.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -125,7 +125,7 @@ function eliminarCompra() {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST", "../../../Controlador/procesarData/procesarDataCompras.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);

@@ -109,7 +109,7 @@
 
 
 <script type="text/javascript" src="js/cp_js.js"></script>
-<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http:/code.jquery.com/jquery.js"></script>
 <script src="resources/js/bootstrap.min.js"></script>
 <script src="resources/js/ubf_js.1.3.js"></script>
 
