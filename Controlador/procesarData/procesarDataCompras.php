@@ -8,7 +8,7 @@
 
 
 
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/COMPRAS.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/COMPRAS.php');
 
 switch ($_POST['seleccionarMetodo']){
 
