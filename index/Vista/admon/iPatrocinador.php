@@ -330,7 +330,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                         echo "<td>".$row["nombreSexo"]."</td>";*/
                                         echo "<td>".$row["nombrePatrocinador"]."</td>";
                                         echo "<td>".$row["nombreTipoPatrocinador"]."</td>";
-                                        echo "<td>".$row["telefonoPatrocinadro"]."</td>";
+                                        echo "<td>".$row["telefonoPatrocinador"]."</td>";
                                         echo "<td>".$row["emailPatrocinador"]."</td>";
                                         echo "<td>".$row["direccionPatrocinador"]."</td>";
 

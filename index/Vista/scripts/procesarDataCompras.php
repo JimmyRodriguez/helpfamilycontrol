@@ -8,14 +8,14 @@
 
 
 
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/COMPRAS');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/COMPRAS.php');
 
 switch ($_POST['seleccionarMetodo']){
 
     case "nuevaCompra":
 
         $nuevoCom = new COMPRAS();
-        $respuesta = $nuevoCom->nuevaCompra();
+        $respuesta = $nuevoCom->nuevaCompra($_POST["idEmpleado"],$_POST["descripcionCompra"],$_POST["fechaCompra"]);
 
         echo $respuesta; //devuelve true o false
 
@@ -23,7 +23,7 @@ switch ($_POST['seleccionarMetodo']){
 
     case "eliminarCompra":
         $eliminarCom = new COMPRAS();
-        $respuesta = $eliminarCom->eliminarCompra();
+        $respuesta = $eliminarCom->eliminarCompra($_POST["idCompra"]);
 
         echo $respuesta;
         break;

@@ -4,42 +4,20 @@ function nuevaCompra() {
     //declar variables que se necesitan
     var metodo = "nuevaCompra";
 
-    var idEstado = document.getElementById("idEstado").value;
-    var idSexo = document.getElementById("idSexo").value;
-    var nombreEmpleado = document.getElementById("nombreEmpleado").value;
-    var dpiEmpleado = document.getElementById("dpiEmpleado").value;
-    var telefonoEmpleado = document.getElementById("telefonoEmpleado").value;
-    var emailEmpleado = document.getElementById("emailEmpleado").value;
-    var direccionEmpleado = document.getElementById("direccionEmpleado").value;;
-    var fechaNacEmpleado = document.getElementById("fechaNacEmpleado").value;
+    var idEmpleado = document.getElementById("idEmpleado").value;
+    var descripcionCompra = document.getElementById("descripcionCompra").value;
+    var fechaCompra = document.getElementById("fechaCompra");
 
-    if(nombreEmpleado.length == 0){
 
-        window.alert("Ingrese un nombre de empleado");
+    if(descripcionCompra.length == 0){
 
-    }else if(dpiEmpleado.length == 0){
+        window.alert("Ingrese una compra");
 
-        window.alert("Ingrese un numero de dpi");
+    }else if(fechaCompra.length == 0){
 
-    }else if(telefonoEmpleado.length == 0){
+        window.alert("Ingrese una fecha de compra");
 
-        window.alert("Ingrese un numero de telefono");
-
-    }else if(emailEmpleado.length == 0){
-
-        window.alert("Ingrese un correo electronico");
-
-    }else if(direccionEmpleado.length == 0){
-
-        emailEmpleado = null;
-
-        //window.alert("Ingrese una direccion correcta");
-
-    }else if(fechaNacEmpleado.length == 0){
-
-        window.alert("Ingrese una fecha valida");
-    }
-    else{
+    } else{
 
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
@@ -53,19 +31,17 @@ function nuevaCompra() {
                 if(xmlhttp.responseText == true){
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    window.alert("El registro del empleado fueron guardados satisfactoriamente");
+                    window.alert("La compra se registro Satisfactoriamente, ingrese el detalle");
 
                 }else{
-                    window.alert("El registro del empleado no se almaceno");
+                    window.alert("Verifique porque no se guardo la compra");
                 }
             }
         }
 
-        var dataForm = "seleccionarMetodo="+metodo+"&idEstado="+idEstado+"&idSexo="+idSexo+"&nombreEmpleado="+
-            nombreEmpleado+"&dpiEmpleado="+dpiEmpleado+"&telefonoEmpleado="+
-            telefonoEmpleado+"&emailEmpleado="+emailEmpleado+"&direccionEmpleado="+direccionEmpleado+"&fechaNacEmpleado="+fechaNacEmpleado;
+        var dataForm = "seleccionarMetodo="+metodo+"&idEmpleado="+idEmpleado+"&descripcionCompra="+descripcionCompra+"&fechaCompra="+fechaCompra;
 
-        xmlhttp.open("POST","../scripts/procesarDataEmpleado.php",true);
+        xmlhttp.open("POST","../scripts/procesarDataCompras.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -73,19 +49,19 @@ function nuevaCompra() {
 }//end nuevoEmpleado
 
 function actualizarCompra(){
-    var idEmpleado = $("#idEmpleadoAct").val();
 
+    var idCompra = $("#idCompraAct").val();
 
 }
 
-function consultarEmpleado(idEmp) {
+function consultarCompra(idCom) {
 
-    $("#idEmpleadoAct").val(idEmp); //este valor se le asigna al <input type="hidden" name="idEmpleadoDel
+    $("#idComprasAct").val(idCom); //este valor se le asigna al <input type="hidden" name="idEmpleadoDel
     //declar variables que se necesitan
-    var metodo = "consultarEmpleado";
-    var idEmpleado = idEmp
+    var metodo = "consultarCompra";
+    var idCompras = idCom
 
-    if (idEmpleado > 0){
+    if (idCompras > 0){
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
 
@@ -103,7 +79,7 @@ function consultarEmpleado(idEmp) {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST", "../scripts/procesarDataCompras.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -116,11 +92,11 @@ function consultarEmpleado(idEmp) {
 function eliminarCompra() {
     //declar variables que se necesitan
 
-    var idEmpleado = $("#idEmpleadoDel").val();
-    var metodo = "eliminarEmpleado";
+    var idCompra = $("#idCompraDel").val();
+    var metodo = "eliminarCompra";
 
 
-    if (idEmpleado > 0){
+    if (idCompra > 0){
         //llamar la funcion crearXmlHttpRequest que me devuelva el objeto xmlhttp
         xmlhttp = crearXmlHttpRequest();
 

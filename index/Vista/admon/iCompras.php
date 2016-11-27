@@ -1,13 +1,14 @@
 <?php
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Modelo/BASE_DE_DATOS.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/ESTADO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/SEXO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/COMPRAS.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/EMPLEADO.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,8 +66,9 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
     <div class="search-bar closed">
         <form>
             <div class="input-group input-group-lg">
-                <input type="text" placeholder="Search for..." class="form-control"><span class="input-group-btn">
-              <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
+                <input type="text" placeholder="..........." class="form-control"><span class="input-group-btn">
+              <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button>
+                </span>
             </div>
         </form>
     </div>
@@ -149,7 +151,6 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                     <li><a href="../inventario/iEntradasYSalidas.php">Entradas y Salidas</a></li>
                     <li><a href="../inventario/itipoEntradaSalida.php">Tipo Entrada y Salida</a></li>
                     <li><a href="../inventario/itipoInsumo.php">Tipo Insumo</a></li>
-
                 </ul>
             </li>
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse4"
@@ -196,6 +197,13 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
             <div class="row">
 
 
+
+
+
+
+
+
+
             </div>
             <!----------->
             <div class="row">
@@ -208,53 +216,17 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
                             <form>
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="nombreEmpleado">Nombres</label>
-                                            <input id="nombreEmpleado" type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="idSexo">Sexo</label>
-                                            <select id="idSexo" class="form-control">
-                                                <option value="">Seleccionar el sexo</option>
+                                            <label for="idEmpleado">EMPLEADO</label>
+                                            <select id="idEmpleado" class="form-control">
+                                                <option value="">Seleccionar Empleado</option>
                                                 <?php
-                                                $sexo = new SEXO();
-                                                $dataSexo = $sexo->consultarSexo();
+                                                $empleado = new EMPLEADO();
+                                                $dataEmpleado = $empleado->consultarTodosEmpleado();
 
-                                                foreach($dataSexo as $row){
-                                                    echo "<option value=".$row["idSexo"].">".$row["nombreSexo"]."</option>";
-                                                }
-                                                ?>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="dpiEmpleado">No. DPI</label>
-                                            <input id="dpiEmpleado" type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="telefonoEmpleado">Telefono</label>
-                                            <input id="telefonoEmpleado" type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="idEstado">Estado</label>
-                                            <select id="idEstado" class="form-control" name="idEstado">
-                                                <option value="">Seleccionar el Estado</option>
-                                                <?php
-                                                $consultar = new ESTADO();
-                                                $dataEmp = $consultar->consultarEstado();
-
-                                                foreach($dataEmp as $row){
-                                                    echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
+                                                foreach($dataEmpleado as $row){
+                                                    echo "<option value=".$row["idEmpleado"].">".$row["nombreEmpleado"]."</option>";
                                                 }
                                                 ?>
                                             </select>
@@ -264,27 +236,22 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="fechaNacEmpleado">Fecha Nacimiento</label>
-                                            <input id="fechaNacEmpleado" type="date" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="emailEmpleado">Email</label>
-                                            <input id="emailEmpleado"  type="text" class="form-control">
+                                            <label for="fechaCompra">FECHA DE COMPRA</label>
+                                            <input id="fechaCompra" type="date" class="form-control">
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="direccionEmpleado">Direccion</label>
-                                            <input id="direccionEmpleado" type="text" class="form-control">
+                                            <label for="descripcionCompra">DESCRIPCION</label>
+                                            <input id="descripcionCompra" type="text" class="form-control">
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">NUEVO</button>
-                                <button type="submit" class="btn btn-outline btn">ACTUALIZAR</button>
+                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevaCompra()">GUARDAR</button>
+                                <a href="iDetalleCompras.php" class="btn btn-outline btn-success">NUEVO DETALLE</a>
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -295,40 +262,38 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
                     <table class="table table-striped col-lg-6" align="center">
                         <tr>
                             <th>Codigo</th>
-                            <!--th>Estado</th>
-                            <th>Sexo</th-->
-                            <th>Nombre</th>
-                            <th>Dpi</th>
-                            <th>Telefono</th>
-                            <th>Email</th>
-                            <th>Direccion</th>
-                            <th>Fecha Nac</th>
+                            <th>Fecha</th>
+                            <th>Descripcion</th>
+                            <th>Empleado</th>
                         </tr>
 
                         <?php
-                        $empleado = new Empleado();
-                        $dataEmp = $empleado->consultarTodosEmpleado();
 
-                        foreach($dataEmp as $row){
-                            echo "<tr>";
-                            echo "<td value=".$row["idEmpleado"].">".$row["idEmpleado"]."</td>";
-                            /*echo "<td>".$row["nombreEstado"]."</td>";
-                            echo "<td>".$row["nombreSexo"]."</td>";*/
-                            echo "<td>".$row["nombreEmpleado"]."</td>";
-                            echo "<td>".$row["dpiEmpleado"]."</td>";
-                            echo "<td>".$row["telefonoEmpleado"]."</td>";
-                            echo "<td>".$row["emailEmpleado"]."</td>";
-                            echo "<td>".$row["direccionEmpleado"]."</td>";
-                            echo "<td>".$row["fechaNacEmpleado"]."</td>";
+                            $compras = new COMPRAS();
+                            $dataCompras = $compras->consultarTodasCompras();
+                            $idCompra ="";
 
-                            echo "<td class='col-lg-6'>";
-                            echo "<button type='button' class='btn btn-outline btn-success' onclick='actualizarEmpleado()'>Actualizar</button>";
-                            echo "</td>";
-                            echo "<td>";
-                            echo "<button type='submit' class='btn btn-outline btn-danger' onclick='eliminarEmpleado()'>Eliminar</button>";
-                            echo "</td>";
-                            echo "</tr>";
-                        }
+                            foreach($dataCompras as $row)
+                            {
+
+                                $idCompra =$row['idCompra'];
+
+                                echo "<tr>";
+                                echo "<td aling='center' value=".$row["idCompra"].">".$row["idCompra"]."</td>";
+                                echo "<td>".$row["fechaCompra"]."</td>";
+                                echo "<td>".$row["descripcionCompra"]."</td>";
+                                echo "<td>".$row["nombreEmpleado"]."</td>";
+                                echo "<td>";
+                                echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal'
+                                              onclick='javascript:consultarCompra($idCompra);' ></button>"; //jr='edita' id='$idEmpleado'
+                                echo "</td>";
+                                echo "<td>";
+                                echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' 
+                                              onclick='javascript:pasarIdCompra($idCompra);'></button>";  // id='$idEmpleado'
+                                echo "</td>";
+                                echo "</tr>";
+
+                        }//end foreach
                         ?>
                     </table>
                 </div>
@@ -401,6 +366,6 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Cont
         <script type="text/javascript" src="../../build/js/layout/demo.js"></script>
         <script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
 
-        <script type="text/javascript" src="../../Controlador/ajax/enviarDataEmpleado.js"></script>
+        <script type="text/javascript" src="../../Controlador/ajax/enviarDataCompras.js"></script>
 </body>
 </html>

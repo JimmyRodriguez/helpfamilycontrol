@@ -10,7 +10,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Mode
  */
 class PATROCINADOR
 {
-    //private $idPatrocinador;
+    private $idPatrocinador;
     private $idTipoPatrocinador;
     private $idEstado;
     private $nombrePatrocinador;
@@ -33,26 +33,43 @@ class PATROCINADOR
         $this->stmQuery = null;
         $this->bind = null;
         $this->dataPatrocinador = null;
+
+        $this->idPatrocinador = null;
+        $this->idTipoPatrocinador = null;
+        $this->idEstado = null;
+        $this->nombrePatrocinador = null;
+        $this->direccionPatrocinador = null;
+        $this->emailPatrocinador = null;
+        $this->telefonoPatrocinador = null;
+        $this->fechaInscripcionPatrocinador = null;
     }
 
-    public function nuevoPatrocinador($idTipo,$idEstado,$nombre,$direcc,$email,$tel,$fechaInsc){
+    public function nuevoPatrocinador($idTipo,$idEst,$nombre,$direcc,$email,$tel,$fechaInsc){
+
+        $this->idTipoPatrocinador = $idTipo;
+        $this->idEstado = $idEst;
+        $this->nombrePatrocinador = $nombre;
+        $this->direccionPatrocinador = $direcc;
+        $this->emailPatrocinador = $email;
+        $this->telefonoPatrocinador = $tel;
+        $this->fechaInscripcionPatrocinador = $fechaInsc;
 
         try{
             $this->stmQuery = "INSERT INTO Patrocinador(idTipoPatrocinador, idEstado, nombrePatrocinador, direccionPatrocinador,
-                                                        emailPatrocinador, telefonoPatrocinadro, fechaInscripcionPatrocinador)
+                                                        emailPatrocinador, telefonoPatrocinador, fechaInscripcionPatrocinador)
                                VALUES(:idTipo,:idEstado,:nombrePat,:direccionPat,:emailPat,:telPat,:fechaInscripcionPat)";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":idTipo",$idTipo);
-            $this->bind->bindParam(":idEstado",$idEstado);
-            $this->bind->bindParam(":nombrePat",$nombre);
-            $this->bind->bindParam(":direccionPat",$direcc);
-            $this->bind->bindParam(":emailPat",$email);
-            $this->bind->bindParam(":telPat",$tel);
-            $this->bind->bindParam(":fechaInscripcionPat",$fechaInsc);
+            $this->bind->bindParam(":idTipo",$this->idTipoPatrocinador);
+            $this->bind->bindParam(":idEstado",$this->idEstado);
+            $this->bind->bindParam(":nombrePat",$this->nombrePatrocinador);
+            $this->bind->bindParam(":direccionPat",$this->direccionPatrocinador);
+            $this->bind->bindParam(":emailPat",$this->emailPatrocinador);
+            $this->bind->bindParam(":telPat",$this->telefonoPatrocinador);
+            $this->bind->bindParam(":fechaInscripcionPat",$this->fechaInscripcionPatrocinador);
 
             $this->dataPatrocinador =  $this->bind->execute();
 

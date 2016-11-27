@@ -2,270 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0d0c71-8824-42ed-aa07-83e02331d113" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/block_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/change_status_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/change_status_comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/change_status_group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/change_status_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/clear_history.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/delete_group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/delete_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_block_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_cvs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_dash_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_group_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_group_drop_down.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_lp_stats_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_note_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_payments_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_stats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_user_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/get_user_lists.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/group_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/note_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/payments_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_notes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_payment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_add_user_x.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_fee_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_paid_setting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/save_edit_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/search_for_group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/search_full_block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/search_full_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/send_email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/send_sms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/site_stats_get_lp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/site_stats_get_pv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/site_stats_get_ref.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/site_stats_get_top_trend.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_get_all_attempts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_get_main_attempts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_get_stats_lp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_get_stats_overview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_login_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_set_status_enmass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/ub_site_stat_get_stats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/user_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/user_repeater_details_lite.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/ajax/user_repeater_with_notes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/css/jquery.qtip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/css/login_styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/css/styles_admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/add_note.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/bar_no_colour.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/bar_silver.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/bar_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/bg_nl.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/blue_release.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/b_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/b_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/bar_t.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/bar_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/bl_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/bl_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/fb_l.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/fb_l2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/g_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/g_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/lg_bb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/lg_gb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/lg_t.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/login_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/o_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/o_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/r_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/r_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/sm_dg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/sm_dg1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/sm_g.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/sm_w.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/loader/ub_l.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/no-image.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/page_divider.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/poweredbynadlabs.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/powerlite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/release_grey.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/release_grey_03.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/corners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/cp_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/jquery-ui-1.8.6.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/jquery.pagination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/jquery.qtip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/js/scroll_int_ub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/local_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/login_logs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/mailinglists/admini_1323632702.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/mailinglists/admini_1323632746.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/mailinglists/admini_1323632965.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/mailinglists/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/unibody.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/unibody_ubase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ads/sponsor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/alerts_login_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/all-lf-attempts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/block_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/bloglist_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/bloglist_verifiy_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/cancel_key_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/activate_email_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/admin_activate_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/congrats_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/contact_form_data_email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/contact_form_email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/email.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/forgot_password_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/new_reg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/password_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/re_activate_email_sans_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/renew.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/email/upgrade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/group_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/lp_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/main-lf-attempts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/newuser_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/newuser_repeater_1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/newuser_repeater_alt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/note_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/pv_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/refurl_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/rr_data_repeater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/rr_data_repeater_lp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/rr_data_repeater_mini.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/html/user_repeater_qv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config_global.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/global_config.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/bootstrap_frontend.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/class.pop3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/html/captcha.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_adminclass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_general.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_sitestats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_userclass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightwork_validate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/lightworks_functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/activate_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/change_email_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/change_password_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/contact_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/forgot_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/hotlink_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/id_change_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/reactivate_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/register_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/regular_login_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/no_script_includes/sms_login_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/oAuth/facebook/base_facebook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/oAuth/facebook/facebook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/oAuth/twitter/OAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/oAuth/twitter/twitteroauth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/openid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/openid_ubif.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/payment_inc/ca_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/payment_inc/sc_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/payment_inc/sp_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/payment_inc/up_inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/recaptchalib.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/ipn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/ipn_error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/ipn_success.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/ipntest09.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipn/local_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/coming soon.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/quick_stats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/quick_stats_user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_browser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_browser_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_browser_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_date_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_date_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_domain_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_lang_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_lang_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_loc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_loc_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_location_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_os.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_os.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_os_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_os_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_refid_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_screenres.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_screenres_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_screenres_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_searchengine_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_searchterm_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_url_p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_roarreport_url_ss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_site_stats_landingpage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sql_site_stats_landingpage_count.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/admin/css/login_styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/admin/css/styles_admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/admin/js/cp_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/admin/js/scroll_int_ub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/general/css/jquery.qtip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/general/js/corners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/general/js/jquery-ui-1.8.6.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/general/js/jquery.qtip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/general/js/scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/index/css/f_s.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/index/css/f_s_css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/index/js/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/index/js/scroll_int_rep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unminified/index/js/ubf_js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/block_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/change_status_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/change_status_comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/change_status_group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/change_status_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/clear_history.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/delete_group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/delete_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_block_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_cvs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_dash_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_group_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_group_drop_down.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_lp_stats_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_note_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_payments_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_user_data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/get_user_lists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/group_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/note_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/payments_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_notes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_payment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_add_user_x.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_fee_date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_paid_setting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/save_edit_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/search_for_group.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/search_full_block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/search_full_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/send_email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/send_sms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/site_stats_get_lp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/site_stats_get_pv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/site_stats_get_ref.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/site_stats_get_top_trend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_get_all_attempts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_get_main_attempts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_get_stats_lp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_get_stats_overview.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_login_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_set_status_enmass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/ub_site_stat_get_stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/user_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/user_repeater_details_lite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/ajax/user_repeater_with_notes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/css/jquery.qtip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/css/login_styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/css/styles_admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/add_note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/bar_no_colour.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/bar_silver.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/bar_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/bg_nl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/blue_release.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/b_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/b_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/bar_t.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/bar_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/bl_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/bl_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/fb_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/fb_l2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/g_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/g_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/lg_bb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/lg_gb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/lg_t.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/login_loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/o_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/o_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/r_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/r_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/sm_dg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/sm_dg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/sm_g.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/sm_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/loader/ub_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/no-image.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/page_divider.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/poweredbynadlabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/powerlite.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/release_grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/images/release_grey_03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/corners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/cp_js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/jquery-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/jquery-ui-1.8.6.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/jquery.pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/jquery.qtip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/js/scroll_int_ub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/local_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/login_logs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/mailinglists/admini_1323632702.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/mailinglists/admini_1323632746.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/mailinglists/admini_1323632965.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/mailinglists/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/unibody.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/admin/unibody_ubase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ads/sponsor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/alerts_login_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/all-lf-attempts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/block_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/bloglist_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/bloglist_verifiy_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/cancel_key_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/activate_email_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/admin_activate_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/congrats_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/contact_form_data_email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/contact_form_email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/email.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/forgot_password_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/new_reg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/password_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/re_activate_email_sans_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/renew.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/email/upgrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/group_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/lp_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/main-lf-attempts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/newuser_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/newuser_repeater_1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/newuser_repeater_alt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/note_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/pv_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/refurl_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/rr_data_repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/rr_data_repeater_lp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/rr_data_repeater_mini.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ajax/html/user_repeater_qv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/config/config.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/config/config_global.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/config/global_config.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/bootstrap_frontend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/html/captcha.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_adminclass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_sitestats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_userclass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightwork_validate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/lightworks_functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/activate_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/change_email_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/change_password_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/contact_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/forgot_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/hotlink_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/id_change_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/reactivate_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/register_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/regular_login_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/no_script_includes/sms_login_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/oAuth/facebook/base_facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/oAuth/facebook/facebook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/oAuth/twitter/OAuth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/oAuth/twitter/twitteroauth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/openid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/openid_ubif.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/payment_inc/ca_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/payment_inc/sc_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/payment_inc/sp_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/payment_inc/up_inc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/includes/recaptchalib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/ipn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/ipn_error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/ipn_success.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/ipntest09.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/ipn/local_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/lang/coming soon.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/quick_stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/quick_stats_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_browser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_browser_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_browser_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_date_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_date_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_domain_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_lang_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_lang_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_loc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_loc_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_location_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_os.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_os.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_os_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_os_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_refid_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_screenres.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_screenres_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_screenres_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_searchengine_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_searchterm_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_url_p.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_roarreport_url_ss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_site_stats_landingpage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/sql/sql_site_stats_landingpage_count.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/admin/css/login_styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/admin/css/styles_admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/admin/js/cp_js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/admin/js/scroll_int_ub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/general/css/jquery.qtip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/general/js/corners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/general/js/jquery-ui-1.8.6.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/general/js/jquery.qtip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/general/js/scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/index/css/f_s.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/index/css/f_s_css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/index/js/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/index/js/scroll_int_rep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled folder/unminified/index/js/ubf_js.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/COMPRAS.php" afterPath="$PROJECT_DIR$/index/Controlador/COMPRAS.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" afterPath="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataCompras.js" afterPath="$PROJECT_DIR$/index/Controlador/ajax/enviarDataCompras.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iCompras.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iDeposito.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iDeposito.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iPagos.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iPagos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iDetalleCompras.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iDetalleCompras.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" afterPath="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" afterPath="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" afterPath="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iAlbergues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iHistorialSocioEconomico.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/iIntegrante.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" afterPath="$PROJECT_DIR$/index/Vista/damnificados/itipoAlbergue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/dashboard.php" afterPath="$PROJECT_DIR$/index/Vista/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/desastres/iDesastres.php" afterPath="$PROJECT_DIR$/index/Vista/desastres/iDesastres.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/iAreas.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/iAreas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/iBodega.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/iBodega.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/iEntradasYSalidas.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/iEntradasYSalidas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/iInsumos.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/iInsumos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/iStock.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/iStock.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/itipoEntradaSalida.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/itipoEntradaSalida.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/inventario/itipoInsumo.php" afterPath="$PROJECT_DIR$/index/Vista/inventario/itipoInsumo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/Vista/scripts/procesarDataPatrocinador.php" afterPath="$PROJECT_DIR$/index/Vista/scripts/procesarDataPatrocinador.php" />
     </list>
     <ignored path="helpfamilycontrol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -287,13 +274,82 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - dbHelpFamilyControl@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="helpfamilycontrol" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="iCompras.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCompras.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+              <folding>
+                <marker date="1480092741000" expanded="true" signature="16586:16691" ph="..." />
+                <marker date="1480092741000" expanded="true" signature="16974:17077" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enviarDataCompras.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataCompras.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procesarDataCompras.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="114" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COMPRAS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/Controlador/COMPRAS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1480087098000" expanded="true" signature="1103:1230" ph="INSERT INTO Pagos... " />
+                <marker date="1480087098000" expanded="true" signature="2193:2380" ph="UPDATE Compr... " />
+                <marker date="1480087098000" expanded="true" signature="3236:3279" ph="DELETE FROM " />
+                <marker date="1480087098000" expanded="true" signature="3954:4200" ph="SELECT idCom... Compras" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -309,14 +365,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataHistorial.js" />
-        <option value="$PROJECT_DIR$/index/Controlador/FAMILIA.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataFamilia.js" />
-        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataFamilia.php" />
-        <option value="$PROJECT_DIR$/index/Controlador/INTEGRANTE.php" />
-        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataIntegrante.php" />
-        <option value="$PROJECT_DIR$/config/config_global.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iDeposito.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index/Vista/desastres/itipoDesastre.php" />
         <option value="$PROJECT_DIR$/index/Controlador/DEPOSITO.php" />
@@ -336,13 +384,9 @@
         <option value="$PROJECT_DIR$/index/ajax/ub_login_user.php" />
         <option value="$PROJECT_DIR$/admin/js/cp_js.js" />
         <option value="$PROJECT_DIR$/index/login.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iCuenta.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iDeposito.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iPagos.php" />
-        <option value="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/iProveedores.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/itipoCuenta.php" />
         <option value="$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php" />
@@ -360,6 +404,18 @@
         <option value="$PROJECT_DIR$/index/Vista/inventario/iStock.php" />
         <option value="$PROJECT_DIR$/index/Vista/inventario/itipoEntradaSalida.php" />
         <option value="$PROJECT_DIR$/index/Vista/inventario/itipoInsumo.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/PATROCINADOR.php" />
+        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataPatrocinador.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iDetalleCompras.html" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iEmpleados.php" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iDetalleCompras.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/COMPRAS.php" />
+        <option value="$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php" />
+        <option value="$PROJECT_DIR$/index/Controlador/ajax/enviarDataCompras.js" />
+        <option value="$PROJECT_DIR$/index/Vista/admon/iCompras.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0003b01f-9572-4759-88ba-9041260d4212/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql" />
       </list>
     </option>
   </component>
@@ -419,126 +475,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventario" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desastres" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="damnificados" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpfamilycontrol" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vista" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admon" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,33 +581,35 @@
       <workItem from="1479933914330" duration="7106000" />
       <workItem from="1480001148266" duration="13182000" />
       <workItem from="1480043150795" duration="2241000" />
-      <workItem from="1480076857661" duration="5694000" />
+      <workItem from="1480076857661" duration="12035000" />
+      <workItem from="1480095781225" duration="661000" />
+      <workItem from="1480250354285" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119678000" />
+    <option name="totallyTimeSpent" value="126859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26898223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39452055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -691,121 +629,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1f209e6-7586-4ad2-bd6e-267d1750dc1c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/pruebaUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataUsuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/USUARIO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#2719#4256#0#PHP" expanded="false" />
-            <element signature="e#4262#4306#0#PHP" expanded="false" />
-            <element signature="e#4312#4353#0#PHP" expanded="false" />
-            <element signature="e#5282#5408#0#PHP" expanded="false" />
-            <marker date="1480031260000" expanded="true" signature="1723:1788" ph="SELECT paswo... USUARIO" />
-            <marker date="1480031260000" expanded="true" signature="1723:1789" ph="/*SELECT pas... " />
-            <marker date="1480031260000" expanded="true" signature="3253:3512" ph="INSERT INTO Usuario... " />
-            <marker date="1480031260000" expanded="true" signature="4520:4583" ph="SELECT nombr... Usuario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataUsuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!block;n#registrarUsuario#0" expanded="false" />
-            <element signature="n#!!block;n#crearXmlHttpRequest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/HISTORIAL_SOCIO_ECONOMICO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="227" column="87" selection-start-line="227" selection-start-column="87" selection-end-line="227" selection-end-column="87" />
-          <folding>
-            <marker date="1480033684000" expanded="true" signature="2090:2476" ph="INSERT INTO HistorialSocioeconomico... " />
-            <marker date="1480033684000" expanded="true" signature="4299:5128" ph="UPDATE Histo... " />
-            <marker date="1480033684000" expanded="true" signature="6427:6495" ph="DELETE FROM " />
-            <marker date="1480033684000" expanded="true" signature="7234:7304" ph="SELECT * FRO... HistorialSocioeconomico" />
-            <marker date="1480033684000" expanded="true" signature="7939:8260" ph="SELECT idHis... HistorialSocioeconomico" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Controlador/ALBERGUE.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1479564961000" expanded="true" signature="1385:1612" ph="INSERT INTO Albergue... " />
-            <marker date="1479564961000" expanded="true" signature="2872:3296" ph="UPDATE Alber... " />
-            <marker date="1479564961000" expanded="true" signature="4359:4410" ph="DELETE FROM " />
-            <marker date="1479564961000" expanded="true" signature="5098:5455" ph="SELECT idAlb... Albergue" />
-            <marker date="1479564961000" expanded="true" signature="6063:6493" ph="SELECT idAlb... Albergue" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c041dbf5-5245-4870-9211-e2f7d8d866be/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Modelo/BASE_DE_DATOS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/js/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/js/ubf_js.1.3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1374946628000" expanded="true" signature="34380:34391" ph="..." />
-            <marker date="1374946628000" expanded="true" signature="34416:34427" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,117 +649,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.php" />
     <entry file="file://$PROJECT_DIR$/index/ajax/ub_login_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/images/loader/login_loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/unibody.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/unibody_ubase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4110">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/images/loader/login_loader.gif" />
+    <entry file="file://$PROJECT_DIR$/admin/logout.php" />
+    <entry file="file://$PROJECT_DIR$/admin/unibody.php" />
+    <entry file="file://$PROJECT_DIR$/admin/unibody_ubase.php" />
     <entry file="file://$PROJECT_DIR$/index/js/cp_js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config_global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/cp_js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/local_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/login_logs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_global.php" />
+    <entry file="file://$PROJECT_DIR$/admin/js/cp_js.js" />
+    <entry file="file://$PROJECT_DIR$/admin/index.php" />
+    <entry file="file://$PROJECT_DIR$/admin/local_config.php" />
+    <entry file="file://$PROJECT_DIR$/admin/login_logs.php" />
     <entry file="dbDummy://dbtable:/5bc16bf8/00a314bb-060d-4a99-b739-0ee3d637c7ad/dbHelpFamilyControl.blocked_ip_domains">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,19 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iEmpleados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,19 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,19 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCompras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/Vista/admon/itipoPatrocinador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="101" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,19 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,9 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,9 +832,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataEmpleado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataPatrocinador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/PATROCINADOR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="93" selection-start-line="71" selection-start-column="93" selection-end-line="71" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iPatrocinador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="332" column="78" selection-start-line="332" selection-start-column="78" selection-end-line="332" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/FAMILIA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2730">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iDetalleCompras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="278" column="154" selection-start-line="278" selection-start-column="154" selection-end-line="278" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iEmpleados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="335" column="30" selection-start-line="310" selection-start-column="28" selection-end-line="335" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/damnificados/iFamilia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="289" column="143" selection-start-line="289" selection-start-column="32" selection-end-line="289" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/scripts/procesarDataCompras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="114" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/COMPRAS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1480087098000" expanded="true" signature="1103:1230" ph="INSERT INTO Pagos... " />
+            <marker date="1480087098000" expanded="true" signature="2193:2380" ph="UPDATE Compr... " />
+            <marker date="1480087098000" expanded="true" signature="3236:3279" ph="DELETE FROM " />
+            <marker date="1480087098000" expanded="true" signature="3954:4200" ph="SELECT idCom... Compras" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Controlador/ajax/enviarDataCompras.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/Vista/admon/iCompras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <marker date="1480092741000" expanded="true" signature="16586:16691" ph="..." />
+            <marker date="1480092741000" expanded="true" signature="16974:17077" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0003b01f-9572-4759-88ba-9041260d4212/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00a314bb-060d-4a99-b739-0ee3d637c7ad/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

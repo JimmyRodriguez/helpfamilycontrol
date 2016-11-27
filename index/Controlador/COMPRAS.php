@@ -13,6 +13,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Mode
 class COMPRAS
 {
     private $idCompra;
+    private $idEmpleado;
     private $fechaCompra;
     private $descripcionCompra;
 
@@ -35,20 +36,24 @@ class COMPRAS
         $this->descripcionCompra = null;
     }
 
-    public function nuevaCompra($fecCompra,$descCompra){
+    public function nuevaCompra($idEmp,$descCompra,$fechaCom){
 
-        $this->fechaCompra = $fecCompra;
+        $this->idEmpleado = $idEmp;
         $this->descripcionCompra = $descCompra;
+        $this->fechaCompra = $fechaCom;
+
 
         try{
-            $this->stmQuery = "INSERT INTO Pagos(fechaCompra,descripcionCompra)
-                               VALUES(:fechaCom,:descripcionCom)";
+            $this->stmQuery = "INSERT INTO Compras(idEmpleado,descripcionCompra,fechaCompra)
+                               VALUES(:idEmp,:descripcion,:fecha)";
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
             $this->bind = $this->pdoConexion->prepare($this->stmQuery);
 
-            $this->bind->bindParam(":fechaCom",$this->fechaCompra);
-            $this->bind->bindParam(":descripcionCom",$this->descripcionCompra);
+            $this->bind->bindParam(":idEmp",$this->idEmpleado);
+            $this->bind->bindParam(":descripcion",$this->descripcionCompra);
+            $this->bind->bindParam(":fecha",$this->fechaCompra);
+
 
 
             $this->dataCompra =  $this->bind->execute();
@@ -143,7 +148,10 @@ class COMPRAS
     {
         try{
 
-            $this->stmQuery = "SELECT * FROM Compras";
+            $this->stmQuery = "SELECT idCompra, fechaCompra, descripcionCompra,nombreEmpleado
+                               FROM Compras AS C, Empleado AS E
+                               WHERE C.idEmpleado = E.idEmpleado
+                               ORDER BY nombreEmpleado";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
