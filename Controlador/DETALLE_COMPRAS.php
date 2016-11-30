@@ -79,7 +79,7 @@ class DETALLE_COMPRAS
                 return true;
 
             }else{
-                
+
                 return false;
             }
 

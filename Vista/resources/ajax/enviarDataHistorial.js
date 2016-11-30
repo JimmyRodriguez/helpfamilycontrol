@@ -70,7 +70,7 @@ function nuevoHistorial() {
             fechaHistorial+"&casaHistorial="+casaHistorial+"&materialCasaHistorial="+materialCasaHistorial+"&trabajaHistorial="+
             trabajaHistorial+"&salarioHistorial="+salarioHistorial+"&empresaHistorial="+empresaHistorial+"&vehiculoHistorial="+vehiculoHistorial;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -107,7 +107,7 @@ function consultarHistorial(idHis) {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -153,7 +153,7 @@ function eliminarHistorial() {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);

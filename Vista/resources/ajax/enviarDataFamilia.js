@@ -45,7 +45,7 @@ function nuevaFamilia() {
         var dataForm = "seleccionarMetodo="+metodo+"&idAlbergue="+idAlbergue+"&idEstado="+idEstado+"&idPatrocinador="+
             idPatrocinador+"&idDesastre="+idDesastre+"&nombreFamilia="+nombreFamilia+"&direccionFamilia="+direccionFamilia;
 
-        xmlhttp.open("POST","../scripts/procesarDataFamilia.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataFamilia.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -82,7 +82,7 @@ function consultarFamilia(idFam) {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
-        xmlhttp.open("POST","../scripts/procesarDataHistorialSocioEconomico.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataHistorialSocioEconomico.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -130,7 +130,7 @@ function eliminarFamilia() {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idFamilia=" +idFamilia;
 
-        xmlhttp.open("POST","../scripts/procesarDataFamilia.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataFamilia.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);

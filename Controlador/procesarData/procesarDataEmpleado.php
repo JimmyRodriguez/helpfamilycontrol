@@ -6,7 +6,7 @@
  * Time: 4:10 PM
  */
 
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/index/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
 
     switch ($_POST['seleccionarMetodo']){
 

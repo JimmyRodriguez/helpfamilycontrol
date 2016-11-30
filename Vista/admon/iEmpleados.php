@@ -517,8 +517,18 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
         <script type="text/javascript" src="../resources/build/js/layout/app.js"></script>
         <script type="text/javascript" src="../resources/build/js/layout/demo.js"></script>
         <script type="text/javascript" src="../resources/build/js/page-content/dashboard/index.js"></script>
+        <script type="text/javascript" src="../resources/dataTable/media/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="../resources/dataTable/media/js/jquery.js"></script>
 
-        <script type="text/javascript" src="../../Controlador/ajax/enviarDataEmpleado.js"></script>
+
+        <script type="text/javascript" src="../resources/ajax/enviarDataEmpleado.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tableEmpleado').DataTable();
+            } );
+        </script>
+
 
 </body>
 </html>

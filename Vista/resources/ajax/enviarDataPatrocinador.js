@@ -77,7 +77,7 @@ function nuevoPatrocinador() {
         console.log("estoy en le dataForm : " + dataForm);
 
 
-        xmlhttp.open("POST","../scripts/procesarDataPatrocinador.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataPatrocinador.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         console.log("estoy antes del metodo SEND");

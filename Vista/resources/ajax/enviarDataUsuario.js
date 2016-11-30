@@ -45,7 +45,7 @@ function validarUsuario() {
 
         var dataForm = "seleccionarMetodo="+metodo+"&nombreUsuario="+usuario+"&passwordUsuario="+password;
 
-        xmlhttp.open("POST","Controlador/USUARIO.php");//"Vista/scripts/procesarDataUsuario.php",true);
+        xmlhttp.open("POST","../../Controlador/USUARIO.php");//"Vista/scripts/procesarDataUsuario.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
 

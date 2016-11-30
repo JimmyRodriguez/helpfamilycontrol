@@ -176,7 +176,7 @@ class PROVEEDOR
         try{
 
             $this->stmQuery = "SELECT idProveedor,nombreEstado,nitProveedor,nombreProveedor,direccionProveedor,emailProveedor,telefonoProveedor,descripcionProveedor
-                               FROM Proveedores as P, Estado as E 
+                               FROM Proveedor as P, Estado as E 
                                WHERE P.idEstado = E.idEstado
                                ORDER BY nombreProveedor";
 

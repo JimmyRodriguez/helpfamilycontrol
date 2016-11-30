@@ -173,6 +173,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                     <li><a href="../damnificados/itipoAlbergue.php">Tipo Albergues</a></li>
                 </ul>
             </li>
+
             <li class="panel"><a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse6"
                                  aria-expanded="false" aria-controls="collapse4" class="collapsed"><i class="ti-bar-chart-alt">
                     </i><span class="sidebar-title">Reportes</span></a>
@@ -210,7 +211,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
                             <form>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="idProveedor">PROVEEDOR</label>
                                             <select id="idProveedor" class="form-control">
@@ -221,6 +222,22 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
 
                                                 foreach($dataProveedor as $row){
                                                     echo "<option value=".$row["idProveedor"].">".$row["nombreProveedor"]."</option>";
+                                                }
+                                                ?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="idInsumo">INSUMO</label>
+                                            <select id="idInsumo" class="form-control">
+                                                <option value="">Seleccionar Insumo</option>
+                                                <?php
+                                                $insumo = new INSUMO();
+                                                $dataInsumo = $insumo->consultarTodosInsumo();
+
+                                                foreach($dataInsumo as $row){
+                                                    echo "<option value=".$row["idInsumo"].">".$row["nombreInsumo"]."</option>";
                                                 }
                                                 ?>
                                             </select>
@@ -262,7 +279,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                         $detalle = new DETALLE_COMPRAS();
                         $dataDetalle = $detalle;
 
-                        foreach($dataEmp as $row){
+                        foreach($dataDetalle as $row){
                             echo "<tr>";
                             echo "<td value=".$row["idEmpleado"].">".$row["idEmpleado"]."</td>";
                             /*echo "<td>".$row["nombreEstado"]."</td>";

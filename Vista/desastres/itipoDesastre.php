@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tipo Desastre</title>
     <!-- PACE-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/PACE/themes/blue/pace-theme-flash.css">
-    <script type="text/javascript" src="../../plugins/PACE/pace.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/PACE/themes/blue/pace-theme-flash.css">
+    <script type="text/javascript" src="../resources/plugins/PACE/pace.min.js"></script>
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/bootstrap/dist/css/bootstrap.min.css">
     <!-- Fonts-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/themify-icons/themify-icons.css">
     <!-- Malihu Scrollbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
     <!-- Animo.js-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/animo.js/animate-animo.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/animo.js/animate-animo.min.css">
     <!-- Flag Icons-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/flag-icon-css/css/flag-icon.min.css">
     <!-- Bootstrap Progressbar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
     <!-- Toastr-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/toastr/toastr.min.css">
     <!-- SpinKit-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/SpinKit/css/spinners/7-three-bounce.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/SpinKit/css/spinners/7-three-bounce.css">
     <!-- Jvector Map-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/jvectormap/jquery-jvectormap-2.0.3.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/jvectormap/jquery-jvectormap-2.0.3.css">
     <!-- Morris Chart-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/morris.js/morris.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/morris.js/morris.css">
     <!-- DataTables-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-bs/css/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-colreorder-bs/css/colReorder.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/datatables.net-responsive-bs/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/datatables.net-colreorder-bs/css/colReorder.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/datatables.net-responsive-bs/css/responsive.bootstrap.min.css">
     <!-- Weather Icons-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/weather-icons/css/weather-icons-wind.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/weather-icons/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/weather-icons/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/weather-icons/css/weather-icons.min.css">
     <!-- FullCalendar-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/fullcalendar/dist/fullcalendar.min.css">
-    <link rel="stylesheet" type="text/css" href="../../plugins/fullcalendar/dist/fullcalendar.print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/fullcalendar/dist/fullcalendar.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/fullcalendar/dist/fullcalendar.print.css" media="print">
     <!-- jQuery MiniColors-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/jquery-minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/jquery-minicolors/jquery.minicolors.css">
     <!-- Bootstrap Date Range Picker-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="../resources/plugins/bootstrap-daterangepicker/daterangepicker.css">
     <!-- Primary Style-->
-    <link rel="stylesheet" type="text/css" href="../../build/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../resources/build/css/layout.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]>
@@ -53,41 +53,45 @@
     <![endif]-->
 </head>
 <body>
-<!-- Header start-->
+<!-- inicia Header-->
 <header>
     <div class="search-bar closed">
         <form>
             <div class="input-group input-group-lg">
-                <input type="text" placeholder="Search for..." class="form-control"><span class="input-group-btn">
-              <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button></span>
+                <input type="text" placeholder="..........." class="form-control"><span class="input-group-btn">
+              <button type="button" class="btn btn-default search-bar-toggle"><i class="ti-close"></i></button>
+                </span>
             </div>
         </form>
     </div>
     <a href="../dashboard.php" class="brand pull-left">
-        <img src="../../build/images/logo/umg.png" alt="" width="50" class="logo">
-        <img src="../../build/images/logo/umg.png" alt="" width="28" class="logo-sm">
+        <img src="../resources/build/images/logo/umg.png" alt="" width="50" class="logo">
+        <img src="../resources/build/images/logo/umg.png" alt="" width="28" class="logo-sm">
     </a>
     <a href="javascript:;" role="button" class="hamburger-menu pull-left"><span></span></a>
-    <!--form class="mt-15 mb-15 pull-left hidden-xs">
-      <div class="form-group has-feedback mb-0">
-        <input type="text" aria-describedby="inputSearchFor" placeholder="Search for..." style="width: 200px" class="form-control rounded"><span aria-hidden="true" class="ti-search form-control-feedback"></span><span id="inputSearchFor" class="sr-only">(default)</span>
-      </div>
-    </form-->
-
-    <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
-            <div class="media mt-0">
-                <div class="media-left avatar"><img src="../../build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
-                <div class="media-right media-middle pl-0">
-                    <p class="fs-12 text-base mb-0">Hi, Matthew</p>
-                </div>
-            </div></a>
-        <ul aria-labelledby="dropdownMenu2" class="dropdown-menu fs-12 animated fadeInDown">
-            <li><a href="profile.html"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
-            <li><a href="profile.html"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
-            <li><a href="index.html"><i class="ti-power-off mr-5"></i> Salir</a></li>
-        </ul>
-    </li>
-    <li><a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon"><i class="ti-layout-sidebar-right"></i><span class="dot bg-danger"></span></a></li>
+    <ul class="notification-bar list-inline pull-right">
+        <!--li class="visible-xs"><a href="javascript:;" role="button" class="header-icon search-bar-toggle"><i class="ti-search"></i></a></li>
+        <li class="dropdown"><a id="dropdownMenu1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle bubble header-icon"><i class="ti-world"></i><span class="badge bg-danger">6</span></a>
+        </li-->
+        <li class="dropdown hidden-xs"><a id="dropdownMenu2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle header-icon lh-1 pt-15 pb-15">
+                <div class="media mt-0">
+                    <div class="media-left avatar"><img src="../resources/build/images/users/21.jpg" alt="" class="media-object img-circle"><span class="status bg-success"></span></div>
+                    <div class="media-right media-middle pl-0">
+                        <p class="fs-12 text-base mb-0">Hola, Jimmy</p>
+                    </div>
+                </div></a>
+            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu fs-12 animated fadeInDown">
+                <li><a href="#"><i class="ti-user mr-5"></i> Mi Perfil</a></li>
+                <li><a href="#"><i class="ti-settings mr-5"></i> Configuraciones</a></li>
+                <li><a href="../login.php"><i class="ti-power-off mr-5"></i> Salir</a></li>
+            </ul>
+        </li>
+        <!--li>
+            <a href="javascript:;" role="button" class="right-sidebar-toggle bubble header-icon">
+                <i class="ti-layout-sidebar-right"></i>
+                <span class="dot bg-danger"></span>
+            </a>
+        </li-->
     </ul>
 </header>
 <!-- Header end-->
@@ -96,7 +100,7 @@
     <aside class="main-sidebar">
         <div class="user">
             <div id="esp-user-profile" data-percent="65" style="height: 130px; width: 130px; line-height: 100px; padding: 15px;" class="easy-pie-chart">
-                <img src="../../build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
+                <img src="../resources/build/images/users/21.jpg" alt="" class="avatar img-circle"><span class="status bg-success"></span></div>
             <h4 class="fs-16 text-white mt-15 mb-5 fw-300">Jimmy Rodriguez</h4>
             <p class="mb-0 text-muted">Analisis y Diseño de sistemas</p>
         </div>

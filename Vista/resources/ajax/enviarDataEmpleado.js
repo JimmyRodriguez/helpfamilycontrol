@@ -65,7 +65,7 @@ function nuevoEmpleado() {
                         nombreEmpleado+"&dpiEmpleado="+dpiEmpleado+"&telefonoEmpleado="+
                         telefonoEmpleado+"&emailEmpleado="+emailEmpleado+"&direccionEmpleado="+direccionEmpleado+"&fechaNacEmpleado="+fechaNacEmpleado;
 
-        xmlhttp.open("POST","../scripts/procesarDataEmpleado.php",true);
+        xmlhttp.open("POST","../../Controlador/procesarData/procesarDataEmpleado.php",true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xmlhttp.send(dataForm);
     }
@@ -103,7 +103,7 @@ function consultarEmpleado(idEmp) {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST", "../../Controlador/procesarData/procesarDataEmpleado.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
@@ -149,7 +149,7 @@ function eliminarEmpleado() {
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idEmpleado=" +idEmpleado;
 
-        xmlhttp.open("POST", "../scripts/procesarDataEmpleado.php", true);
+        xmlhttp.open("POST", "../../Controlador/procesarData/procesarDataEmpleado.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
         xmlhttp.send(dataForm);
