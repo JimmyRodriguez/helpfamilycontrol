@@ -53,6 +53,7 @@ function nuevaFamilia() {
 }//end nuevoHistorial
 
 function actualizarFamilia(){
+
     var idHistorial = $("#idHistorialAct").val();
 
 }
@@ -78,7 +79,6 @@ function consultarFamilia(idFam) {
                  }*/
             }
         }
-
 
         var dataForm = "seleccionarMetodo=" + metodo + "&idHistorial=" +idHistorial;
 
@@ -113,13 +113,13 @@ function eliminarFamilia() {
                 if (xmlhttp.responseText == true) {
 
                     //document.document.href = "../../../Vista/DASHBOARD.html";
-                    window.alert("El registro  se elimino correctamente");
-
-
+                    window.alert("El registro no fue eliminado");
 
                 } else {
 
-                    window.alert("El registro no fue eliminado : " + xmlhttp.responseText);
+                    window.alert("El registro  se elimino correctamente");
+
+
 
                 }
 
@@ -144,7 +144,6 @@ function eliminarFamilia() {
 function pasarIdFamilia(idFamilia) {
 
     $("#idFamiliaDel").val(idFamilia);
-
 
 }
 

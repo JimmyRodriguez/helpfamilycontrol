@@ -40,7 +40,7 @@ class CUENTA
     public function nuevaCuenta($idTipoCuenta,$descripcionCuenta,$fechaAperturaCuenta){
 
         try{
-            $this->stmQuery = "INSERT INTO Cuenta(idTipoCuenta,descripcionCuenta,fechaAperturaCuenta)
+            $this->stmQuery = "INSERT INTO Cuenta(idTipoCuenta,descripionCuenta,fechaAperturaCuenta)
                                VALUES(:idTipoCta,:descripcionCta,:fechaAperturaCta)";
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();

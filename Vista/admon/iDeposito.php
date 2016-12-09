@@ -1,8 +1,11 @@
 <?php
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Modelo/BASE_DE_DATOS.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/ESTADO.php');
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/SEXO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/PATROCINADOR.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/CUENTA.php');
 require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/EMPLEADO.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/tipoCuenta.php');
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlador/DEPOSITO.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -209,23 +212,34 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DEL EMPLEADO-->
                             <form>
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="nombreEmpleado">Nombres</label>
-                                            <input id="nombreEmpleado" type="text" class="form-control">
+                                            <label for="idPatrocinador"></label>
+                                            <select id="idPatrocinador" class="form-control">
+                                                <option value="">Seleccionar Patrocinador</option>
+                                                <?php
+                                                $patrocinador = new PATROCINADOR();
+                                                $dataPatrocinador = $patrocinador->consultarTodosPatrocindador();
+
+                                                foreach($dataPatrocinador as $row){
+                                                    echo "<option value=".$row["idPatrocinador"].">".$row["nombrePatrocinador"]."</option>";
+                                                }
+                                                ?>
+                                            </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="idSexo">Sexo</label>
-                                            <select id="idSexo" class="form-control">
-                                                <option value="">Seleccionar el sexo</option>
-                                                <?php
-                                                $sexo = new SEXO();
-                                                $dataSexo = $sexo->consultarSexo();
+                                            <label for="idCuenta"></label>
+                                            <select id="idCuenta" class="form-control">
+                                                <option value="">Seleccionar Cuenta</option>
 
-                                                foreach($dataSexo as $row){
-                                                    echo "<option value=".$row["idSexo"].">".$row["nombreSexo"]."</option>";
+                                                <?php
+                                                $cuenta = new CUENTA();
+                                                $dataCuenta = $cuenta->consultarTodasCuentas();
+
+                                                foreach($dataCuenta as $row){
+                                                    echo "<option value=".$row["idCuenta"].">".$row["nombreTipoCuenta"]."</option>";
                                                 }
                                                 ?>
                                             </select>
@@ -233,29 +247,17 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="dpiEmpleado">No. DPI</label>
-                                            <input id="dpiEmpleado" type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="telefonoEmpleado">Telefono</label>
-                                            <input id="telefonoEmpleado" type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="idEstado">Estado</label>
-                                            <select id="idEstado" class="form-control" name="idEstado">
-                                                <option value="">Seleccionar el Estado</option>
+                                            <label for="idEmpleado">Empleado</label>
+                                            <select id="idEmpleado" class="form-control" >
+                                                <option value="">Seleccionar Empleado</option>
                                                 <?php
-                                                $consultar = new ESTADO();
-                                                $dataEmp = $consultar->consultarEstado();
+                                                $empleado = new EMPLEADO();
+                                                $dataEmp = $empleado->consultarTodosEmpleado();
 
                                                 foreach($dataEmp as $row){
-                                                    echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
+                                                    echo "<option value=".$row["idEmpleado"].">".$row["nombreEmpleado"]."</option>";
                                                 }
                                                 ?>
                                             </select>
@@ -263,29 +265,37 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
+
+                                    <div class="col-md-4">
                                         <div class="form-group">
-                                            <label for="fechaNacEmpleado">Fecha Nacimiento</label>
-                                            <input id="fechaNacEmpleado" type="date" class="form-control">
+                                            <label for="noDeposito">Nùmero de Deposito</label>
+                                            <input id="noDeposito" type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+
+                                    <div class="col-md-4">
                                         <div class="form-group">
-                                            <label for="emailEmpleado">Email</label>
-                                            <input id="emailEmpleado"  type="text" class="form-control">
+                                            <label for="montoDeposito">Monto Deposito</label>
+                                            <input id="montoDeposito" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="fechaDeposito">Fecha</label>
+                                            <input id="fechaDeposito"  type="date" class="form-control">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="direccionEmpleado">Direccion</label>
-                                            <input id="direccionEmpleado" type="text" class="form-control">
+                                            <label for="descripcionDeposito">Descripcion</label>
+                                            <input id="descripcionDeposito" type="text" class="form-control">
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoEmpleado()">NUEVO</button>
-                                <button type="submit" class="btn btn-outline btn">ACTUALIZAR</button>
+                                <button type="submit" class="btn btn-outline btn-success" onclick="nuevoDeposito()">NUEVO</button>
+
                             </form>
                             <!-- finaliza el form -->
                         </div>
@@ -293,45 +303,53 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 </div>
                 <div class="row" align="center"><h3>INFORMACION DE LOS DEPOSITOS</h3></div>
                 <div class="row">
-                    <table class="table table-striped col-lg-6" align="center">
+
+                    <table id="tablePatrocinador" class="table table-striped col-lg-6" align="center">
+
                         <tr>
-                            <th>Codigo</th>
+                            <th>id</th>
                             <!--th>Estado</th>
                             <th>Sexo</th-->
-                            <th>Nombre</th>
-                            <th>Dpi</th>
-                            <th>Telefono</th>
-                            <th>Email</th>
-                            <th>Direccion</th>
-                            <th>Fecha Nac</th>
+                            <th>Patrocinador</th>
+                            <th>Cuenta</th>
+                            <th>Empleado</th>
+                            <th>No. Deposito</th>
+                            <th>Monto</th>
+                            <th>Fecha</th>
+                            <th>Descripcion</th>
+                            <th></th>
+                            <th></th>
                         </tr>
 
                         <?php
-                        $empleado = new Empleado();
-                        $dataEmp = $empleado->consultarTodosEmpleado();
+                        $deposito = new DEPOSITO();
+                        $dataDep = $deposito->consultarTodosLosDepositos();
+                        $idDeposito ="";
 
-                        foreach($dataEmp as $row){
+                        foreach($dataDep as $row)
+                        {
+                            $idDeposito=$row['idDeposito'];
+
                             echo "<tr>";
-                            echo "<td value=".$row["idEmpleado"].">".$row["idEmpleado"]."</td>";
-                            /*echo "<td>".$row["nombreEstado"]."</td>";
-                            echo "<td>".$row["nombreSexo"]."</td>";*/
+                            echo "<td aling='center' value=".$row["idDeposito"].">".$row["idDeposito"]."</td>";
+                            echo "<td>".$row["nombrePatrocinador"]."</td>";
+                            echo "<td>".$row["nombreTipoCuenta"]."</td>";
                             echo "<td>".$row["nombreEmpleado"]."</td>";
-                            echo "<td>".$row["dpiEmpleado"]."</td>";
-                            echo "<td>".$row["telefonoEmpleado"]."</td>";
-                            echo "<td>".$row["emailEmpleado"]."</td>";
-                            echo "<td>".$row["direccionEmpleado"]."</td>";
-                            echo "<td>".$row["fechaNacEmpleado"]."</td>";
-
-                            echo "<td class='col-lg-6'>";
-                            echo "<button type='button' class='btn btn-outline btn-success' onclick='actualizarEmpleado()'>Actualizar</button>";
+                            echo "<td>".$row["noDeposito"]."</td>";
+                            echo "<td>".$row["montoDeposito"]."</td>";
+                            echo "<td>".$row["fechaDeposito"]."</td>";
+                            echo "<td>".$row["descripcionDeposito"]."</td>";
+                            echo "<td>";
+                            echo "<button type='button' class='btn btn-outline btn-success ti-pencil-alt'  data-toggle='modal' data-target='#myModal' onclick='javascript:consultarDeposito($idDeposito);' ></button>"; //jr='edita' id='$idEmpleado'
                             echo "</td>";
                             echo "<td>";
-                            echo "<button type='submit' class='btn btn-outline btn-danger' onclick='eliminarEmpleado()'>Eliminar</button>";
+                            echo "<button type='button' class='btn btn-outline btn-danger ti-trash' data-toggle='modal' data-target='.bd-example-modal-sm' onclick='javascript:pasarIdDeposito($idDeposito);'></button>";  // id='$idEmpleado'
                             echo "</td>";
                             echo "</tr>";
-                        }
+                        }//end foreach
                         ?>
                     </table>
+
                 </div>
                 <div class="row">
 
@@ -402,6 +420,6 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
         <script type="text/javascript" src="../resources/build/js/layout/demo.js"></script>
         <script type="text/javascript" src="../resources/build/js/page-content/dashboard/index.js"></script>
 
-        <script type="text/javascript" src="../../Controlador/ajax/enviarDataEmpleado.js"></script>
+        <script type="text/javascript" src="../resources/ajax/enviarDataDeposito.js"></script>
 </body>
 </html>

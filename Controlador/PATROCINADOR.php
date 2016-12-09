@@ -96,7 +96,7 @@ class PATROCINADOR
     public function eliminarPatrocinador(){
 
     }
-    public function consultarPatrocindador(){
+    public function consultarTodosPatrocindador(){
 
         try{
             $this->stmQuery = "SELECT idPatrocinador,nombreTipoPatrocinador,nombrePatrocinador,

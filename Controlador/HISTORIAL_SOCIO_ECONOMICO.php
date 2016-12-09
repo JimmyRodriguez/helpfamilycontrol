@@ -67,7 +67,7 @@ class HISTORIAL_SOCIO_ECONOMICO
         $this->vehiculoHistorial = $vehiculoHis;
 
         try{
-            $this->stmQuery = "INSERT INTO HistorialSocioeconomico(idFamilia,descripionHistorial,fechaHistorial,
+            $this->stmQuery = "INSERT INTO HistorialSocioeconomico(idFamilia,descripcionHistorial,fechaHistorial,
                                                                   casaHistorial,materialCasaHistorial,trabajaHistorial,
                                                                   salarioHistorial,empresaHistorial,vehiculoHistorial)
                                VALUES(:a,:b,:d,:e,:f,:g,:h,:i,:j)";
@@ -120,7 +120,7 @@ class HISTORIAL_SOCIO_ECONOMICO
 
         try{
             $this->stmQuery = "UPDATE HistorialSocioeconomico SET idFamilia = :a,
-                                                                  descripionHistorial = :b,
+                                                                  descripcionHistorial = :b,
                                                                   fechaHistorial = :e,
                                                                   casaHistorial = :d,
                                                                   materialCasaHistorial = :f,

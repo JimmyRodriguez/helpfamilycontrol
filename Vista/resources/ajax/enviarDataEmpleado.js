@@ -10,7 +10,7 @@ function nuevoEmpleado() {
     var dpiEmpleado = document.getElementById("dpiEmpleado").value;
     var telefonoEmpleado = document.getElementById("telefonoEmpleado").value;
     var emailEmpleado = document.getElementById("emailEmpleado").value;
-    var direccionEmpleado = document.getElementById("direccionEmpleado").value;;
+    var direccionEmpleado = document.getElementById("direccionEmpleado").value;
     var fechaNacEmpleado = document.getElementById("fechaNacEmpleado").value;
 
     if(nombreEmpleado.length == 0){

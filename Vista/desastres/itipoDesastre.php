@@ -177,61 +177,61 @@
 
 </div>
 <!-- jQuery-->
-<script type="text/javascript" src="../../plugins/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap JavaScript-->
-<script type="text/javascript" src="../../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Malihu Scrollbar-->
-<script type="text/javascript" src="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- Animo.js-->
-<script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script>
+<!--script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script-->
 <!-- Bootstrap Progressbar-->
-<script type="text/javascript" src="../../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 <!-- jQuery Easy Pie Chart-->
-<script type="text/javascript" src="../../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
 <!-- Toastr-->
-<script type="text/javascript" src="../../plugins/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/toastr/toastr.min.js"></script>
 <!-- MomentJS-->
-<script type="text/javascript" src="../../plugins/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/moment/min/moment.min.js"></script>
 <!-- jQuery BlockUI-->
-<script type="text/javascript" src="../../plugins/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../resources/plugins/blockUI/jquery.blockUI.js"></script>
 <!-- jQuery Counter Up-->
-<script type="text/javascript" src="../../plugins/jquery-waypoints/waypoints.min.js"></script>
-<script type="text/javascript" src="../../plugins/Counter-Up/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jquery-waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/Counter-Up/jquery.counterup.min.js"></script>
 <!-- Jvector Map-->
-<script type="text/javascript" src="../../plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
-<script type="text/javascript" src="../../plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
+<script type="text/javascript" src="../resources/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
 <!-- Flot Charts-->
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.js"></script>
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.resize.js"></script>
-<script type="text/javascript" src="../../plugins/flot.curvedlines/curvedLines.js"></script>
-<script type="text/javascript" src="../../plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/flot/jquery.flot.js"></script>
+<script type="text/javascript" src="../resources/plugins/flot/jquery.flot.resize.js"></script>
+<script type="text/javascript" src="../resources/plugins/flot.curvedlines/curvedLines.js"></script>
+<script type="text/javascript" src="../resources/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
 <!-- Morris Chart-->
-<script type="text/javascript" src="../../plugins/raphael/raphael-min.js"></script>
-<script type="text/javascript" src="../../plugins/morris.js/morris.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/raphael/raphael-min.js"></script>
+<script type="text/javascript" src="../resources/plugins/morris.js/morris.min.js"></script>
 <!-- DataTables-->
-<script type="text/javascript" src="../../plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/jszip/dist/jszip.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/pdfmake.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/vfs_fonts.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jszip/dist/jszip.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/pdfmake/build/pdfmake.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/pdfmake/build/vfs_fonts.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
 <!-- jQuery UI-->
-<script type="text/javascript" src="../../plugins/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- FullCalendar-->
-<script type="text/javascript" src="../../plugins/fullcalendar/dist/fullcalendar.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/fullcalendar/dist/fullcalendar.min.js"></script>
 <!-- jQuery MiniColors-->
-<script type="text/javascript" src="../../plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
+<script type="text/javascript" src="../resources/plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
 <!-- Bootstrap Date Range Picker-->
-<script type="text/javascript" src="../../plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="../resources/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- Custom JS-->
-<script type="text/javascript" src="../../build/js/layout/app.js"></script>
-<script type="text/javascript" src="../../build/js/layout/demo.js"></script>
-<script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
+<script type="text/javascript" src="../resources/build/js/layout/app.js"></script>
+<script type="text/javascript" src="../resources/build/js/layout/demo.js"></script>
+<script type="text/javascript" src="../resources/build/js/page-content/dashboard/index.js"></script>
 </body>
 </html>

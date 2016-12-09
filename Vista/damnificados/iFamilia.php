@@ -207,7 +207,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                         </div>
                         <div class="widget-body">
                             <!--FORMULARO PARA GUARDAR, ELIMINAR Y ACTUALIZAR DATOS DE LA FAMILIA-->
-                            <form id="formEmpleado">
+                            <form id="formFamilia">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group">
@@ -233,49 +233,10 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <label for="idEstado">Estado</label>
-                                        <select id="idEstado" class="form-control">
-                                            <option value="">Seleccionar el Estado</option>
-                                            <?php
-                                            $consultar = new ESTADO();
-                                            $dataEst = $consultar->consultarEstado();
 
-                                            foreach($dataEst as $row){
-                                                echo "<option value=".$row["idEstado"].">".$row["nombreEstado"]."</option>";
-                                            }
-                                            ?>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="idPatrocinador">Patrocinador</label>
-                                        <select id="idPatrocinador" class="form-control">
-                                            <option value="">Seleccionar Patrocinador</option>
-                                            <?php
-                                            $patrocinador = new PATROCINADOR();
-                                            $dataPat = $patrocinador->consultarPatrocindador();
 
-                                            foreach($dataPat as $row){
-                                                echo "<option value=".$row["idPatrocinador"].">".$row["nombrePatrocinador"]."</option>";
-                                            }
-                                            ?>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="idDesastre">Desastre Natural</label>
-                                        <select id="idDesastre" class="form-control">
-                                            <option value="">Seleccione el Tipo de Desastre</option>
-                                            <?php
-                                            $tipoDesastre = new tipoDesastre();
-                                            $dataDesastre = $tipoDesastre->consultarTodosTiposDesastres();
 
-                                            foreach($dataDesastre as $row){
-                                                echo "<option value=".$row["idTipoDesastre"].">".$row["nombreTipoDesastre"]."</option>";
-                                            }
-                                            ?>
-                                        </select>
 
-                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
@@ -296,8 +257,7 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                 <div class="row" align="center"><h3>INFORMACION DE LAS FAMILIAS</h3></div>
                 <div class="row">
 
-                    <table id="tableEmpleado" class="table table-striped col-lg-6" align="center">
-
+                    <table id="tableFamilia" class="table table-striped col-lg-6" align="center">
                         <tr>
                             <th>id</th>
                             <th>Nombre Familia</th>
@@ -335,7 +295,6 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                         }//end foreach
                         ?>
                     </table>
-
                 </div>
                 <div class="row">
                     <!--Modal for update-->
@@ -346,70 +305,13 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
-                                    <h4 class="modal-title" id="myModalLabel">Actualizar Informacion de Empleado</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Actualizar informacion Familia</h4>
                                 </div>
                                 <div class="modal-body">
                                     <form id="formFamilia">
                                         <input type="hidden" name="idFamiliaAct" id="idFamiliaAct" value=""><!-- aqui se define el valor del idEmpleado -->
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <div class="form-group">
-                                                    <label for="nombreEmpleado">Nombres</label>
-                                                    <input id="nombreEmpleado" type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
 
 
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label for="dpiEmpleado">No. DPI</label>
-                                                    <input id="dpiEmpleado" type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label for="telefonoEmpleado">Telefono</label>
-                                                    <input id="telefonoEmpleado" type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-
-
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="fechaNacEmpleado">Fecha Nacimiento</label>
-                                                    <input id="fechaNacEmpleado" type="date" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="emailEmpleado">Email</label>
-                                                    <input id="emailEmpleado"  type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="direccionEmpleado">Direccion</label>
-                                                    <input id="direccionEmpleado" type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
                                     </form>
                                 </div>
                                 <div class="modal-footer">
@@ -441,74 +343,66 @@ require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/helpfamilycontrol/Controlado
 
     </div>
     <div class="footer" align="center"><a>2016 &copy; UNIVERSIDAD MARIANO GALVEZ</a> </div>
-</div>
-<!-- jQuery-->
-<script type="text/javascript" src="../../plugins/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap JavaScript-->
-<script type="text/javascript" src="../../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Malihu Scrollbar-->
-<script type="text/javascript" src="../../plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-<!-- Animo.js-->
-<script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script>
-<!-- Bootstrap Progressbar-->
-<script type="text/javascript" src="../../plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-<!-- jQuery Easy Pie Chart-->
-<script type="text/javascript" src="../../plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-<!-- Toastr-->
-<script type="text/javascript" src="../../plugins/toastr/toastr.min.js"></script>
-<!-- MomentJS-->
-<script type="text/javascript" src="../../plugins/moment/min/moment.min.js"></script>
-<!-- jQuery BlockUI-->
-<script type="text/javascript" src="../../plugins/blockUI/jquery.blockUI.js"></script>
-<!-- jQuery Counter Up-->
-<script type="text/javascript" src="../../plugins/jquery-waypoints/waypoints.min.js"></script>
-<script type="text/javascript" src="../../plugins/Counter-Up/jquery.counterup.min.js"></script>
-<!-- Jvector Map-->
-<script type="text/javascript" src="../../plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
-<script type="text/javascript" src="../../plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
-<!-- Flot Charts-->
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.js"></script>
-<script type="text/javascript" src="../../plugins/flot/jquery.flot.resize.js"></script>
-<script type="text/javascript" src="../../plugins/flot.curvedlines/curvedLines.js"></script>
-<script type="text/javascript" src="../../plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
-<!-- Morris Chart-->
-<script type="text/javascript" src="../../plugins/raphael/raphael-min.js"></script>
-<script type="text/javascript" src="../../plugins/morris.js/morris.min.js"></script>
-<!-- DataTables-->
-<script type="text/javascript" src="../../plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
-<script type="text/javascript" src="../../plugins/jszip/dist/jszip.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/pdfmake.min.js"></script>
-<script type="text/javascript" src="../../plugins/pdfmake/build/vfs_fonts.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-<script type="text/javascript" src="../../plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
-<!-- jQuery UI-->
-<script type="text/javascript" src="../../plugins/jquery-ui/jquery-ui.min.js"></script>
-<!-- FullCalendar-->
-<script type="text/javascript" src="../../plugins/fullcalendar/dist/fullcalendar.min.js"></script>
-<!-- jQuery MiniColors-->
-<script type="text/javascript" src="../../plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
-<!-- Bootstrap Date Range Picker-->
-<script type="text/javascript" src="../../plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
-<!-- Custom JS-->
-<script type="text/javascript" src="../../build/js/layout/app.js"></script>
-<script type="text/javascript" src="../../build/js/layout/demo.js"></script>
-<script type="text/javascript" src="../../build/js/page-content/dashboard/index.js"></script>
-<script type="text/javascript" src="../../Controlador/ajax/enviarDataFamilia.js"></script>
+    </div>
+    <!-- jQuery-->
+    <script type="text/javascript" src="../resources/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript-->
+    <script type="text/javascript" src="../resources/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Malihu Scrollbar-->
+    <script type="text/javascript" src="../resources/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Animo.js-->
+    <!--script type="text/javascript" src="../../plugins/animo.js/animo.min.js"></script-->
+    <!-- Bootstrap Progressbar-->
+    <script type="text/javascript" src="../resources/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- jQuery Easy Pie Chart-->
+    <script type="text/javascript" src="../resources/plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <!-- Toastr-->
+    <script type="text/javascript" src="../resources/plugins/toastr/toastr.min.js"></script>
+    <!-- MomentJS-->
+    <script type="text/javascript" src="../resources/plugins/moment/min/moment.min.js"></script>
+    <!-- jQuery BlockUI-->
+    <script type="text/javascript" src="../resources/plugins/blockUI/jquery.blockUI.js"></script>
+    <!-- jQuery Counter Up-->
+    <script type="text/javascript" src="../resources/plugins/jquery-waypoints/waypoints.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/Counter-Up/jquery.counterup.min.js"></script>
+    <!-- Jvector Map-->
+    <script type="text/javascript" src="../resources/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/jvectormap/maps/jquery-jvectormap-world-mill.js"></script>
+    <!-- Flot Charts-->
+    <script type="text/javascript" src="../resources/plugins/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="../resources/plugins/flot/jquery.flot.resize.js"></script>
+    <script type="text/javascript" src="../resources/plugins/flot.curvedlines/curvedLines.js"></script>
+    <script type="text/javascript" src="../resources/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <!-- Morris Chart-->
+    <script type="text/javascript" src="../resources/plugins/raphael/raphael-min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/morris.js/morris.min.js"></script>
+    <!-- DataTables-->
+    <script type="text/javascript" src="../resources/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/jszip/dist/jszip.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/pdfmake/build/pdfmake.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/pdfmake/build/vfs_fonts.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="../resources/plugins/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <!-- jQuery UI-->
+    <script type="text/javascript" src="../resources/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- FullCalendar-->
+    <script type="text/javascript" src="../resources/plugins/fullcalendar/dist/fullcalendar.min.js"></script>
+    <!-- jQuery MiniColors-->
+    <script type="text/javascript" src="../resources/plugins/jquery-minicolors/jquery.minicolors.min.js"></script>
+    <!-- Bootstrap Date Range Picker-->
+    <script type="text/javascript" src="../resources/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- Custom JS-->
+    <script type="text/javascript" src="../resources/build/js/layout/app.js"></script>
+    <script type="text/javascript" src="../resources/build/js/layout/demo.js"></script>
+    <script type="text/javascript" src="../resources/build/js/page-content/dashboard/index.js"></script>
 
-<script>
-
-    //para cargar la tabla
-    $(document).ready(function() {
-        $('#tableEmpleado').DataTable();
-    } );
-
-</script>
+    <script type="text/javascript" src="../resources/ajax/enviarDataFamilia.js"></script>
 
 
 </body>

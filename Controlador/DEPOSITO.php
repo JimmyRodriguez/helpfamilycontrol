@@ -186,7 +186,12 @@ class DEPOSITO
 
         try{
 
-            $this->stmQuery = "";
+            $this->stmQuery = "SELECT idDeposito,nombrePatrocinador,nombreTipoCuenta, nombreEmpleado,noDeposito,montoDeposito,fechaDeposito,descripcionDeposito
+                                FROM Deposito As D, Patrocinador AS P, Cuenta As C, TipoCuenta AS TP, Empleado AS E
+                                WHERE D.idPatrocinador = P.idPatrocinador
+                                AND  D.idCuenta = C.idCuenta
+                                AND D.idEmpleado = E.idEmpleado
+                                AND C.idTipoCuenta = TP.idTipoCuenta";
 
 
             $this->pdoConexion = $this->conexion->conectarBaseDeDatos();
